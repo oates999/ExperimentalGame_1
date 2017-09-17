@@ -1,0 +1,1258 @@
+﻿Log file open, 09/16/17 14:00:28
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PandaMeals_project
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1070203566) SRandInit(1070203566).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.209858
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.16-18.00.29:326][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.16-18.00.29:326][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.16-18.00.29:343][  0]LogInit: Computer: DESKTOP-G1FM37K
+[2017.09.16-18.00.29:343][  0]LogInit: User: JonathanOates
+[2017.09.16-18.00.29:343][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.16-18.00.29:343][  0]LogInit: High frequency timer resolution =4.311333 MHz
+[2017.09.16-18.00.29:344][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.09.16-18.00.29:344][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.16-18.00.29:344][  0]LogMemory: Process Physical Memory: 280.38 MB used, 280.38 MB peak
+[2017.09.16-18.00.29:344][  0]LogMemory: Process Virtual Memory: 282.66 MB used, 282.66 MB peak
+[2017.09.16-18.00.29:344][  0]LogMemory: Physical Memory: 6622.82 MB used,  26041.78 MB free, 32664.60 MB total
+[2017.09.16-18.00.29:344][  0]LogMemory: Virtual Memory: 663.02 MB used,  26041.78 MB free, 134217728.00 MB total
+[2017.09.16-18.00.29:698][  0]LogInit: Using OS detected language (en-US).
+[2017.09.16-18.00.29:698][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.16-18.00.29:703][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.16-18.00.30:695][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.16-18.00.30:737][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.09.16-18.00.30:737][  0]LogD3D11RHI:       8144/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.16-18.00.30:739][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.16-18.00.30:739][  0]LogD3D11RHI:       0/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.16-18.00.30:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.16-18.00.30:758][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.16-18.00.30:759][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.16-18.00.30:759][  0]LogWindows: EnumDisplayDevices:
+[2017.09.16-18.00.30:759][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.09.16-18.00.30:759][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.09.16-18.00.30:759][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.16-18.00.30:760][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.16-18.00.30:760][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.16-18.00.30:760][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.09.16-18.00.30:760][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.09.16-18.00.30:760][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.09.16-18.00.30:760][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.16-18.00.30:782][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.16-18.00.30:794][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.16-18.00.30:895][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Intermediate/Shaders/WorkingDirectory/73764/).
+[2017.09.16-18.00.30:895][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/2686E27F43BD903A623EBA992F42D033/'.
+[2017.09.16-18.00.30:895][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.16-18.00.32:442][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.16-18.00.32:592][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.16-18.00.32:719][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.16-18.00.32:836][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.16-18.00.32:950][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.16-18.00.33:063][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.16-18.00.33:187][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.16-18.00.33:332][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.16-18.00.33:444][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.16-18.00.33:562][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.16-18.00.33:675][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.16-18.00.33:791][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.16-18.00.33:906][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.16-18.00.34:023][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.16-18.00.34:144][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.16-18.00.34:383][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.16-18.00.34:383][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.16-18.00.34:493][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.16-18.00.34:674][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.16-18.00.34:733][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.16-18.00.34:842][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.16-18.00.34:951][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.16-18.00.35:061][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.16-18.00.35:176][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.16-18.00.35:176][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.16-18.00.36:303][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.16-18.00.36:443][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.16-18.00.36:444][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.16-18.00.36:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.16-18.00.36:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.16-18.00.36:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.16-18.00.36:444][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.16-18.00.36:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.16-18.00.36:480][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.16-18.00.36:494][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.16-18.00.36:495][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.16-18.00.36:496][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.16-18.00.36:496][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.16-18.00.36:943][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2017.09.16-18.00.37:168][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.16-18.00.37:424][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.16-18.00.38:132][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.16-18.00.38:262][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.16-18.00.38:262][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.16-18.00.38:262][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.16-18.00.38:262][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.16-18.00.38:262][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.16-18.00.38:852][  0]LogNetVersion: PandaMeals_project , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2743602601)
+[2017.09.16-18.00.39:305][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.107536 seconds
+[2017.09.16-18.00.39:314][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.16-18.00.39:314][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.16-18.00.39:314][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.16-18.00.39:496][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.16-18.00.45:099][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.16-18.00.45:198][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.16-18.00.46:688][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.16-18.00.48:188][  0]SourceControl: Source control is disabled
+[2017.09.16-18.00.48:188][  0]SourceControl: Source control is disabled
+[2017.09.16-18.00.48:410][  0]SourceControl: Source control is disabled
+[2017.09.16-18.00.48:602][  0]SourceControl: Source control is disabled
+[2017.09.16-18.00.50:225][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.16-18.00.50:854][  0]LogOcInput: OculusInput pre-init called
+[2017.09.16-18.00.51:474][  0]LogEngine: Initializing Engine...
+[2017.09.16-18.00.51:548][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.09.16-18.00.51:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.16-18.00.51:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.16-18.00.52:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.16-18.00.52:416][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.16-18.00.52:448][  0]LogInit: FAudioDevice initialized.
+[2017.09.16-18.00.52:622][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.16-18.00.52:650][  0]LogInit: Texture streaming: Enabled
+[2017.09.16-18.00.52:960][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.16-18.00.53:560][  0]LogInit: Transaction tracking system initialized
+[2017.09.16-18.00.54:444][  0]BlueprintLog: New page: Editor Load
+[2017.09.16-18.00.56:890][  0]LocalizationService: Localization service is disabled
+[2017.09.16-18.00.58:686][  0]LogConsoleResponse: Display: 
+[2017.09.16-18.00.58:992][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.16-18.00.58:992][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.16-18.00.58:992][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.16-18.00.59:381][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/' took 0.01s
+[2017.09.16-18.01.01:666][  0]SourceControl: Source control is disabled
+[2017.09.16-18.01.01:666][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.16-18.01.01:667][  0]LightingResults: New page: Lighting Build
+[2017.09.16-18.01.01:774][  0]MapCheck: New page: Map Check
+[2017.09.16-18.01.01:774][  0]LightingResults: New page: Lighting Build
+[2017.09.16-18.01.02:074][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.16-18.01.02:081][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.16-18.01.02:127][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.16-18.01.02:283][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156.394ms to complete.
+[2017.09.16-18.01.02:283][  0]LogFileHelpers: Loading map 'Template_Default' took 0.617
+[2017.09.16-18.01.02:406][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.16-18.01.02:406][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.16-18.01.02:552][  0]LogCollectionManager: Loaded 0 collections in 0.003145 seconds
+[2017.09.16-18.01.02:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' took 0.01s
+[2017.09.16-18.01.02:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Developers/JonathanOates/Collections/' took 0.01s
+[2017.09.16-18.01.02:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Collections/' took 0.01s
+[2017.09.16-18.01.02:710][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.16-18.01.02:723][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2386 classes and 500 folders.
+[2017.09.16-18.01.02:876][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.16-18.01.02:972][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.16-18.01.03:083][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.16-18.01.03:124][  0]LogSlate: Took 0.000889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.16-18.01.03:128][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.16-18.01.03:136][  0]LogSlate: Took 0.000610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.16-18.01.03:296][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2017.09.16-18.01.03:581][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.16-18.01.03:581][  0]LogLoad: (Engine Initialization) Total time: 37.56 seconds
+[2017.09.16-18.01.03:581][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.16-18.01.03:581][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.16-18.01.03:582][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.16-18.01.03:612][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.16-18.01.03:674][  1]LogAssetRegistry: Asset discovery search completed in 26.7524 seconds
+[2017.09.16-18.01.03:676][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.16-18.01.03:676][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.09.16-18.01.04:637][107]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.16-18.01.07:666][439]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.16-18.01.34:109][727]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.16-18.01.34:275][727]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.16-18.01.34:326][727]Cmd: MAP LOAD FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.16-18.01.34:326][727]LightingResults: New page: Lighting Build
+[2017.09.16-18.01.34:327][727]LoadErrors: New page: Loading map: Shop_Map.umap
+[2017.09.16-18.01.34:327][727]MapCheck: New page: Map Check
+[2017.09.16-18.01.34:327][727]LightingResults: New page: Lighting Build
+[2017.09.16-18.01.34:372][727]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.16-18.01.34:439][727]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.16-18.01.34:609][727]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 170.487ms to complete.
+[2017.09.16-18.01.34:610][727]LogFileHelpers: Loading map 'Shop_Map' took 0.286
+[2017.09.16-18.02.33:864][657]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.09.16-18.02.34:668][657]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.16-18.02.34:759][657]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.16-18.02.35:127][658]LogSlate: Took 0.000558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.16-18.02.54:463][195]LogRenderer: Reallocating scene render targets to support 1208x1020 Format 10 NumSamples 1 (Frame:1).
+[2017.09.16-18.03.44:737][549]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.03.47:330][730]LogTemp: Repeating last play command: Simulate
+[2017.09.16-18.03.47:374][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.16-18.03.47:374][730]PIE: New page: SIE session: Shop_Map (Sep 16, 2017, 10:03:47 AM)
+[2017.09.16-18.03.47:375][730]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.16-18.03.47:377][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002517s)
+[2017.09.16-18.03.47:378][730]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.16-18.03.47:378][730]LogPlayLevel: PIE: World Init took: (0.001240s)
+[2017.09.16-18.03.47:379][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.004102s)
+[2017.09.16-18.03.47:489][730]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.16-18.03.47:505][730]LogInit: FAudioDevice initialized.
+[2017.09.16-18.03.47:552][730]LogLoad: Game class is 'GameModeBase'
+[2017.09.16-18.03.47:555][730]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.16-14.03.47
+[2017.09.16-18.03.47:555][730]LogWorld: Bringing up level for play took: 0.001163
+[2017.09.16-18.03.47:556][730]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.16-18.03.47:669][730]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.09.16-18.03.47:675][730]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map -0.224
+[2017.09.16-18.04.15:859][543]LogBlueprintUserMessages: [Order_Manager_C_0] No empty hooks!
+[2017.09.16-18.04.18:501][854]LogBlueprintUserMessages: [Order_Manager_C_0] No empty hooks!
+[2017.09.16-18.07.43:365][645]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.08.49:836][899]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.09.28:792][382]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.09.49:583][470]LogEditorTransaction: Undo Delete current selection
+[2017.09.16-18.10.01:207][324]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.11.57:374][836]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.13.02:049][ 31]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.16-18.13.28:249][233]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.13.36:991][ 93]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.16.00:502][788]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.16.51:867][506]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.17.48:215][118]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.18.53:924][261]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.16-18.19.10:034][653]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.19.50:810][812]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.20.33:950][143]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.22.43:570][349]LogSavePackage: Save=43.74ms
+[2017.09.16-18.22.43:570][349]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto169480AE6472E224558D218849EF4A247.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto1.umap'
+[2017.09.16-18.22.43:576][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto1.umap
+[2017.09.16-18.22.43:580][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.130
+[2017.09.16-18.22.43:580][349]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2017.09.16-18.22.43:586][349]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order_Manager] ([1] browsable assets)...
+[2017.09.16-18.22.43:586][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order_Manager]
+[2017.09.16-18.22.43:801][349]LogSavePackage: Save=199.64ms
+[2017.09.16-18.22.43:801][349]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager_Auto1513B9D614FD4CD416AFEDDBA309F96BB.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto1.uasset'
+[2017.09.16-18.22.43:806][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto1.uasset
+[2017.09.16-18.22.43:809][349]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish_Manager] ([1] browsable assets)...
+[2017.09.16-18.22.43:809][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish_Manager]
+[2017.09.16-18.22.43:836][349]LogSavePackage: Save=11.86ms
+[2017.09.16-18.22.43:836][349]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Auto14F684E1F43F799B476BE649776395BB8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Manager_Auto1.uasset'
+[2017.09.16-18.22.43:841][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Manager_Auto1.uasset
+[2017.09.16-18.22.43:844][349]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish] ([1] browsable assets)...
+[2017.09.16-18.22.43:844][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish]
+[2017.09.16-18.22.43:873][349]LogSavePackage: Save=14.29ms
+[2017.09.16-18.22.43:873][349]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Auto141814FFC44DFDD3C1BF4DC902D0CF088.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto1.uasset'
+[2017.09.16-18.22.43:878][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto1.uasset
+[2017.09.16-18.22.43:881][349]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MeatPrinter] ([1] browsable assets)...
+[2017.09.16-18.22.43:881][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MeatPrinter]
+[2017.09.16-18.22.43:896][349]LogSavePackage: Save=11.88ms
+[2017.09.16-18.22.43:896][349]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter_Auto18934454C439E90489998C4A4EC3FD2D5.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/MeatPrinter_Auto1.uasset'
+[2017.09.16-18.22.43:901][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/MeatPrinter_Auto1.uasset
+[2017.09.16-18.22.43:901][349]LogFileHelpers: Auto-saving content packages took 0.319
+[2017.09.16-18.23.01:312][194]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.23.14:100][384]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_PetriDish_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.09.16-18.23.15:637][503]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.23.15:642][503]LogClass: Warning: Type mismatch in NewVar_0 of PetriDish_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.09.16-18.23.57:102][691]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.24.29:999][138]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.24.29:999][138]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.24.30:001][138]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.24.40:767][893]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.27.04:484][260]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.27.04:484][260]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.27.04:489][260]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.27.59:170][193]BlueprintLog: New page: Compile Order
+[2017.09.16-18.28.11:134][436]BlueprintLog: New page: Compile Order
+[2017.09.16-18.28.37:444][ 33]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.28.37:445][ 33]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.28.37:450][ 33]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.29.30:100][139]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.29.30:100][139]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.29.30:106][139]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.30.34:392][106]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.32.00:778][251]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.32.42:590][863]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.35.16:023][211]LogBlueprint: Warning: [PetriDish_Manager] 'orders' variable not found. Base class was probably changed.
+[2017.09.16-18.35.16:023][211]LogBlueprint: Warning: [PetriDish_Manager] 'OrderMover' variable not found. Base class was probably changed.
+[2017.09.16-18.35.16:023][211]LogBlueprint: Warning: [PetriDish_Manager] 'OrderMover' variable not found. Base class was probably changed.
+[2017.09.16-18.35.16:030][211]LogBlueprint: Warning: [PetriDish_Manager] 'OrderMover' variable not found. Base class was probably changed.
+[2017.09.16-18.35.16:031][211]LogBlueprint: Warning: [PetriDish_Manager] 'order_offset' variable not found. Base class was probably changed.
+[2017.09.16-18.35.16:031][211]LogBlueprint: Warning: [PetriDish_Manager] 'orders' variable not found. Base class was probably changed.
+[2017.09.16-18.37.30:058][420]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.37.30:093][420]LogBlueprint: Warning: [Compiler PetriDish_Manager] Could not find a variable named "order_offset" in 'PetriDish_Manager_C'.
+Make sure 'PetriDish_Manager_C' has been compiled for  Get order_offset
+[2017.09.16-18.37.30:095][420]LogBlueprint: Error: [Compiler PetriDish_Manager] The property associated with  Order Offset  could not be found
+[2017.09.16-18.37.30:306][420]LogBlueprint: Warning: [Compiler PetriDish_Manager] [2224.28] Compile of PetriDish_Manager failed. 1 Fatal Issue(s) 1 Warning(s) [in 248 ms] (/Game/Blueprints/PetriDish_Manager.PetriDish_Manager)
+[2017.09.16-18.37.48:049][907]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.38.10:160][840]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.39.14:486][197]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.39.44:146][297]LogSavePackage: Save=33.59ms
+[2017.09.16-18.39.44:146][297]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto2A581FC4E4210CDEA192473A1C6538920.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto2.umap'
+[2017.09.16-18.39.44:151][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto2.umap
+[2017.09.16-18.39.44:156][297]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.119
+[2017.09.16-18.39.44:156][297]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2017.09.16-18.39.44:161][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order_Manager] ([1] browsable assets)...
+[2017.09.16-18.39.44:161][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order_Manager]
+[2017.09.16-18.39.44:379][297]LogSavePackage: Save=202.10ms
+[2017.09.16-18.39.44:379][297]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager_Auto2684F11964A2ABC977B0FA89B9F40CC88.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto2.uasset'
+[2017.09.16-18.39.44:385][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto2.uasset
+[2017.09.16-18.39.44:388][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order] ([1] browsable assets)...
+[2017.09.16-18.39.44:388][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order]
+[2017.09.16-18.39.44:444][297]LogSavePackage: Save=39.72ms
+[2017.09.16-18.39.44:444][297]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Auto2CF1989AA4D8E20ABD1E13F94222B4281.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto2.uasset'
+[2017.09.16-18.39.44:450][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto2.uasset
+[2017.09.16-18.39.44:453][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish_Manager] ([1] browsable assets)...
+[2017.09.16-18.39.44:453][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish_Manager]
+[2017.09.16-18.39.44:544][297]LogSavePackage: Save=75.25ms
+[2017.09.16-18.39.44:545][297]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Auto2C0CBE34046E4AFFE05C116988E62E244.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Manager_Auto2.uasset'
+[2017.09.16-18.39.44:549][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Manager_Auto2.uasset
+[2017.09.16-18.39.44:553][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish] ([1] browsable assets)...
+[2017.09.16-18.39.44:553][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish]
+[2017.09.16-18.39.44:583][297]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.39.44:613][297]LogSavePackage: Save=43.90ms
+[2017.09.16-18.39.44:613][297]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Auto27B9E89D4483790A471FEF7BA8783654C.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto2.uasset'
+[2017.09.16-18.39.44:618][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto2.uasset
+[2017.09.16-18.39.44:618][297]LogFileHelpers: Auto-saving content packages took 0.461
+[2017.09.16-18.40.04:931][166]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.41.10:962][777]BlueprintLog: New page: Compile Order
+[2017.09.16-18.42.11:507][ 18]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.42.54:533][479]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-18.42.54:533][479]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.42.54:549][479]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.43.34:166][127]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.44.02:489][939]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.44.57:402][895]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.48.31:326][202]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.50.49:269][  0]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.51.55:707][524]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-18.52.07:087][456]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.53.07:930][514]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.54.13:055][241]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.54.58:438][194]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.55.47:267][945]BlueprintLog: New page: Compile PetriDish_Manager
+[2017.09.16-18.56.13:414][867]LogSavePackage: Save=39.87ms
+[2017.09.16-18.56.13:414][867]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto3A3D10C404E3BBE674B616193233A2446.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto3.umap'
+[2017.09.16-18.56.13:420][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto3.umap
+[2017.09.16-18.56.13:424][867]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.128
+[2017.09.16-18.56.13:424][867]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.128
+[2017.09.16-18.56.13:430][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order_Manager] ([1] browsable assets)...
+[2017.09.16-18.56.13:430][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order_Manager]
+[2017.09.16-18.56.13:663][867]LogSavePackage: Save=210.76ms
+[2017.09.16-18.56.13:663][867]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager_Auto3A88CB22C417C755A2E2FA693DDE13D20.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto3.uasset'
+[2017.09.16-18.56.13:668][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto3.uasset
+[2017.09.16-18.56.13:671][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order] ([1] browsable assets)...
+[2017.09.16-18.56.13:671][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order]
+[2017.09.16-18.56.13:727][867]LogSavePackage: Save=39.10ms
+[2017.09.16-18.56.13:727][867]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Auto3D520F23C418B6D7B7EDB7390DFB16754.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto3.uasset'
+[2017.09.16-18.56.13:732][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto3.uasset
+[2017.09.16-18.56.13:735][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish_Manager] ([1] browsable assets)...
+[2017.09.16-18.56.13:735][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish_Manager]
+[2017.09.16-18.56.13:872][867]LogSavePackage: Save=118.03ms
+[2017.09.16-18.56.13:872][867]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Auto3FFF4C15E436DD3C6EE6509A234D4EE7C.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Manager_Auto3.uasset'
+[2017.09.16-18.56.13:879][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Manager_Auto3.uasset
+[2017.09.16-18.56.13:885][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish] ([1] browsable assets)...
+[2017.09.16-18.56.13:885][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish]
+[2017.09.16-18.56.13:918][867]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-18.56.13:954][867]LogSavePackage: Save=44.38ms
+[2017.09.16-18.56.13:954][867]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Auto3CA37CEAD443B0BBD5C702AA922DFA0CB.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto3.uasset'
+[2017.09.16-18.56.13:959][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto3.uasset
+[2017.09.16-18.56.13:959][867]LogFileHelpers: Auto-saving content packages took 0.532
+[2017.09.16-19.01.05:172][122]LogMetaData: Removing '/Game/Blueprints/PetriDish_Manager_Printer.PetriDish_Manager_Printer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/PetriDish_Manager.PackageMetaData'
+[2017.09.16-19.01.05:172][122]LogMetaData: Removing '/Game/Blueprints/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C' ref from Metadata '/Game/Blueprints/PetriDish_Manager.PackageMetaData'
+[2017.09.16-19.01.05:172][122]LogMetaData: Removing '/Game/Blueprints/PetriDish_Manager_Printer.PetriDish_Manager_Printer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/PetriDish_Manager.PackageMetaData'
+[2017.09.16-19.01.05:172][122]LogMetaData: Removing '/Game/Blueprints/PetriDish_Manager_Printer.PetriDish_Manager_Printer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/PetriDish_Manager.PackageMetaData'
+[2017.09.16-19.01.05:172][122]LogMetaData: Removing '/Game/Blueprints/PetriDish_Manager_Printer.PetriDish_Manager_Printer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/PetriDish_Manager.PackageMetaData'
+[2017.09.16-19.01.05:172][122]LogMetaData: Removing '/Game/Blueprints/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C' ref from Metadata '/Game/Blueprints/PetriDish_Manager.PackageMetaData'
+[2017.09.16-19.01.05:366][122]LogSavePackage: Save=116.72ms
+[2017.09.16-19.01.05:366][122]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Printer0CC548634A965EF61FB7D481804C91BC.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish_Manager_Printer.uasset'
+[2017.09.16-19.01.05:384][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish_Manager_Printer.uasset
+[2017.09.16-19.05.12:902][864]BlueprintLog: New page: Compile Order
+[2017.09.16-19.05.44:277][487]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-19.05.44:277][487]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-19.05.44:303][487]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-19.05.57:886][902]BlueprintLog: New page: Compile Order
+[2017.09.16-19.06.40:468][183]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.16-19.07.41:813][189]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.16-19.14.15:947][630]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-19.15.00:439][952]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-19.15.27:405][920]LogSavePackage: Save=37.09ms
+[2017.09.16-19.15.27:405][920]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto48F524ACF45B69D22C5574FA75B4EC1A8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto4.umap'
+[2017.09.16-19.15.27:410][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto4.umap
+[2017.09.16-19.15.27:414][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.126
+[2017.09.16-19.15.27:414][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.126
+[2017.09.16-19.15.27:420][920]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PlayScreen_Shop] ([1] browsable assets)...
+[2017.09.16-19.15.27:421][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayScreen_Shop]
+[2017.09.16-19.15.27:507][920]LogSavePackage: Save=67.26ms
+[2017.09.16-19.15.27:507][920]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop_Auto461E26026483BB9C87D398AAB0B9238D8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto4.uasset'
+[2017.09.16-19.15.27:512][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto4.uasset
+[2017.09.16-19.15.27:515][920]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order_Manager] ([1] browsable assets)...
+[2017.09.16-19.15.27:515][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order_Manager]
+[2017.09.16-19.15.27:736][920]LogSavePackage: Save=202.66ms
+[2017.09.16-19.15.27:736][920]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager_Auto4BBC11206482F71762049D4A175F6B567.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto4.uasset'
+[2017.09.16-19.15.27:742][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Manager_Auto4.uasset
+[2017.09.16-19.15.27:745][920]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order] ([1] browsable assets)...
+[2017.09.16-19.15.27:745][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order]
+[2017.09.16-19.15.27:799][920]LogSavePackage: Save=35.84ms
+[2017.09.16-19.15.27:799][920]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Auto4CA46E905495E09F0076A029D89EC94F8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto4.uasset'
+[2017.09.16-19.15.27:804][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto4.uasset
+[2017.09.16-19.15.27:808][920]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish] ([1] browsable assets)...
+[2017.09.16-19.15.27:808][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish]
+[2017.09.16-19.15.27:834][920]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-19.15.27:867][920]LogSavePackage: Save=40.21ms
+[2017.09.16-19.15.27:867][920]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Auto447E95F5E46408B1B6B3302AE2B77F51D.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto4.uasset'
+[2017.09.16-19.15.27:872][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto4.uasset
+[2017.09.16-19.15.27:875][920]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MeatPrinter] ([1] browsable assets)...
+[2017.09.16-19.15.27:875][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MeatPrinter]
+[2017.09.16-19.15.27:892][920]LogSavePackage: Save=13.31ms
+[2017.09.16-19.15.27:893][920]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter_Auto42432E6B443A4CC78AE2F30B3C7D1DA8A.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/MeatPrinter_Auto4.uasset'
+[2017.09.16-19.15.27:897][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/MeatPrinter_Auto4.uasset
+[2017.09.16-19.15.27:897][920]LogFileHelpers: Auto-saving content packages took 0.481
+[2017.09.16-19.19.10:982][ 36]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-19.20.36:905][497]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-19.25.33:935][965]LogSavePackage: Save=88.58ms
+[2017.09.16-19.25.33:935][965]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop98B6469B43B52ADBFAF5AEBFFCB6C3F0.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset'
+[2017.09.16-19.25.33:946][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset
+[2017.09.16-19.25.35:283][  9]LogSavePackage: Save=217.57ms
+[2017.09.16-19.25.35:283][  9]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_ManagerACE296044F4039BEC06CF784FF143369.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order_Manager.uasset'
+[2017.09.16-19.25.35:294][  9]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order_Manager.uasset
+[2017.09.16-19.25.36:461][ 71]LogSavePackage: Save=110.60ms
+[2017.09.16-19.25.36:461][ 71]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Printer85928EF64F0D61CE3E6EC89346CF7DBF.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish_Manager_Printer.uasset'
+[2017.09.16-19.25.36:466][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish_Manager_Printer.uasset
+[2017.09.16-19.25.37:630][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PetriDish" FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish.uasset" SILENT=true
+[2017.09.16-19.25.37:661][148]LogJson: Error: Unable to convert key to string for property meat_sprites.
+[2017.09.16-19.25.37:695][148]LogSavePackage: Save=41.70ms
+[2017.09.16-19.25.37:695][148]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish8347E27E492BD04AE509BC9B4D8A08C7.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish.uasset'
+[2017.09.16-19.25.37:706][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish.uasset
+[2017.09.16-19.25.39:326][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MeatPrinter" FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MeatPrinter.uasset" SILENT=true
+[2017.09.16-19.25.39:344][230]LogSavePackage: Save=13.34ms
+[2017.09.16-19.25.39:344][230]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinterE5C97C3D4F37C377731A70A5F448D2E5.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MeatPrinter.uasset'
+[2017.09.16-19.25.39:356][230]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MeatPrinter.uasset
+[2017.09.16-19.25.40:748][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Order" FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order.uasset" SILENT=true
+[2017.09.16-19.25.40:815][310]LogSavePackage: Save=40.37ms
+[2017.09.16-19.25.40:815][310]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order5CD66704412F1455C2C58EB5BAA7B6F3.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order.uasset'
+[2017.09.16-19.25.40:827][310]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order.uasset
+[2017.09.16-19.26.34:778][121]LogSavePackage: Save=36.17ms
+[2017.09.16-19.26.34:778][121]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto55A797670401F577A482B92BEB435B495.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto5.umap'
+[2017.09.16-19.26.34:783][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto5.umap
+[2017.09.16-19.26.34:788][121]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.134
+[2017.09.16-19.26.34:788][121]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.134
+[2017.09.16-19.30.03:347][184]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-19.30.49:525][290]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-19.30.51:055][314]LogSavePackage: Save=200.97ms
+[2017.09.16-19.30.51:055][314]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_ManagerBD9F3D2849725686430F2BAF8C3B924C.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order_Manager.uasset'
+[2017.09.16-19.30.51:067][314]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Order_Manager.uasset
+[2017.09.16-19.31.49:391][820]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-19.31.50:554][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PetriDish" FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish.uasset" SILENT=true
+[2017.09.16-19.31.50:633][879]LogSavePackage: Save=54.45ms
+[2017.09.16-19.31.50:633][879]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish5ADD41C6419CCCBB5D9AC8822ED2FEA2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish.uasset'
+[2017.09.16-19.31.50:645][879]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PetriDish.uasset
+[2017.09.16-19.32.36:840][479]BlueprintLog: New page: Compile Order
+[2017.09.16-19.33.33:895][506]BlueprintLog: New page: Compile Order
+[2017.09.16-19.33.44:880][414]BlueprintLog: New page: Compile Order
+[2017.09.16-19.36.34:802][678]LogSavePackage: Save=36.71ms
+[2017.09.16-19.36.34:802][678]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto6B5373486481F4407BF407DAA842AF98A.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto6.umap'
+[2017.09.16-19.36.34:807][678]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto6.umap
+[2017.09.16-19.36.34:812][678]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.124
+[2017.09.16-19.36.34:812][678]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2017.09.16-19.36.34:817][678]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Order] ([1] browsable assets)...
+[2017.09.16-19.36.34:817][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Order]
+[2017.09.16-19.36.34:880][678]LogSavePackage: Save=39.78ms
+[2017.09.16-19.36.34:880][678]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Auto6188A38A64F61A52D3893DCB9816B081E.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto6.uasset'
+[2017.09.16-19.36.34:884][678]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Order_Auto6.uasset
+[2017.09.16-19.36.34:885][678]LogFileHelpers: Auto-saving content packages took 0.071
+[2017.09.16-19.46.35:698][595]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.053
+[2017.09.16-19.46.35:706][595]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PetriDish] ([1] browsable assets)...
+[2017.09.16-19.46.35:706][595]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PetriDish]
+[2017.09.16-19.46.35:774][595]LogSavePackage: Save=41.93ms
+[2017.09.16-19.46.35:774][595]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Auto78C3D7AAF49AC8C8449C27C86B6D84284.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto7.uasset'
+[2017.09.16-19.46.35:779][595]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PetriDish_Auto7.uasset
+[2017.09.16-19.46.35:779][595]LogFileHelpers: Auto-saving content packages took 0.079
+[2017.09.16-20.13.58:741][606]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.16-20.13.58:827][606]LogBlueprint: Error: [Compiler PlayScreen_Shop] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.09.16-20.13.58:845][606]LogBlueprint: Warning: [Compiler PlayScreen_Shop] [8012.82] Compile of PlayScreen_Shop failed. 1 Fatal Issue(s) 0 Warning(s) [in 103 ms] (/Game/Blueprints/PlayScreen_Shop.PlayScreen_Shop)
+[2017.09.16-20.14.26:071][792]LogEditorTransaction: Undo Add Node
+[2017.09.16-20.14.26:860][843]LogEditorTransaction: Undo Add Component
+[2017.09.16-20.14.27:618][930]LogEditorTransaction: Undo Remove Components
+[2017.09.16-20.14.32:750][442]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.16-20.15.03:429][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:ExecuteUbergraph_Order_Manager' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:OrderMover' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:Order Mover Mover' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:meat_prices' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:meat_availability' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:order_offset' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:orders' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.Order_Manager_C:current_money' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:OrderMover' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:Order Mover Mover' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:meat_prices' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:meat_availability' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:order_offset' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:orders' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:current_money' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:430][153]LogMetaData: Removing '/Game/Blueprints/Managers/Order_Manager.SKEL_Order_Manager_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Order_Manager.PackageMetaData'
+[2017.09.16-20.15.03:443][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:443][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:meat_printer' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:443][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:petri_offset' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:petri_dishes' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:PetriMover' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:Petri Mover Mover' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:meat_printer' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:petri_offset' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.SKEL_PetriDish_Manager_Printer_C:petri_dishes' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:Petri Mover Mover' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:PetriMover' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:444][153]LogMetaData: Removing '/Game/Blueprints/Managers/PetriDish_Manager_Printer.PetriDish_Manager_Printer_C:ExecuteUbergraph_PetriDish_Manager_Printer' ref from Metadata '/Game/Blueprints/PetriDish_Manager_Printer.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager_C' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.SKEL_Phial_Manager_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.SKEL_Phial_Manager_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.SKEL_Phial_Manager_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.SKEL_Phial_Manager_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.SKEL_Phial_Manager_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.SKEL_Phial_Manager_C' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:459][153]LogMetaData: Removing '/Game/Blueprints/Managers/Phial_Manager.Phial_Manager_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Phial_Manager.PackageMetaData'
+[2017.09.16-20.15.03:751][153]LogSavePackage: Save=215.81ms
+[2017.09.16-20.15.03:751][153]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_ManagerE385619940C9F090B362B3BF732535C7.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset'
+[2017.09.16-20.15.03:765][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset
+[2017.09.16-20.15.03:913][153]LogSavePackage: Save=129.87ms
+[2017.09.16-20.15.03:913][153]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_PrinterD4061BEC49FD89B3DE185D8E262EC80E.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset'
+[2017.09.16-20.15.03:928][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset
+[2017.09.16-20.15.03:950][153]LogSavePackage: Save=14.37ms
+[2017.09.16-20.15.03:950][153]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Phial_ManagerED574B6F4BB766EAEDB3789362D4CEBE.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Phial_Manager.uasset'
+[2017.09.16-20.15.03:962][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Phial_Manager.uasset
+[2017.09.16-20.15.04:805][153]LogSavePackage: Save=78.66ms
+[2017.09.16-20.15.04:805][153]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_ShopBB37BA8A40DE470FF7F8CAA5F412ACDB.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset'
+[2017.09.16-20.15.04:819][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset
+[2017.09.16-20.15.04:952][153]LogSavePackage: Save=97.32ms
+[2017.09.16-20.15.04:952][153]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop1C1914F84F2B6BEBB3408A9DE70F9551.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset'
+[2017.09.16-20.15.04:960][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset
+[2017.09.16-20.15.04:965][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MeatPrinter" FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MeatPrinter.uasset" SILENT=true
+[2017.09.16-20.15.05:003][153]LogSavePackage: Save=12.90ms
+[2017.09.16-20.15.05:003][153]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter01B8BDFB4B767782914CB7ADC65FBB36.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MeatPrinter.uasset'
+[2017.09.16-20.15.05:017][153]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MeatPrinter.uasset
+[2017.09.16-20.15.16:557][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.MeatPrinter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.SKEL_MeatPrinter_C' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.MeatPrinter_C' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.MeatPrinter_C:ExecuteUbergraph_MeatPrinter' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.MeatPrinter_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.MeatPrinter_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.MeatPrinter_C:petridish_manager_printer' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.SKEL_MeatPrinter_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.SKEL_MeatPrinter_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:558][243]LogMetaData: Removing '/Game/Blueprints/Machines/MeatPrinter.SKEL_MeatPrinter_C:petridish_manager_printer' ref from Metadata '/Game/Blueprints/MeatPrinter.PackageMetaData'
+[2017.09.16-20.15.16:632][243]LogSavePackage: Save=12.75ms
+[2017.09.16-20.15.16:632][243]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinterFE84FDB64315B66F3BA51DBE56D9BFC9.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset'
+[2017.09.16-20.15.16:647][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset
+[2017.09.16-20.15.17:157][243]LogSavePackage: Save=75.78ms
+[2017.09.16-20.15.17:157][243]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_ShopB0BC3E2A41950E4B25626CA2D62D6AB6.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset'
+[2017.09.16-20.15.17:171][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset
+[2017.09.16-20.15.17:316][243]LogSavePackage: Save=115.63ms
+[2017.09.16-20.15.17:316][243]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_PrinterA461C1444468A8D01A23DE964F54F68D.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset'
+[2017.09.16-20.15.17:328][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset
+[2017.09.16-20.15.28:907][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:907][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:907][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:Ingr2Image' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:907][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:OrderBackingImage' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:907][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:ingredients' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:meat_sprites' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:empty?' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:Ingr1Image' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:Ingr3Image' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:Ingr1Text' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:Ingr2Text' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:Ingr3Text' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.SKEL_Order_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:empty?' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:ingredients' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:meat_sprites' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:OrderBackingImage' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:Ingr1Image' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:Ingr2Image' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:Ingr3Image' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:Ingr1Text' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:Ingr2Text' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:Ingr3Text' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:908][290]LogMetaData: Removing '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order' ref from Metadata '/Game/Blueprints/Order.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:MeatText' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:MeatImage' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:PetriDishBackingImage' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:meat_sprites' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.PetriDish_C:meat_type' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:MeatText' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:MeatImage' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:PetriDishBackingImage' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:meat_sprites' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:918][290]LogMetaData: Removing '/Game/Blueprints/Objects/PetriDish.SKEL_PetriDish_C:meat_type' ref from Metadata '/Game/Blueprints/PetriDish.PackageMetaData'
+[2017.09.16-20.15.28:930][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:930][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial_C' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.SKEL_Phial_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.SKEL_Phial_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.SKEL_Phial_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.SKEL_Phial_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.SKEL_Phial_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.SKEL_Phial_C' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.28:931][290]LogMetaData: Removing '/Game/Blueprints/Objects/Phial.Phial_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Phial.PackageMetaData'
+[2017.09.16-20.15.29:032][290]LogSavePackage: Save=42.99ms
+[2017.09.16-20.15.29:032][290]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order36E0362C4EBF4F5F130094B42291B9A3.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Order.uasset'
+[2017.09.16-20.15.29:044][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Order.uasset
+[2017.09.16-20.15.29:094][290]LogSavePackage: Save=41.81ms
+[2017.09.16-20.15.29:094][290]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDishD4B0741C4EB4035FCBC9E4B4B6907028.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset'
+[2017.09.16-20.15.29:105][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset
+[2017.09.16-20.15.29:125][290]LogSavePackage: Save=13.27ms
+[2017.09.16-20.15.29:125][290]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Phial7D21FD7548A9DE6DFEA6E9AA2ADDF4D7.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Phial.uasset'
+[2017.09.16-20.15.29:137][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Phial.uasset
+[2017.09.16-20.15.30:035][290]LogSavePackage: Save=207.45ms
+[2017.09.16-20.15.30:035][290]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager0C58586A4FD60CF3EFCD22BA54C89130.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset'
+[2017.09.16-20.15.30:047][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset
+[2017.09.16-20.15.30:197][290]LogSavePackage: Save=125.34ms
+[2017.09.16-20.15.30:197][290]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_PrinterEE9FAF324090FE95433179A5D7013DF2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset'
+[2017.09.16-20.15.30:213][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset
+[2017.09.16-20.16.51:161][613]LogSavePackage: Save=35.78ms
+[2017.09.16-20.16.51:161][613]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto8F16B26CC46D846E8D587B8B095A2450D.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto8.umap'
+[2017.09.16-20.16.51:166][613]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto8.umap
+[2017.09.16-20.16.51:171][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.142
+[2017.09.16-20.16.51:171][613]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2017.09.16-20.20.10:701][368]LogMetaData: Removing '/Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Managers/PackagedMeatManager.PackageMetaData'
+[2017.09.16-20.20.10:701][368]LogMetaData: Removing '/Game/Blueprints/Managers/PackagedMeat_Manager.SKEL_PackagedMeat_Manager_C' ref from Metadata '/Game/Blueprints/Managers/PackagedMeatManager.PackageMetaData'
+[2017.09.16-20.20.10:701][368]LogMetaData: Removing '/Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager_C' ref from Metadata '/Game/Blueprints/Managers/PackagedMeatManager.PackageMetaData'
+[2017.09.16-20.20.10:701][368]LogMetaData: Removing '/Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Managers/PackagedMeatManager.PackageMetaData'
+[2017.09.16-20.20.10:701][368]LogMetaData: Removing '/Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Managers/PackagedMeatManager.PackageMetaData'
+[2017.09.16-20.20.10:701][368]LogMetaData: Removing '/Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Managers/PackagedMeatManager.PackageMetaData'
+[2017.09.16-20.20.10:777][368]LogSavePackage: Save=13.77ms
+[2017.09.16-20.20.10:777][368]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PackagedMeat_Manager875CF33A4778139EF3A6F3906A330B1A.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PackagedMeat_Manager.uasset'
+[2017.09.16-20.20.10:788][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PackagedMeat_Manager.uasset
+[2017.09.16-20.27.47:413][427]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-20.28.30:973][856]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-20.29.12:160][181]LogSavePackage: Save=37.10ms
+[2017.09.16-20.29.12:160][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto93FAB4262411E190A2379C7B5CAB5CCBF.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto9.umap'
+[2017.09.16-20.29.12:165][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto9.umap
+[2017.09.16-20.29.12:170][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.130
+[2017.09.16-20.29.12:170][181]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2017.09.16-20.29.12:176][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PlayScreen_Shop] ([1] browsable assets)...
+[2017.09.16-20.29.12:176][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayScreen_Shop]
+[2017.09.16-20.29.12:276][181]LogSavePackage: Save=78.14ms
+[2017.09.16-20.29.12:276][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop_Auto934EC784D47918148DC754CB96B693147.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto9.uasset'
+[2017.09.16-20.29.12:281][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto9.uasset
+[2017.09.16-20.29.12:285][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/Splicer] ([1] browsable assets)...
+[2017.09.16-20.29.12:285][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/Splicer]
+[2017.09.16-20.29.12:304][181]LogSavePackage: Save=14.09ms
+[2017.09.16-20.29.12:304][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Splicer_Auto947E750474C5D1F4C450087BDABEC8699.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/Splicer_Auto9.uasset'
+[2017.09.16-20.29.12:309][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/Splicer_Auto9.uasset
+[2017.09.16-20.29.12:313][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Objects/PackagedMeat] ([1] browsable assets)...
+[2017.09.16-20.29.12:313][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/PackagedMeat]
+[2017.09.16-20.29.12:331][181]LogSavePackage: Save=14.25ms
+[2017.09.16-20.29.12:331][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PackagedMeat_Auto9C612026A41C49442C27FC99DE0BAA3F2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/PackagedMeat_Auto9.uasset'
+[2017.09.16-20.29.12:337][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/PackagedMeat_Auto9.uasset
+[2017.09.16-20.29.12:341][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/PaperBag] ([1] browsable assets)...
+[2017.09.16-20.29.12:341][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/PaperBag]
+[2017.09.16-20.29.12:358][181]LogSavePackage: Save=13.64ms
+[2017.09.16-20.29.12:359][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PaperBag_Auto9AAD159CB43A96F0A7A4A4088621924A3.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/PaperBag_Auto9.uasset'
+[2017.09.16-20.29.12:363][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/PaperBag_Auto9.uasset
+[2017.09.16-20.29.12:367][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/Trash] ([1] browsable assets)...
+[2017.09.16-20.29.12:367][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/Trash]
+[2017.09.16-20.29.12:386][181]LogSavePackage: Save=13.58ms
+[2017.09.16-20.29.12:386][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Trash_Auto95F42BC984A4AC07046454AB938B0A43F.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/Trash_Auto9.uasset'
+[2017.09.16-20.29.12:391][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/Trash_Auto9.uasset
+[2017.09.16-20.29.12:394][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/ConveyerBelt] ([1] browsable assets)...
+[2017.09.16-20.29.12:394][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/ConveyerBelt]
+[2017.09.16-20.29.12:412][181]LogSavePackage: Save=13.76ms
+[2017.09.16-20.29.12:412][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/ConveyerBelt_Auto99579FBAE4B3F2923F9A11EB2B67DE098.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/ConveyerBelt_Auto9.uasset'
+[2017.09.16-20.29.12:417][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/ConveyerBelt_Auto9.uasset
+[2017.09.16-20.29.12:420][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/PhialBox] ([1] browsable assets)...
+[2017.09.16-20.29.12:420][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/PhialBox]
+[2017.09.16-20.29.12:438][181]LogSavePackage: Save=13.78ms
+[2017.09.16-20.29.12:438][181]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PhialBox_Auto9D11596F24126F9C66491958093BC2C41.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/PhialBox_Auto9.uasset'
+[2017.09.16-20.29.12:443][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/PhialBox_Auto9.uasset
+[2017.09.16-20.29.12:443][181]LogFileHelpers: Auto-saving content packages took 0.270
+[2017.09.16-20.30.08:110][187]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-20.30.23:407][783]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.16-20.37.35:074][536]BlueprintLog: New page: Compile PetriDish_Manager_Printer
+[2017.09.16-20.38.15:732][ 32]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.16-20.45.55:341][839]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.16-20.46.59:582][ 24]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.16-20.47.47:379][650]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.16-20.48.20:196][141]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.16-20.48.27:888][734]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.16-20.48.53:340][907]BlueprintLog: New page: Compile PetriDish_Manager_Printer
+[2017.09.16-20.49.58:194][841]BlueprintLog: New page: Compile PackagedMeat_Manager
+[2017.09.16-20.50.10:695][188]BlueprintLog: New page: Compile PackagedMeat_Manager
+[2017.09.16-20.50.23:663][404]BlueprintLog: New page: Compile PackagedMeat_Manager
+[2017.09.16-20.51.22:778][ 53]BlueprintLog: New page: Compile Phial_Manager
+[2017.09.16-20.51.38:364][763]BlueprintLog: New page: Compile Phial_Manager
+[2017.09.16-20.52.00:935][ 82]BlueprintLog: New page: Compile Phial_Manager
+[2017.09.16-20.52.17:717][764]BlueprintLog: New page: Compile PackagedMeat_Manager
+[2017.09.16-20.52.53:957][714]BlueprintLog: New page: Compile Order_Manager
+[2017.09.16-20.53.32:032][857]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-20.53.32:937][857]LogSavePackage: Save=41.84ms
+[2017.09.16-20.53.32:937][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto0B80FCBFD45A753DB00FCA4ACBB352FF8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto0.umap'
+[2017.09.16-20.53.32:943][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto0.umap
+[2017.09.16-20.53.32:947][857]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.139
+[2017.09.16-20.53.32:947][857]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2017.09.16-20.53.32:954][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PlayScreen_Shop] ([1] browsable assets)...
+[2017.09.16-20.53.32:954][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayScreen_Shop]
+[2017.09.16-20.53.33:055][857]LogSavePackage: Save=77.42ms
+[2017.09.16-20.53.33:055][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop_Auto052EDFA4C46308835DA436A928B31B582.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto0.uasset'
+[2017.09.16-20.53.33:060][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto0.uasset
+[2017.09.16-20.53.33:063][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/MeatPrinter] ([1] browsable assets)...
+[2017.09.16-20.53.33:063][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/MeatPrinter]
+[2017.09.16-20.53.33:099][857]LogSavePackage: Save=11.88ms
+[2017.09.16-20.53.33:099][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter_Auto0DDD20D66483544D91A82EBBC8615FFD7.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/MeatPrinter_Auto0.uasset'
+[2017.09.16-20.53.33:105][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/MeatPrinter_Auto0.uasset
+[2017.09.16-20.53.33:109][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/PackagedMeat_Manager] ([1] browsable assets)...
+[2017.09.16-20.53.33:109][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/PackagedMeat_Manager]
+[2017.09.16-20.53.33:145][857]LogSavePackage: Save=10.88ms
+[2017.09.16-20.53.33:145][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PackagedMeat_Manager_Auto0B8EE27614F4137094B2D3DB98F21F580.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PackagedMeat_Manager_Auto0.uasset'
+[2017.09.16-20.53.33:151][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PackagedMeat_Manager_Auto0.uasset
+[2017.09.16-20.53.33:155][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/PetriDish_Manager_Printer] ([1] browsable assets)...
+[2017.09.16-20.53.33:155][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/PetriDish_Manager_Printer]
+[2017.09.16-20.53.33:311][857]LogSavePackage: Save=129.51ms
+[2017.09.16-20.53.33:311][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Printer_Auto02C42A3304AC68B87311CDFA4D2D69278.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Printer_Auto0.uasset'
+[2017.09.16-20.53.33:317][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Printer_Auto0.uasset
+[2017.09.16-20.53.33:322][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/Phial_Manager] ([1] browsable assets)...
+[2017.09.16-20.53.33:322][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/Phial_Manager]
+[2017.09.16-20.53.33:362][857]LogSavePackage: Save=13.50ms
+[2017.09.16-20.53.33:362][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Phial_Manager_Auto09D0BD80F48F273C35B1EAB8DFE1B2EE2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/Phial_Manager_Auto0.uasset'
+[2017.09.16-20.53.33:370][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/Phial_Manager_Auto0.uasset
+[2017.09.16-20.53.33:374][857]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/PetriDish_Manager_Splicer] ([1] browsable assets)...
+[2017.09.16-20.53.33:374][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/PetriDish_Manager_Splicer]
+[2017.09.16-20.53.33:512][857]LogSavePackage: Save=133.43ms
+[2017.09.16-20.53.33:512][857]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Splicer_Auto01B9C4394424B3D8E10C93C9EC17221D2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Splicer_Auto0.uasset'
+[2017.09.16-20.53.33:519][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Splicer_Auto0.uasset
+[2017.09.16-20.53.33:519][857]LogFileHelpers: Auto-saving content packages took 0.569
+[2017.09.16-20.53.43:565][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-20.53.44:820][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-20.53.45:656][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-20.53.47:109][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-20.53.48:813][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-20.53.56:978][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-20.54.17:730][976]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-20.54.24:351][613]BlueprintLog: New page: Compile Order
+[2017.09.16-20.54.43:316][207]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-20.55.16:217][141]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-20.55.19:778][408]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-20.55.19:831][408]LogBlueprint: Error: [Compiler PetriDish] This blueprint (self) is not a PaperSpriteComponent, therefore ' Target ' must have a connection.
+[2017.09.16-20.55.20:051][408]LogBlueprint: Warning: [Compiler PetriDish] [0494.03] Compile of PetriDish failed. 1 Fatal Issue(s) 0 Warning(s) [in 272 ms] (/Game/Blueprints/Objects/PetriDish.PetriDish)
+[2017.09.16-20.55.44:307][737]BlueprintLog: New page: Compile PetriDish
+[2017.09.16-20.55.52:822][602]BlueprintLog: New page: Compile Phial
+[2017.09.16-20.56.10:629][187]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-20.56.57:039][932]BlueprintLog: New page: Compile Phial
+[2017.09.16-20.57.17:067][601]BlueprintLog: New page: Compile Order
+[2017.09.16-20.57.49:064][705]BlueprintLog: New page: Compile Phial
+[2017.09.16-20.57.49:067][705]LogClass: Warning: Type mismatch in meat_type of Phial_C - Previous (BoolProperty) Current(StrProperty) for package:  FObjectReader
+[2017.09.16-20.58.26:412][456]BlueprintLog: New page: Compile Phial
+[2017.09.16-20.58.48:465][464]BlueprintLog: New page: Compile Phial
+[2017.09.16-20.59.21:021][813]BlueprintLog: New page: Compile Phial
+[2017.09.16-20.59.31:604][878]LogBlueprint: Warning: [Phial] 'petri_sprites' variable not found. Base class was probably changed.
+[2017.09.16-20.59.31:604][878]LogBlueprint: Warning: [Phial] 'PetriDishImage' variable not found. Base class was probably changed.
+[2017.09.16-21.00.07:289][  0]BlueprintLog: New page: Compile Phial
+[2017.09.16-21.00.29:346][163]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-21.01.09:464][328]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-21.01.48:341][132]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-21.02.12:909][704]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-21.02.18:600][213]LogBlueprint: Warning: [PackagedMeat] 'phial_sprites' variable not found. Base class was probably changed.
+[2017.09.16-21.02.18:601][213]LogBlueprint: Warning: [PackagedMeat] 'PhialImage' variable not found. Base class was probably changed.
+[2017.09.16-21.02.38:944][806]BlueprintLog: New page: Compile PackagedMeat
+[2017.09.16-21.03.33:592][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.060
+[2017.09.16-21.03.33:601][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PlayScreen_Shop] ([1] browsable assets)...
+[2017.09.16-21.03.33:601][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayScreen_Shop]
+[2017.09.16-21.03.33:733][675]LogSavePackage: Save=101.60ms
+[2017.09.16-21.03.33:733][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop_Auto1A61BC719406517B7E9476CB8B49A4D76.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto1.uasset'
+[2017.09.16-21.03.33:739][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/PlayScreen_Shop_Auto1.uasset
+[2017.09.16-21.03.33:743][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Objects/PetriDish] ([1] browsable assets)...
+[2017.09.16-21.03.33:743][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/PetriDish]
+[2017.09.16-21.03.33:803][675]LogSavePackage: Save=34.71ms
+[2017.09.16-21.03.33:803][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Auto109CFC1E54B23E4EA55DB059670A33AD4.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/PetriDish_Auto1.uasset'
+[2017.09.16-21.03.33:809][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/PetriDish_Auto1.uasset
+[2017.09.16-21.03.33:813][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Objects/PackagedMeat] ([1] browsable assets)...
+[2017.09.16-21.03.33:813][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/PackagedMeat]
+[2017.09.16-21.03.33:861][675]LogSavePackage: Save=43.97ms
+[2017.09.16-21.03.33:861][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PackagedMeat_Auto1332554C64F6852710FE3FBAC8EA824E1.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/PackagedMeat_Auto1.uasset'
+[2017.09.16-21.03.33:867][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/PackagedMeat_Auto1.uasset
+[2017.09.16-21.03.33:871][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Objects/Order] ([1] browsable assets)...
+[2017.09.16-21.03.33:871][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Order]
+[2017.09.16-21.03.33:940][675]LogSavePackage: Save=41.48ms
+[2017.09.16-21.03.33:940][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order_Auto1980D4024413A53F4B13D91AC48A4A778.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/Order_Auto1.uasset'
+[2017.09.16-21.03.33:947][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/Order_Auto1.uasset
+[2017.09.16-21.03.33:951][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/PetriDish_Manager_Printer] ([1] browsable assets)...
+[2017.09.16-21.03.33:951][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/PetriDish_Manager_Printer]
+[2017.09.16-21.03.34:098][675]LogSavePackage: Save=121.95ms
+[2017.09.16-21.03.34:098][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Printer_Auto190502A96486FEA274772CC9ABF172C53.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Printer_Auto1.uasset'
+[2017.09.16-21.03.34:104][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Printer_Auto1.uasset
+[2017.09.16-21.03.34:107][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Objects/Phial] ([1] browsable assets)...
+[2017.09.16-21.03.34:107][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Objects/Phial]
+[2017.09.16-21.03.34:159][675]LogSavePackage: Save=27.11ms
+[2017.09.16-21.03.34:159][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Phial_Auto191C5B89B4B66597B7CF447B114A772C6.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/Phial_Auto1.uasset'
+[2017.09.16-21.03.34:164][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Objects/Phial_Auto1.uasset
+[2017.09.16-21.03.34:168][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/PetriDish_Manager_Splicer] ([1] browsable assets)...
+[2017.09.16-21.03.34:168][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/PetriDish_Manager_Splicer]
+[2017.09.16-21.03.34:295][675]LogSavePackage: Save=123.20ms
+[2017.09.16-21.03.34:295][675]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Splicer_Auto1575C5ACA453B12B6C0D456881533AC22.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Splicer_Auto1.uasset'
+[2017.09.16-21.03.34:300][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/PetriDish_Manager_Splicer_Auto1.uasset
+[2017.09.16-21.03.34:300][675]LogFileHelpers: Auto-saving content packages took 0.706
+[2017.09.16-21.08.08:480][577]LogSavePackage: Save=14.24ms
+[2017.09.16-21.08.08:480][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/ConveyerBeltBA86850B4D032EF9F9BDC39E549E9388.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/ConveyerBelt.uasset'
+[2017.09.16-21.08.08:496][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/ConveyerBelt.uasset
+[2017.09.16-21.08.08:540][577]LogSavePackage: Save=12.16ms
+[2017.09.16-21.08.08:540][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter07A5E56043CF125AB71429BB174029C4.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset'
+[2017.09.16-21.08.08:551][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset
+[2017.09.16-21.08.08:573][577]LogSavePackage: Save=13.21ms
+[2017.09.16-21.08.08:573][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PaperBagCEB708F74B9B505CFDBDD1A015F301CA.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/PaperBag.uasset'
+[2017.09.16-21.08.08:585][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/PaperBag.uasset
+[2017.09.16-21.08.08:610][577]LogSavePackage: Save=13.84ms
+[2017.09.16-21.08.08:610][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PhialBoxF5D4683648E7BB4693520490378B8CB8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/PhialBox.uasset'
+[2017.09.16-21.08.08:622][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/PhialBox.uasset
+[2017.09.16-21.08.08:646][577]LogSavePackage: Save=13.39ms
+[2017.09.16-21.08.08:646][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Splicer4CC3013C403FB0B9BF1734BB2279F14E.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/Splicer.uasset'
+[2017.09.16-21.08.08:657][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/Splicer.uasset
+[2017.09.16-21.08.08:679][577]LogSavePackage: Save=13.65ms
+[2017.09.16-21.08.08:679][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/TrashE141210F46F49A1629C040A3860685B2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/Trash.uasset'
+[2017.09.16-21.08.08:691][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/Trash.uasset
+[2017.09.16-21.08.08:735][577]LogSavePackage: Save=10.81ms
+[2017.09.16-21.08.08:735][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PackagedMeat_Manager80C0798B406F3A4BA18B8C869101312B.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PackagedMeat_Manager.uasset'
+[2017.09.16-21.08.08:746][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PackagedMeat_Manager.uasset
+[2017.09.16-21.08.08:888][577]LogSavePackage: Save=114.72ms
+[2017.09.16-21.08.08:888][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Printer5CA1A1974D39A663BDD0BF908E33B1BC.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset'
+[2017.09.16-21.08.08:902][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Printer.uasset
+[2017.09.16-21.08.09:047][577]LogSavePackage: Save=135.52ms
+[2017.09.16-21.08.09:047][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish_Manager_Splicer40C36DFD43D202618F63D99C37B3F140.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Splicer.uasset'
+[2017.09.16-21.08.09:060][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/PetriDish_Manager_Splicer.uasset
+[2017.09.16-21.08.09:106][577]LogSavePackage: Save=12.28ms
+[2017.09.16-21.08.09:106][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Phial_Manager3D8C8E9C41AEDFE4F61781A7E1EE864D.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Phial_Manager.uasset'
+[2017.09.16-21.08.09:119][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Phial_Manager.uasset
+[2017.09.16-21.08.09:188][577]LogSavePackage: Save=39.59ms
+[2017.09.16-21.08.09:188][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Order85155EF6460C882C1C1131B5145C618B.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Order.uasset'
+[2017.09.16-21.08.09:200][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Order.uasset
+[2017.09.16-21.08.09:237][577]LogSavePackage: Save=29.04ms
+[2017.09.16-21.08.09:237][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PackagedMeat92261D784A5637E8335CEDBFBA5FB600.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PackagedMeat.uasset'
+[2017.09.16-21.08.09:249][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PackagedMeat.uasset
+[2017.09.16-21.08.09:307][577]LogSavePackage: Save=29.99ms
+[2017.09.16-21.08.09:307][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish6E7C6B6540F97F33F8C2748BC6798C42.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset'
+[2017.09.16-21.08.09:319][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset
+[2017.09.16-21.08.09:377][577]LogSavePackage: Save=27.53ms
+[2017.09.16-21.08.09:377][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Phial874A593C4B1D312A5E96609992D489E0.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Phial.uasset'
+[2017.09.16-21.08.09:387][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/Phial.uasset
+[2017.09.16-21.08.09:496][577]LogSavePackage: Save=78.64ms
+[2017.09.16-21.08.09:496][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop136C3A3F425EEE66E434D68E926C612C.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset'
+[2017.09.16-21.08.09:506][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset
+[2017.09.16-21.08.09:926][577]LogSavePackage: Save=37.17ms
+[2017.09.16-21.08.09:926][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map3B6589A54E347D6FB3B943893D178CBF.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.16-21.08.09:937][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.16-21.08.09:966][577]LogFileHelpers: Saving map 'Shop_Map' took 0.457
+[2017.09.16-21.08.10:154][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-21.08.10:229][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-21.08.10:301][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.16-21.08.10:602][578]Cmd: QUIT_EDITOR
+[2017.09.16-21.08.10:684][578]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.16-21.08.10:691][578]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.16-21.08.10:715][578]LogExit: Preparing to exit.
+[2017.09.16-21.08.11:292][578]LogDirectoryWatcher: A directory notification for 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/' was aborted.
+[2017.09.16-21.08.11:343][578]LogExit: Editor shut down
+[2017.09.16-21.08.11:350][578]LogExit: Transaction tracking system shut down
+[2017.09.16-21.08.11:517][578]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.16-21.08.11:517][578]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/' was aborted.
+[2017.09.16-21.08.11:517][578]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.16-21.08.11:517][578]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.16-21.08.11:517][578]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.16-21.08.11:622][578]LogExit: Object subsystem successfully closed.
+[2017.09.16-21.08.11:649][578]LogD3D11RHI: Shutdown
+[2017.09.16-21.08.11:649][578]LogD3D11RHI: CleanupD3DDevice
+[2017.09.16-21.08.11:809][578]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.16-21.08.11:864][578]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.09.16-21.08.11:864][578]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.09.16-21.08.11:865][578]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.09.16-21.08.11:865][578]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.16-21.08.11:865][578]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.16-21.08.11:865][578]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.16-21.08.11:865][578]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.16-21.08.11:866][578]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.16-21.08.11:866][578]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.16-21.08.11:866][578]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.16-21.08.11:866][578]LogDirectoryWatcher: A directory notification for 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Collections/' was aborted.
+[2017.09.16-21.08.11:866][578]LogDirectoryWatcher: A directory notification for 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Developers/JonathanOates/Collections/' was aborted.
+[2017.09.16-21.08.11:866][578]LogDirectoryWatcher: A directory notification for 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' was aborted.
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.16-21.08.11:867][578]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.16-21.08.11:868][578]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.16-21.08.11:868][578]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.16-21.08.11:868][578]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.16-21.08.11:868][578]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.16-21.08.11:868][578]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.16-21.08.11:868][578]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.16-21.08.12:065][578]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.16-21.08.12:066][578]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.16-21.08.12:119][578]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.16-21.08.12:133][578]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.16-21.08.12:135][578]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.16-21.08.12:136][578]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.16-21.08.12:192][578]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.16-21.08.12:193][578]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.16-21.08.12:194][578]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.16-21.08.12:194][578]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.16-21.08.12:194][578]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.16-21.08.12:195][578]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.16-21.08.12:296][578]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.16-21.08.12:396][578]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.16-21.08.12:396][578]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.16-21.08.12:396][578]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.16-21.08.12:396][578]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.16-21.08.12:396][578]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.16-21.08.12:397][578]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.16-21.08.12:398][578]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.16-21.08.12:399][578]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.16-21.08.12:404][578]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.16-21.08.12:405][578]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.16-21.08.12:406][578]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.16-21.08.12:466][578]LogDerivedDataCache: Shutdown
+[2017.09.16-21.08.12:466][578]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.16-21.08.12:466][578]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.16-21.08.12:466][578]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.16-21.08.12:466][578]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.16-21.08.12:466][578]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.16-21.08.12:466][578]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.16-21.08.12:467][578]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.16-21.08.12:468][578]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.16-21.08.12:468][578]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.16-21.08.12:468][578]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.16-21.08.12:468][578]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B738DBF1D-4DDB-A00D-5F0C-398C73436FB4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=0c00cb594444ce5292f97aadf3b4bd87%7C9975c818dc15487da82246fda931f30b%7C03c2f105-f08a-4122-bd94-ebf12ae9fd8f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.16-21.08.12:486][578]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.16-21.08.12:488][578]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.16-21.08.12:491][578]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.16-21.08.12:495][578]LogExit: Exiting.
+[2017.09.16-21.08.12:508][578]Log file closed, 09/16/17 17:08:12
