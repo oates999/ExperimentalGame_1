@@ -79,3 +79,734 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.20-18.02.21:261][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-18.02.21:261][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.20-18.02.21:278][  0]LogInit: Computer: DESKTOP-QLCPO53
+[2017.09.20-18.02.21:278][  0]LogInit: User: JonathanOates
+[2017.09.20-18.02.21:278][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.20-18.02.21:278][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2017.09.20-18.02.21:279][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.20-18.02.21:279][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.02.21:279][  0]LogMemory: Process Physical Memory: 279.75 MB used, 279.75 MB peak
+[2017.09.20-18.02.21:279][  0]LogMemory: Process Virtual Memory: 274.32 MB used, 274.32 MB peak
+[2017.09.20-18.02.21:279][  0]LogMemory: Physical Memory: 4601.84 MB used,  11648.42 MB free, 16250.27 MB total
+[2017.09.20-18.02.21:279][  0]LogMemory: Virtual Memory: 654.60 MB used,  11648.42 MB free, 134217728.00 MB total
+[2017.09.20-18.02.21:947][  0]LogInit: Using OS detected language (en-US).
+[2017.09.20-18.02.21:947][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.20-18.02.21:953][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.20-18.02.22:962][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.20-18.02.23:000][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.09.20-18.02.23:000][  0]LogD3D11RHI:       4059/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.20-18.02.23:010][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.09.20-18.02.23:010][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.20-18.02.23:012][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.20-18.02.23:012][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.20-18.02.23:012][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.20-18.02.23:016][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.20-18.02.23:016][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2017.09.20-18.02.23:016][  0]LogWindows: EnumDisplayDevices:
+[2017.09.20-18.02.23:017][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.09.20-18.02.23:017][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.20-18.02.23:017][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.20-18.02.23:017][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.09.20-18.02.23:017][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.09.20-18.02.23:017][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.09.20-18.02.23:017][  0]LogD3D11RHI:   Driver Version: 373.20 (internal:21.21.13.7320, unified:373.20)
+[2017.09.20-18.02.23:017][  0]LogD3D11RHI:      Driver Date: 10-23-2016
+[2017.09.20-18.02.23:017][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.20-18.02.23:036][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.20-18.02.23:047][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.20-18.02.23:048][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Intermediate/Shaders/WorkingDirectory/10492/).
+[2017.09.20-18.02.23:048][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/9479E87743913F34A1809BB05A2C84E4/'.
+[2017.09.20-18.02.23:048][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.20-18.02.24:294][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.20-18.02.24:458][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.20-18.02.24:622][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.20-18.02.24:785][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.20-18.02.24:971][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.20-18.02.25:139][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.20-18.02.25:306][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.20-18.02.25:472][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.20-18.02.25:635][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.20-18.02.25:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.20-18.02.26:036][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.20-18.02.26:223][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.20-18.02.26:419][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.20-18.02.26:590][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.20-18.02.26:758][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.20-18.02.27:123][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.20-18.02.27:123][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.20-18.02.27:289][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.20-18.02.27:609][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.20-18.02.27:712][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.20-18.02.27:917][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.20-18.02.28:109][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.20-18.02.28:294][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.20-18.02.28:465][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.20-18.02.28:465][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.20-18.02.30:433][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.20-18.02.30:552][  0]LogDerivedDataCache: Loaded boot cache 0.12s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.20-18.02.30:552][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.20-18.02.30:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.20-18.02.30:552][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.20-18.02.30:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.20-18.02.30:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.20-18.02.30:566][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.20-18.02.30:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.20-18.02.30:589][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.20-18.02.30:589][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.20-18.02.30:590][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-18.02.30:590][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-18.02.30:943][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.09.20-18.02.31:191][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-18.02.31:419][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.20-18.02.32:410][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.20-18.02.32:579][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.20-18.02.32:579][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.20-18.02.32:579][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.20-18.02.32:579][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.20-18.02.32:579][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.20-18.02.33:162][  0]LogNetVersion: PandaMeals_project , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2743602601)
+[2017.09.20-18.02.33:669][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.075035 seconds
+[2017.09.20-18.02.33:676][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.20-18.02.33:676][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.20-18.02.33:676][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.20-18.02.33:951][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.20-18.02.41:497][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.20-18.02.41:606][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.20-18.02.43:718][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.20-18.02.45:022][  0]SourceControl: Source control is disabled
+[2017.09.20-18.02.45:022][  0]SourceControl: Source control is disabled
+[2017.09.20-18.02.45:212][  0]SourceControl: Source control is disabled
+[2017.09.20-18.02.45:382][  0]SourceControl: Source control is disabled
+[2017.09.20-18.02.47:676][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.20-18.02.48:583][  0]LogOcInput: OculusInput pre-init called
+[2017.09.20-18.02.49:448][  0]LogEngine: Initializing Engine...
+[2017.09.20-18.02.49:451][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.20-18.02.49:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.20-18.02.49:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.20-18.02.50:205][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.20-18.02.50:210][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.02.51:612][  0]LogInit: FAudioDevice initialized.
+[2017.09.20-18.02.51:768][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.20-18.02.51:781][  0]LogInit: Texture streaming: Enabled
+[2017.09.20-18.02.52:234][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.20-18.02.53:072][  0]LogInit: Transaction tracking system initialized
+[2017.09.20-18.02.54:321][  0]BlueprintLog: New page: Editor Load
+[2017.09.20-18.02.57:910][  0]LocalizationService: Localization service is disabled
+[2017.09.20-18.03.00:601][  0]LogConsoleResponse: Display: 
+[2017.09.20-18.03.00:942][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.20-18.03.00:942][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.20-18.03.00:942][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.20-18.03.01:052][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/' took 0.02s
+[2017.09.20-18.03.05:017][  0]SourceControl: Source control is disabled
+[2017.09.20-18.03.05:017][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-18.03.05:018][  0]LightingResults: New page: Lighting Build
+[2017.09.20-18.03.05:184][  0]MapCheck: New page: Map Check
+[2017.09.20-18.03.05:184][  0]LightingResults: New page: Lighting Build
+[2017.09.20-18.03.05:388][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.20-18.03.05:398][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-18.03.05:412][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-18.03.05:597][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 184.65ms to complete.
+[2017.09.20-18.03.05:597][  0]LogFileHelpers: Loading map 'Template_Default' took 0.580
+[2017.09.20-18.03.05:883][  0]LogCollectionManager: Loaded 0 collections in 0.002706 seconds
+[2017.09.20-18.03.06:125][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' took 0.01s
+[2017.09.20-18.03.06:125][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Developers/JonathanOates/Collections/' took 0.01s
+[2017.09.20-18.03.06:125][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Collections/' took 0.01s
+[2017.09.20-18.03.06:125][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.20-18.03.06:135][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2386 classes and 500 folders.
+[2017.09.20-18.03.06:390][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.09.20-18.03.06:478][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.20-18.03.06:651][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.09.20-18.03.06:718][  0]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.20-18.03.06:721][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.20-18.03.06:724][  0]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.20-18.03.06:835][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2017.09.20-18.03.07:117][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.20-18.03.07:118][  0]LogLoad: (Engine Initialization) Total time: 49.25 seconds
+[2017.09.20-18.03.07:118][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.20-18.03.07:118][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.20-18.03.07:137][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.20-18.03.07:156][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.20-18.03.07:193][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-18.03.07:216][  1]LogAssetRegistry: Asset discovery search completed in 36.2955 seconds
+[2017.09.20-18.03.07:218][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.20-18.03.07:218][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.09.20-18.03.08:154][ 54]LogSlate: Took 0.000685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-18.03.10:399][188]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-18.03.10:510][188]LogAIModule: Creating AISystem for world Title
+[2017.09.20-18.03.10:533][188]Cmd: MAP LOAD FILE="../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-18.03.10:533][188]LightingResults: New page: Lighting Build
+[2017.09.20-18.03.10:534][188]LoadErrors: New page: Loading map: Title.umap
+[2017.09.20-18.03.10:534][188]MapCheck: New page: Map Check
+[2017.09.20-18.03.10:534][188]LightingResults: New page: Lighting Build
+[2017.09.20-18.03.10:588][188]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-18.03.10:620][188]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-18.03.10:820][188]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 200.504ms to complete.
+[2017.09.20-18.03.10:821][188]LogFileHelpers: Loading map 'Title' took 0.289
+[2017.09.20-18.03.12:297][275]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-18.03.12:406][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.03.12:406][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-18.03.12:406][275]PIE: New page: PIE session: Title (Sep 20, 2017, 10:03:12 AM)
+[2017.09.20-18.03.12:408][275]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Title
+[2017.09.20-18.03.12:410][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002050s)
+[2017.09.20-18.03.12:410][275]LogAIModule: Creating AISystem for world Title
+[2017.09.20-18.03.12:411][275]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2017.09.20-18.03.12:411][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003374s)
+[2017.09.20-18.03.12:421][275]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.03.12:505][275]LogInit: FAudioDevice initialized.
+[2017.09.20-18.03.12:565][275]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.03.12:568][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2017.09.20-14.03.12
+[2017.09.20-18.03.12:568][275]LogWorld: Bringing up level for play took: 0.001407
+[2017.09.20-18.03.12:751][275]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.09.20-18.03.12:755][275]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Title -0.131
+[2017.09.20-18.03.12:756][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.03.12:790][275]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.09.20-18.03.14:583][381]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-18.03.14:583][381]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-18.03.14:595][381]Cmd: MEM
+[2017.09.20-18.03.14:603][381]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.03.14:603][381]LogMemory: Process Physical Memory: 1224.02 MB used, 1248.86 MB peak
+[2017.09.20-18.03.14:603][381]LogMemory: Process Virtual Memory: 1703.64 MB used, 1729.98 MB peak
+[2017.09.20-18.03.14:603][381]LogMemory: Physical Memory: 5619.54 MB used,  10630.72 MB free, 16250.27 MB total
+[2017.09.20-18.03.14:603][381]LogMemory: Virtual Memory: 2525.94 MB used,  10630.72 MB free, 134217728.00 MB total
+[2017.09.20-18.03.14:603][381]LogMemory: 
+[2017.09.20-18.03.14:603][381]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.03.16:295][381]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.03.16:295][381]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.03.16:304][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.03.16
+[2017.09.20-18.03.16:305][381]LogWorld: Bringing up level for play took: 0.008392
+[2017.09.20-18.03.16:305][381]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.03.16:310][381]LogLoad: Took 1.727096 seconds to LoadMap(/Game/Maps/Shop_Map)
+[2017.09.20-18.03.30:964][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.03.31:014][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.03.45:068][ 64]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.09.20-18.03.45:686][ 64]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.20-18.03.45:751][ 64]LogSlate: Took 0.000604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.20-18.03.45:888][ 65]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.20-18.04.10:499][523]BlueprintLog: New page: Compile MyGameInstance
+[2017.09.20-18.04.27:726][504]BlueprintLog: New page: Compile Title_Menu
+[2017.09.20-18.04.29:978][636]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-18.04.30:005][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.04.30:005][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-18.04.30:005][636]PIE: New page: PIE session: Title (Sep 20, 2017, 10:04:30 AM)
+[2017.09.20-18.04.30:008][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Title
+[2017.09.20-18.04.30:010][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002134s)
+[2017.09.20-18.04.30:011][636]LogAIModule: Creating AISystem for world Title
+[2017.09.20-18.04.30:011][636]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2017.09.20-18.04.30:011][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003453s)
+[2017.09.20-18.04.30:031][636]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.04.30:100][636]LogInit: FAudioDevice initialized.
+[2017.09.20-18.04.30:143][636]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.04.30:144][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2017.09.20-14.04.30
+[2017.09.20-18.04.30:144][636]LogWorld: Bringing up level for play took: 0.000894
+[2017.09.20-18.04.30:148][636]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Title -0.739
+[2017.09.20-18.04.30:149][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.04.32:011][744]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-18.04.32:011][744]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-18.04.32:031][744]Cmd: MEM
+[2017.09.20-18.04.32:048][744]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.04.32:048][744]LogMemory: Process Physical Memory: 1548.64 MB used, 1722.01 MB peak
+[2017.09.20-18.04.32:048][744]LogMemory: Process Virtual Memory: 2223.21 MB used, 2282.57 MB peak
+[2017.09.20-18.04.32:048][744]LogMemory: Physical Memory: 5897.08 MB used,  10353.18 MB free, 16250.27 MB total
+[2017.09.20-18.04.32:048][744]LogMemory: Virtual Memory: 3148.31 MB used,  10353.18 MB free, 134217728.00 MB total
+[2017.09.20-18.04.32:048][744]LogMemory: 
+[2017.09.20-18.04.32:048][744]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.04.32:667][744]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.04.32:668][744]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.04.32:677][744]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.04.32
+[2017.09.20-18.04.32:677][744]LogWorld: Bringing up level for play took: 0.008285
+[2017.09.20-18.04.32:677][744]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.04.32:682][744]LogLoad: Took 0.670610 seconds to LoadMap(/Game/Maps/Shop_Map)
+[2017.09.20-18.04.35:929][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.04.35:974][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.04.44:010][385]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.04.46:921][385]LogSavePackage: Save=33.50ms
+[2017.09.20-18.04.46:921][385]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/MyGameInstanceD5497CFB4DE0AAAE244F6FA2579AF740.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MyGameInstance.uasset'
+[2017.09.20-18.04.46:933][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MyGameInstance.uasset
+[2017.09.20-18.04.47:061][385]LogSavePackage: Save=35.93ms
+[2017.09.20-18.04.47:061][385]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Title_Menu224CAFAD4B59A4260529D0B0AD109286.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Title_Menu.uasset'
+[2017.09.20-18.04.47:067][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Title_Menu.uasset
+[2017.09.20-18.04.47:068][385]Cmd: MAP LOAD FILE="../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-18.04.47:068][385]LightingResults: New page: Lighting Build
+[2017.09.20-18.04.47:068][385]LoadErrors: New page: Loading map: Shop_Map.umap
+[2017.09.20-18.04.47:069][385]MapCheck: New page: Map Check
+[2017.09.20-18.04.47:069][385]LightingResults: New page: Lighting Build
+[2017.09.20-18.04.47:166][385]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-18.04.47:207][385]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-18.04.47:476][385]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 269.028ms to complete.
+[2017.09.20-18.04.47:482][385]LogFileHelpers: Loading map 'Shop_Map' took 0.415
+[2017.09.20-18.04.48:821][464]LogEditorViewport: Clicking on Actor (LMB): LevelTimer_C (LevelTimer)
+[2017.09.20-18.04.52:030][655]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.20-18.04.53:516][742]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-18.04.53:544][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.04.53:544][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-18.04.53:544][742]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 10:04:53 AM)
+[2017.09.20-18.04.53:546][742]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-18.04.53:551][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004420s)
+[2017.09.20-18.04.53:552][742]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.04.53:552][742]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2017.09.20-18.04.53:552][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005608s)
+[2017.09.20-18.04.53:572][742]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.04.53:639][742]LogInit: FAudioDevice initialized.
+[2017.09.20-18.04.53:681][742]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.04.53:688][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.04.53
+[2017.09.20-18.04.53:688][742]LogWorld: Bringing up level for play took: 0.004972
+[2017.09.20-18.04.53:705][742]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.818
+[2017.09.20-18.04.53:705][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.04.58:545][ 29]LogNet: Browse: /Game/Maps/Welp
+[2017.09.20-18.04.58:545][ 29]LogLoad: LoadMap: /Game/Maps/Welp
+[2017.09.20-18.04.58:567][ 29]Cmd: MEM
+[2017.09.20-18.04.58:585][ 29]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.04.58:585][ 29]LogMemory: Process Physical Memory: 1636.78 MB used, 1729.79 MB peak
+[2017.09.20-18.04.58:585][ 29]LogMemory: Process Virtual Memory: 2311.04 MB used, 2648.24 MB peak
+[2017.09.20-18.04.58:585][ 29]LogMemory: Physical Memory: 5999.16 MB used,  10251.11 MB free, 16250.27 MB total
+[2017.09.20-18.04.58:585][ 29]LogMemory: Virtual Memory: 3272.50 MB used,  10251.11 MB free, 134217728.00 MB total
+[2017.09.20-18.04.58:585][ 29]LogMemory: 
+[2017.09.20-18.04.58:585][ 29]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.04.58:592][ 29]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.04.58:592][ 29]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-18.04.58:592][ 29]LoadErrors: Error: /Game/Maps/Welp : Can't find file for asset. /Game/Maps/Welp_BuiltData
+[2017.09.20-18.04.58:697][ 29]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.04.58:697][ 29]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-18.04.58:708][ 29]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.04.58:708][ 29]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.04.58:709][ 29]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.04.58:709][ 29]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.04.58:719][ 29]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.04.58:719][ 29]LoadErrors: Failed to load /Game/Maps/Welp_BuiltData.Welp_BuiltData Referenced by PersistentLevel
+[2017.09.20-18.04.58:719][ 29]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 5Star_Review1 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 2Star_Review2 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 5Star_Review2 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 4Star_Review4 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 2Star_Review3 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 4Star_Review2 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 3Star_Review4 (BGRA8, 573X349)
+[2017.09.20-18.04.58:764][ 29]LogTexture: Display: Building textures: 3Star_Review2 (BGRA8, 573X349)
+[2017.09.20-18.04.58:872][ 29]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-18.04.58:873][ 29]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.04.58:875][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Welp.Welp up for play (max tick rate 60) at 2017.09.20-14.04.58
+[2017.09.20-18.04.58:875][ 29]LogWorld: Bringing up level for play took: 0.002200
+[2017.09.20-18.04.58:876][ 29]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.04.58:877][ 29]LogLoad: Took 0.331630 seconds to LoadMap(/Game/Maps/Welp)
+[2017.09.20-18.05.02:948][272]LogNet: Browse: /Game/Maps/upgrade
+[2017.09.20-18.05.02:948][272]LogLoad: LoadMap: /Game/Maps/upgrade
+[2017.09.20-18.05.02:968][272]Cmd: MEM
+[2017.09.20-18.05.02:986][272]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.05.02:986][272]LogMemory: Process Physical Memory: 1651.43 MB used, 1761.02 MB peak
+[2017.09.20-18.05.02:987][272]LogMemory: Process Virtual Memory: 2299.13 MB used, 2656.87 MB peak
+[2017.09.20-18.05.02:987][272]LogMemory: Physical Memory: 5997.45 MB used,  10252.81 MB free, 16250.27 MB total
+[2017.09.20-18.05.02:987][272]LogMemory: Virtual Memory: 3408.00 MB used,  10252.81 MB free, 134217728.00 MB total
+[2017.09.20-18.05.02:987][272]LogMemory: 
+[2017.09.20-18.05.02:987][272]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Icon_Bison_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Icon_Whale_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Icon_Pig_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Icon_Human_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Icon_Human_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Icon_Polar_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:253][272]LogTexture: Display: Building textures: Upgrade_Screen_Browser (BGRA8, 1489X901)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Pig_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Polar_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Whale_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Chicken_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Bison_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Chicken_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Panda_upgrade (BGRA8, 248X261)
+[2017.09.20-18.05.03:254][272]LogTexture: Display: Building textures: Icon_Panda_upgraded (BGRA8, 86X88)
+[2017.09.20-18.05.03:283][272]LogAIModule: Creating AISystem for world upgrade
+[2017.09.20-18.05.03:283][272]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.03:286][272]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-14.05.03
+[2017.09.20-18.05.03:286][272]LogWorld: Bringing up level for play took: 0.002167
+[2017.09.20-18.05.03:287][272]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.05.03:288][272]LogLoad: Took 0.340050 seconds to LoadMap(/Game/Maps/upgrade)
+[2017.09.20-18.05.05:164][384]LogNet: Browse: /Game/Maps/newspaper
+[2017.09.20-18.05.05:164][384]LogLoad: LoadMap: /Game/Maps/newspaper
+[2017.09.20-18.05.05:183][384]Cmd: MEM
+[2017.09.20-18.05.05:201][384]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.05.05:201][384]LogMemory: Process Physical Memory: 1673.68 MB used, 1761.02 MB peak
+[2017.09.20-18.05.05:201][384]LogMemory: Process Virtual Memory: 2389.39 MB used, 2656.87 MB peak
+[2017.09.20-18.05.05:201][384]LogMemory: Physical Memory: 6019.45 MB used,  10230.82 MB free, 16250.27 MB total
+[2017.09.20-18.05.05:201][384]LogMemory: Virtual Memory: 3408.93 MB used,  10230.82 MB free, 134217728.00 MB total
+[2017.09.20-18.05.05:201][384]LogMemory: 
+[2017.09.20-18.05.05:201][384]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.05.05:318][384]LogAIModule: Creating AISystem for world newspaper
+[2017.09.20-18.05.05:318][384]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.05:322][384]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newspaper.newspaper up for play (max tick rate 60) at 2017.09.20-14.05.05
+[2017.09.20-18.05.05:322][384]LogWorld: Bringing up level for play took: 0.002815
+[2017.09.20-18.05.05:322][384]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.05.05:323][384]LogLoad: Took 0.159607 seconds to LoadMap(/Game/Maps/newspaper)
+[2017.09.20-18.05.08:383][567]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-18.05.08:383][567]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-18.05.08:405][567]Cmd: MEM
+[2017.09.20-18.05.08:422][567]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.05.08:422][567]LogMemory: Process Physical Memory: 1717.94 MB used, 1761.02 MB peak
+[2017.09.20-18.05.08:422][567]LogMemory: Process Virtual Memory: 2349.02 MB used, 2656.87 MB peak
+[2017.09.20-18.05.08:422][567]LogMemory: Physical Memory: 6067.09 MB used,  10183.18 MB free, 16250.27 MB total
+[2017.09.20-18.05.08:422][567]LogMemory: Virtual Memory: 3398.43 MB used,  10183.18 MB free, 134217728.00 MB total
+[2017.09.20-18.05.08:422][567]LogMemory: 
+[2017.09.20-18.05.08:422][567]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.05.08:422][567]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-18.05.08:426][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003562s)
+[2017.09.20-18.05.08:427][567]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.05.08:427][567]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2017.09.20-18.05.08:427][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.004838s)
+[2017.09.20-18.05.08:427][567]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.08:429][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.05.08
+[2017.09.20-18.05.08:430][567]LogWorld: Bringing up level for play took: 0.001926
+[2017.09.20-18.05.08:430][567]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.05.08:434][567]LogLoad: Took 0.050336 seconds to LoadMap(/Game/Maps/UEDPIE_0_Shop_Map)
+[2017.09.20-18.05.13:410][865]LogNet: Browse: /Game/Maps/Welp
+[2017.09.20-18.05.13:410][865]LogLoad: LoadMap: /Game/Maps/Welp
+[2017.09.20-18.05.13:432][865]Cmd: MEM
+[2017.09.20-18.05.13:449][865]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.05.13:449][865]LogMemory: Process Physical Memory: 1668.60 MB used, 1761.02 MB peak
+[2017.09.20-18.05.13:449][865]LogMemory: Process Virtual Memory: 2326.01 MB used, 2656.87 MB peak
+[2017.09.20-18.05.13:449][865]LogMemory: Physical Memory: 6013.39 MB used,  10236.87 MB free, 16250.27 MB total
+[2017.09.20-18.05.13:449][865]LogMemory: Virtual Memory: 3390.43 MB used,  10236.87 MB free, 134217728.00 MB total
+[2017.09.20-18.05.13:449][865]LogMemory: 
+[2017.09.20-18.05.13:449][865]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.05.13:492][865]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.05.13:492][865]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-18.05.13:579][865]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.05.13:579][865]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-18.05.13:590][865]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.05.13:590][865]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.05.13:590][865]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.05.13:591][865]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.05.13:601][865]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.05.13:601][865]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.05.13:626][865]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-18.05.13:626][865]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.13:628][865]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Welp.Welp up for play (max tick rate 60) at 2017.09.20-14.05.13
+[2017.09.20-18.05.13:629][865]LogWorld: Bringing up level for play took: 0.002084
+[2017.09.20-18.05.13:629][865]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.05.13:631][865]LogLoad: Took 0.220164 seconds to LoadMap(/Game/Maps/Welp)
+[2017.09.20-18.05.15:214][960]LogNet: Browse: /Game/Maps/upgrade
+[2017.09.20-18.05.15:214][960]LogLoad: LoadMap: /Game/Maps/upgrade
+[2017.09.20-18.05.15:235][960]Cmd: MEM
+[2017.09.20-18.05.15:253][960]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.05.15:253][960]LogMemory: Process Physical Memory: 1691.95 MB used, 1761.02 MB peak
+[2017.09.20-18.05.15:253][960]LogMemory: Process Virtual Memory: 2431.84 MB used, 2656.87 MB peak
+[2017.09.20-18.05.15:253][960]LogMemory: Physical Memory: 6035.83 MB used,  10214.44 MB free, 16250.27 MB total
+[2017.09.20-18.05.15:253][960]LogMemory: Virtual Memory: 3390.43 MB used,  10214.44 MB free, 134217728.00 MB total
+[2017.09.20-18.05.15:253][960]LogMemory: 
+[2017.09.20-18.05.15:253][960]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.05.15:384][960]LogAIModule: Creating AISystem for world upgrade
+[2017.09.20-18.05.15:385][960]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.15:387][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-14.05.15
+[2017.09.20-18.05.15:387][960]LogWorld: Bringing up level for play took: 0.001892
+[2017.09.20-18.05.15:388][960]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.05.15:389][960]LogLoad: Took 0.174727 seconds to LoadMap(/Game/Maps/upgrade)
+[2017.09.20-18.05.15:774][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.05.15:829][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.05.18:085][116]LogEditorViewport: Clicking on Actor (LMB): LevelTimer_C (LevelTimer)
+[2017.09.20-18.05.21:669][329]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.20-18.05.22:917][402]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-18.05.22:942][402]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.05.22:942][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-18.05.22:942][402]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 10:05:22 AM)
+[2017.09.20-18.05.22:945][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-18.05.22:949][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004050s)
+[2017.09.20-18.05.22:950][402]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.05.22:950][402]LogPlayLevel: PIE: World Init took: (0.001181s)
+[2017.09.20-18.05.22:950][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005570s)
+[2017.09.20-18.05.22:983][402]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.05.23:053][402]LogInit: FAudioDevice initialized.
+[2017.09.20-18.05.23:101][402]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.23:104][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.05.23
+[2017.09.20-18.05.23:105][402]LogWorld: Bringing up level for play took: 0.002419
+[2017.09.20-18.05.23:113][402]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.227
+[2017.09.20-18.05.23:114][402]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.05.24:567][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.05.24:620][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-18.05.27:036][621]LogAIModule: Creating AISystem for world Title
+[2017.09.20-18.05.28:514][621]LogSavePackage: Save=74.83ms
+[2017.09.20-18.05.28:514][621]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map56E99EA646704B2710FE20A74B0EA42A.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-18.05.28:521][621]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-18.05.28:544][621]LogFileHelpers: Saving map 'Shop_Map' took 0.510
+[2017.09.20-18.05.28:545][621]Cmd: MAP LOAD FILE="../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-18.05.28:546][621]LightingResults: New page: Lighting Build
+[2017.09.20-18.05.28:546][621]LoadErrors: New page: Loading map: Title.umap
+[2017.09.20-18.05.28:547][621]MapCheck: New page: Map Check
+[2017.09.20-18.05.28:547][621]LightingResults: New page: Lighting Build
+[2017.09.20-18.05.28:656][621]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-18.05.28:698][621]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-18.05.28:982][621]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 284.514ms to complete.
+[2017.09.20-18.05.28:983][621]LogFileHelpers: Loading map 'Title' took 0.439
+[2017.09.20-18.05.29:924][676]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-18.05.29:946][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.05.29:946][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-18.05.29:946][676]PIE: New page: PIE session: Title (Sep 20, 2017, 10:05:29 AM)
+[2017.09.20-18.05.29:947][676]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Title
+[2017.09.20-18.05.29:950][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002727s)
+[2017.09.20-18.05.29:951][676]LogAIModule: Creating AISystem for world Title
+[2017.09.20-18.05.29:951][676]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2017.09.20-18.05.29:951][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.004290s)
+[2017.09.20-18.05.29:978][676]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.05.30:047][676]LogInit: FAudioDevice initialized.
+[2017.09.20-18.05.30:093][676]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.30:095][676]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2017.09.20-14.05.30
+[2017.09.20-18.05.30:095][676]LogWorld: Bringing up level for play took: 0.000984
+[2017.09.20-18.05.30:100][676]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Title -0.787
+[2017.09.20-18.05.30:100][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.05.31:726][771]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-18.05.31:726][771]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-18.05.31:746][771]Cmd: MEM
+[2017.09.20-18.05.31:764][771]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.05.31:764][771]LogMemory: Process Physical Memory: 1820.75 MB used, 1822.89 MB peak
+[2017.09.20-18.05.31:764][771]LogMemory: Process Virtual Memory: 2500.03 MB used, 2656.87 MB peak
+[2017.09.20-18.05.31:764][771]LogMemory: Physical Memory: 6166.98 MB used,  10083.29 MB free, 16250.27 MB total
+[2017.09.20-18.05.31:764][771]LogMemory: Virtual Memory: 3462.68 MB used,  10083.29 MB free, 134217728.00 MB total
+[2017.09.20-18.05.31:764][771]LogMemory: 
+[2017.09.20-18.05.31:764][771]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.05.32:332][771]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.05.32:333][771]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.05.32:342][771]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.05.32
+[2017.09.20-18.05.32:342][771]LogWorld: Bringing up level for play took: 0.008746
+[2017.09.20-18.05.32:343][771]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.05.32:347][771]LogLoad: Took 0.620926 seconds to LoadMap(/Game/Maps/Shop_Map)
+[2017.09.20-18.05.47:986][707]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0931
+[2017.09.20-18.05.47:986][707]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.47:986][707]LogScript: Warning: Accessed None
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0946
+[2017.09.20-18.05.47:986][707]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.05.47:986][707]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:03BB
+[2017.09.20-18.05.47:986][707]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.47:987][707]LogScript: Warning: Accessed None attempting to assign variable on an object
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:03D0
+[2017.09.20-18.05.47:987][707]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.47:987][707]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0419
+[2017.09.20-18.05.47:987][707]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.47:987][707]LogScript: Warning: Accessed None attempting to assign variable on an object
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:042E
+[2017.09.20-18.05.47:987][707]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.49:344][788]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0931
+[2017.09.20-18.05.49:344][788]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.49:345][788]LogScript: Warning: Accessed None
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0946
+[2017.09.20-18.05.49:345][788]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.05.49:345][788]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:03BB
+[2017.09.20-18.05.49:345][788]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.49:345][788]LogScript: Warning: Accessed None attempting to assign variable on an object
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:03D0
+[2017.09.20-18.05.49:345][788]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.49:345][788]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0419
+[2017.09.20-18.05.49:345][788]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.49:345][788]LogScript: Warning: Accessed None attempting to assign variable on an object
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:042E
+[2017.09.20-18.05.49:345][788]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.51:985][946]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0931
+[2017.09.20-18.05.51:985][946]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.51:985][946]LogScript: Warning: Accessed None
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0946
+[2017.09.20-18.05.51:985][946]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.05.51:985][946]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:03BB
+[2017.09.20-18.05.51:985][946]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.51:985][946]LogScript: Warning: Accessed None attempting to assign variable on an object
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:03D0
+[2017.09.20-18.05.51:985][946]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.51:985][946]LogScript: Warning: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+	PetriDish_Manager_Splicer_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriManager_Splicer
+	Function /Game/Blueprints/Managers/PetriDish_Manager_Splicer.PetriDish_Manager_Splicer_C:ExecuteUbergraph_PetriDish_Manager_Splicer:0419
+[2017.09.20-18.05.51:985][946]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.51:985][946]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.53:151][ 16]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.53:151][ 16]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.05.53:151][ 16]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.53:151][ 16]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.05.53:151][ 16]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.05.53:151][ 16]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.01:974][544]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.01:974][544]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.01:974][544]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.01:974][544]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.01:974][544]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.01:974][544]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.05:982][784]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.05:982][784]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.05:983][784]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.05:983][784]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.05:983][784]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.05:983][784]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.07:082][850]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.07:082][850]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.07:082][850]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.07:082][850]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.07:082][850]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.07:082][850]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.09:335][985]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.09:335][985]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.09:335][985]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.09:335][985]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.09:335][985]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.09:335][985]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.09:991][ 24]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.09:991][ 24]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.09:991][ 24]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.09:991][ 24]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.09:991][ 24]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.09:991][ 24]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.10:974][ 83]LogScript: Warning: Attempted to access PackagedMeat_C_3 via property CallFunc_Array_Get_Item6, but PackagedMeat_C_3 is pending kill
+	PackagedMeat_Manager_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.MeatManager
+	Function /Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager_C:ExecuteUbergraph_PackagedMeat_Manager:0C08
+[2017.09.20-18.06.10:974][ 83]PIE: Error: Blueprint Runtime Error: Attempted to access PackagedMeat_C_3 via property CallFunc_Array_Get_Item6, but PackagedMeat_C_3 is pending kill from function: 'ExecuteUbergraph_PackagedMeat_Manager' from node: Set Translucent Sort Priority in graph: EventGraph in object: PackagedMeat_Manager with description: Attempted to access PackagedMeat_C_3 via property CallFunc_Array_Get_Item6, but PackagedMeat_C_3 is pending kill
+[2017.09.20-18.06.10:974][ 83]LogScript: Warning: Accessed None
+	PackagedMeat_Manager_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.MeatManager
+	Function /Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager_C:ExecuteUbergraph_PackagedMeat_Manager:0C1D
+[2017.09.20-18.06.10:974][ 83]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PackagedMeat_Manager' from node: Set Translucent Sort Priority in graph: EventGraph in object: PackagedMeat_Manager with description: Accessed None
+[2017.09.20-18.06.10:974][ 83]LogScript: Warning: Attempted to access PackagedMeat_C_3 via property CallFunc_Array_Get_Item4, but PackagedMeat_C_3 is pending kill
+	PackagedMeat_Manager_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.MeatManager
+	Function /Game/Blueprints/Managers/PackagedMeat_Manager.PackagedMeat_Manager_C:ExecuteUbergraph_PackagedMeat_Manager:0A4F
+[2017.09.20-18.06.10:974][ 83]PIE: Error: Blueprint Runtime Error: Attempted to access PackagedMeat_C_3 via property CallFunc_Array_Get_Item4, but PackagedMeat_C_3 is pending kill from function: 'ExecuteUbergraph_PackagedMeat_Manager' from node: AttachToComponent in graph: EventGraph in object: PackagedMeat_Manager with description: Attempted to access PackagedMeat_C_3 via property CallFunc_Array_Get_Item4, but PackagedMeat_C_3 is pending kill
+[2017.09.20-18.06.14:687][305]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.14:687][305]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.14:687][305]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.14:687][305]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.14:687][305]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.14:687][305]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.29:981][220]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.29:981][220]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.29:981][220]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.29:981][220]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.29:982][220]PIE: Error: Blueprint Runtime Error: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Attempted to access PetriDish_C_0 via property CallFunc_Array_Get_Item4, but PetriDish_C_0 is pending kill
+[2017.09.20-18.06.29:982][220]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.31:994][340]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.09.20-18.06.31:994][340]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set Translucent Sort Priority in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None
+[2017.09.20-18.06.31:994][340]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2017.09.20-18.06.31:994][340]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set splicer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.31:994][340]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2017.09.20-18.06.31:994][340]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_PetriDish_Manager_Splicer' from node: Set printer_manager in graph: EventGraph in object: PetriDish_Manager_Splicer with description: Accessed None attempting to assign variable on an object
+[2017.09.20-18.06.32:010][341]LogNet: Browse: /Game/Maps/Welp
+[2017.09.20-18.06.32:010][341]LogLoad: LoadMap: /Game/Maps/Welp
+[2017.09.20-18.06.32:032][341]Cmd: MEM
+[2017.09.20-18.06.32:050][341]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.06.32:050][341]LogMemory: Process Physical Memory: 1687.97 MB used, 1954.16 MB peak
+[2017.09.20-18.06.32:050][341]LogMemory: Process Virtual Memory: 2334.34 MB used, 2816.45 MB peak
+[2017.09.20-18.06.32:050][341]LogMemory: Physical Memory: 6028.64 MB used,  10221.62 MB free, 16250.27 MB total
+[2017.09.20-18.06.32:050][341]LogMemory: Virtual Memory: 3529.37 MB used,  10221.62 MB free, 134217728.00 MB total
+[2017.09.20-18.06.32:050][341]LogMemory: 
+[2017.09.20-18.06.32:050][341]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.06.32:093][341]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.06.32:093][341]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-18.06.32:093][341]LoadErrors: Error: /Game/Maps/Welp : Can't find file for asset. /Game/Maps/Welp_BuiltData
+[2017.09.20-18.06.32:179][341]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.06.32:179][341]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-18.06.32:189][341]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.06.32:189][341]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.06.32:190][341]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.06.32:190][341]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.06.32:200][341]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-18.06.32:200][341]LoadErrors: Failed to load /Game/Maps/Welp_BuiltData.Welp_BuiltData Referenced by PersistentLevel
+[2017.09.20-18.06.32:200][341]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-18.06.32:224][341]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-18.06.32:225][341]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.06.32:228][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Welp.Welp up for play (max tick rate 60) at 2017.09.20-14.06.32
+[2017.09.20-18.06.32:228][341]LogWorld: Bringing up level for play took: 0.002553
+[2017.09.20-18.06.32:228][341]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.06.32:229][341]LogLoad: Took 0.218803 seconds to LoadMap(/Game/Maps/Welp)
+[2017.09.20-18.06.34:303][465]LogNet: Browse: /Game/Maps/upgrade
+[2017.09.20-18.06.34:303][465]LogLoad: LoadMap: /Game/Maps/upgrade
+[2017.09.20-18.06.34:323][465]Cmd: MEM
+[2017.09.20-18.06.34:342][465]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.06.34:342][465]LogMemory: Process Physical Memory: 1712.74 MB used, 1954.16 MB peak
+[2017.09.20-18.06.34:342][465]LogMemory: Process Virtual Memory: 2440.13 MB used, 2816.45 MB peak
+[2017.09.20-18.06.34:342][465]LogMemory: Physical Memory: 6058.74 MB used,  10191.52 MB free, 16250.27 MB total
+[2017.09.20-18.06.34:342][465]LogMemory: Virtual Memory: 3529.37 MB used,  10191.52 MB free, 134217728.00 MB total
+[2017.09.20-18.06.34:342][465]LogMemory: 
+[2017.09.20-18.06.34:342][465]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.06.34:473][465]LogAIModule: Creating AISystem for world upgrade
+[2017.09.20-18.06.34:473][465]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.06.34:475][465]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-14.06.34
+[2017.09.20-18.06.34:476][465]LogWorld: Bringing up level for play took: 0.001872
+[2017.09.20-18.06.34:476][465]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.06.34:477][465]LogLoad: Took 0.173937 seconds to LoadMap(/Game/Maps/upgrade)
+[2017.09.20-18.06.36:229][570]LogNet: Browse: /Game/Maps/newspaper
+[2017.09.20-18.06.36:230][570]LogLoad: LoadMap: /Game/Maps/newspaper
+[2017.09.20-18.06.36:252][570]Cmd: MEM
+[2017.09.20-18.06.36:269][570]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.06.36:269][570]LogMemory: Process Physical Memory: 1747.18 MB used, 1954.16 MB peak
+[2017.09.20-18.06.36:270][570]LogMemory: Process Virtual Memory: 2446.01 MB used, 2816.45 MB peak
+[2017.09.20-18.06.36:270][570]LogMemory: Physical Memory: 6095.10 MB used,  10155.17 MB free, 16250.27 MB total
+[2017.09.20-18.06.36:270][570]LogMemory: Virtual Memory: 3525.37 MB used,  10155.17 MB free, 134217728.00 MB total
+[2017.09.20-18.06.36:270][570]LogMemory: 
+[2017.09.20-18.06.36:270][570]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.06.36:371][570]LogAIModule: Creating AISystem for world newspaper
+[2017.09.20-18.06.36:371][570]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.06.36:374][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newspaper.newspaper up for play (max tick rate 60) at 2017.09.20-14.06.36
+[2017.09.20-18.06.36:374][570]LogWorld: Bringing up level for play took: 0.001933
+[2017.09.20-18.06.36:375][570]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.06.36:375][570]LogLoad: Took 0.145490 seconds to LoadMap(/Game/Maps/newspaper)
+[2017.09.20-18.06.41:399][871]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-18.06.41:399][871]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-18.06.41:421][871]Cmd: MEM
+[2017.09.20-18.06.41:438][871]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.06.41:438][871]LogMemory: Process Physical Memory: 1741.27 MB used, 1954.16 MB peak
+[2017.09.20-18.06.41:438][871]LogMemory: Process Virtual Memory: 2350.77 MB used, 2816.45 MB peak
+[2017.09.20-18.06.41:438][871]LogMemory: Physical Memory: 6089.69 MB used,  10160.57 MB free, 16250.27 MB total
+[2017.09.20-18.06.41:438][871]LogMemory: Virtual Memory: 3490.12 MB used,  10160.57 MB free, 134217728.00 MB total
+[2017.09.20-18.06.41:438][871]LogMemory: 
+[2017.09.20-18.06.41:438][871]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.06.42:058][871]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.06.42:059][871]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.06.42:067][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.06.42
+[2017.09.20-18.06.42:068][871]LogWorld: Bringing up level for play took: 0.008615
+[2017.09.20-18.06.42:068][871]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.06.42:073][871]LogLoad: Took 0.673787 seconds to LoadMap(/Game/Maps/Shop_Map)
+[2017.09.20-18.06.48:971][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-18.06.49:008][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
