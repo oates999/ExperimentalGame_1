@@ -1212,3 +1212,371 @@ LogInit: Object subsystem initialized
 [2017.09.20-16.40.08:079][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
 [2017.09.20-16.40.10:722][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
 [2017.09.20-16.40.10:788][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.45.08:391][468]LogEditorViewport: Clicking on Actor (LMB): Splicer_C (Splicer)
+[2017.09.20-16.46.12:575][128]LogMetaData: Removing '/Game/Blueprints/LevelTimer.LevelTimer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/LevelTiner.PackageMetaData'
+[2017.09.20-16.46.12:575][128]LogMetaData: Removing '/Game/Blueprints/LevelTimer.SKEL_LevelTimer_C' ref from Metadata '/Game/Blueprints/LevelTiner.PackageMetaData'
+[2017.09.20-16.46.12:575][128]LogMetaData: Removing '/Game/Blueprints/LevelTimer.LevelTimer_C' ref from Metadata '/Game/Blueprints/LevelTiner.PackageMetaData'
+[2017.09.20-16.46.12:576][128]LogMetaData: Removing '/Game/Blueprints/LevelTimer.LevelTimer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/LevelTiner.PackageMetaData'
+[2017.09.20-16.46.12:576][128]LogMetaData: Removing '/Game/Blueprints/LevelTimer.LevelTimer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/LevelTiner.PackageMetaData'
+[2017.09.20-16.46.12:576][128]LogMetaData: Removing '/Game/Blueprints/LevelTimer.LevelTimer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/LevelTiner.PackageMetaData'
+[2017.09.20-16.46.12:606][128]LogSavePackage: Save=10.44ms
+[2017.09.20-16.46.12:606][128]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/LevelTimerB0895501400558F0A078AB831872E6BC.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/LevelTimer.uasset'
+[2017.09.20-16.46.12:613][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/LevelTimer.uasset
+[2017.09.20-16.49.30:213][845]LogSavePackage: Save=68.86ms
+[2017.09.20-16.49.30:213][845]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto182404B294916083E000AF7898EF18275.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto1.umap'
+[2017.09.20-16.49.30:218][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto1.umap
+[2017.09.20-16.49.30:220][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.196
+[2017.09.20-16.49.30:220][845]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.196
+[2017.09.20-16.49.30:224][845]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/LevelTimer] ([1] browsable assets)...
+[2017.09.20-16.49.30:224][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/LevelTimer]
+[2017.09.20-16.49.30:609][845]LogSavePackage: Save=317.43ms
+[2017.09.20-16.49.30:610][845]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/LevelTimer_Auto147188AC34CB5DA1B06DA6F857C44327D.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/LevelTimer_Auto1.uasset'
+[2017.09.20-16.49.30:616][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/LevelTimer_Auto1.uasset
+[2017.09.20-16.49.30:616][845]LogFileHelpers: Auto-saving content packages took 0.394
+[2017.09.20-16.50.26:811][216]BlueprintLog: New page: Compile LevelTimer
+[2017.09.20-16.53.50:232][319]BlueprintLog: New page: Compile LevelTimer
+[2017.09.20-16.54.15:797][838]BlueprintLog: New page: Compile LevelTimer
+[2017.09.20-16.54.37:424][114]BlueprintLog: New page: Compile LevelTimer
+[2017.09.20-16.54.40:681][292]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-16.54.40:706][292]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.54.40:706][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-16.54.40:706][292]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 8:54:40 AM)
+[2017.09.20-16.54.40:707][292]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-16.54.40:713][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005934s)
+[2017.09.20-16.54.40:714][292]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-16.54.40:714][292]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2017.09.20-16.54.40:714][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.007548s)
+[2017.09.20-16.54.40:744][292]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-16.54.40:816][292]LogInit: FAudioDevice initialized.
+[2017.09.20-16.54.40:858][292]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-16.54.40:862][292]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-12.54.40
+[2017.09.20-16.54.40:863][292]LogWorld: Bringing up level for play took: 0.003895
+[2017.09.20-16.54.40:870][292]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map -0.016
+[2017.09.20-16.54.40:871][292]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.54.55:633][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.54.55:701][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.54.59:551][399]BlueprintLog: New page: Compile LevelTimer
+[2017.09.20-16.55.01:154][478]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-16.55.01:177][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.55.01:177][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-16.55.01:177][478]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 8:55:01 AM)
+[2017.09.20-16.55.01:177][478]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-16.55.01:181][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003970s)
+[2017.09.20-16.55.01:182][478]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-16.55.01:182][478]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2017.09.20-16.55.01:182][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005308s)
+[2017.09.20-16.55.01:210][478]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-16.55.01:276][478]LogInit: FAudioDevice initialized.
+[2017.09.20-16.55.01:323][478]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-16.55.01:328][478]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-12.55.01
+[2017.09.20-16.55.01:329][478]LogWorld: Bringing up level for play took: 0.003956
+[2017.09.20-16.55.01:330][478]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-16.55.01:340][478]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.454
+[2017.09.20-16.55.01:341][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.55.11:178][ 65]LogNet: Browse: /Game/Maps/Welp
+[2017.09.20-16.55.11:178][ 65]LogLoad: LoadMap: /Game/Maps/Welp
+[2017.09.20-16.55.11:207][ 65]Cmd: MEM
+[2017.09.20-16.55.11:232][ 65]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-16.55.11:232][ 65]LogMemory: Process Physical Memory: 2382.22 MB used, 2409.88 MB peak
+[2017.09.20-16.55.11:232][ 65]LogMemory: Process Virtual Memory: 3826.41 MB used, 3999.95 MB peak
+[2017.09.20-16.55.11:232][ 65]LogMemory: Physical Memory: 6327.65 MB used,  9922.61 MB free, 16250.27 MB total
+[2017.09.20-16.55.11:232][ 65]LogMemory: Virtual Memory: 4829.03 MB used,  9922.61 MB free, 134217728.00 MB total
+[2017.09.20-16.55.11:232][ 65]LogMemory: 
+[2017.09.20-16.55.11:232][ 65]Allocator Stats for TBB: (not implemented)
+[2017.09.20-16.55.11:237][ 65]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-16.55.11:237][ 65]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-16.55.11:237][ 65]LoadErrors: Error: /Game/Maps/Welp : Can't find file for asset. /Game/Maps/Welp_BuiltData
+[2017.09.20-16.55.11:242][ 65]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-16.55.11:242][ 65]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap.
+[2017.09.20-16.55.11:247][ 65]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-16.55.11:247][ 65]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-16.55.11:247][ 65]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-16.55.11:247][ 65]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-16.55.11:252][ 65]LogLinker: Warning: Can't find file '/Game/Maps/Welp_BuiltData'
+[2017.09.20-16.55.11:252][ 65]LoadErrors: Failed to load /Game/Maps/Welp_BuiltData.Welp_BuiltData Referenced by PersistentLevel
+[2017.09.20-16.55.11:252][ 65]LogLinker: Warning: Can't find file for asset '/Game/Maps/Welp_BuiltData' while loading NULL.
+[2017.09.20-16.55.12:205][ 65]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-16.55.12:206][ 65]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-16.55.12:209][ 65]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Welp.Welp up for play (max tick rate 60) at 2017.09.20-12.55.12
+[2017.09.20-16.55.12:210][ 65]LogWorld: Bringing up level for play took: 0.002835
+[2017.09.20-16.55.12:210][ 65]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-16.55.12:212][ 65]LogLoad: Took 1.032904 seconds to LoadMap(/Game/Maps/Welp)
+[2017.09.20-16.55.25:616][868]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-16.55.25:616][868]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-16.55.25:645][868]Cmd: MEM
+[2017.09.20-16.55.25:670][868]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-16.55.25:670][868]LogMemory: Process Physical Memory: 2574.02 MB used, 2690.85 MB peak
+[2017.09.20-16.55.25:671][868]LogMemory: Process Virtual Memory: 3921.03 MB used, 4322.43 MB peak
+[2017.09.20-16.55.25:671][868]LogMemory: Physical Memory: 6444.14 MB used,  9806.12 MB free, 16250.27 MB total
+[2017.09.20-16.55.25:671][868]LogMemory: Virtual Memory: 5017.59 MB used,  9806.12 MB free, 134217728.00 MB total
+[2017.09.20-16.55.25:671][868]LogMemory: 
+[2017.09.20-16.55.25:671][868]Allocator Stats for TBB: (not implemented)
+[2017.09.20-16.55.25:671][868]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-16.55.25:674][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003687s)
+[2017.09.20-16.55.25:675][868]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-16.55.25:675][868]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2017.09.20-16.55.25:676][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005116s)
+[2017.09.20-16.55.25:676][868]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-16.55.25:678][868]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-12.55.25
+[2017.09.20-16.55.25:678][868]LogWorld: Bringing up level for play took: 0.002044
+[2017.09.20-16.55.25:679][868]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-16.55.25:682][868]LogLoad: Took 0.065823 seconds to LoadMap(/Game/Maps/UEDPIE_0_Shop_Map)
+[2017.09.20-16.55.29:937][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.55.29:976][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.55.53:493][496]LogSavePackage: Save=118.50ms
+[2017.09.20-16.55.53:493][496]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_MapE7BF5A6A4B68C0781CFC889563FBAA6A.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-16.55.53:501][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-16.55.53:529][496]LogFileHelpers: Saving map 'Shop_Map' took 0.535
+[2017.09.20-16.55.53:620][496]LogSavePackage: Save=17.07ms
+[2017.09.20-16.55.53:620][496]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/LevelTimerD9A4F3B24420218DE4A923B98A2E3FB0.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/LevelTimer.uasset'
+[2017.09.20-16.55.53:627][496]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/LevelTimer.uasset
+[2017.09.20-16.55.59:917][868]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.20-16.56.01:442][929]LogSavePackage: Save=70.01ms
+[2017.09.20-16.56.01:442][929]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map3C4C032441DE1F25BF584EB13AA02800.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-16.56.01:449][929]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-16.56.01:474][929]LogFileHelpers: Saving map 'Shop_Map' took 0.469
+[2017.09.20-16.57.08:246][624]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PandaMealsproject
+[2017.09.20-16.57.08:246][624]LogTemp: CWD: D:\ProgramFiles\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.20-16.57.08:246][624]LogTemp: Initial Dir: D:\ProgramFiles\Epic Games\UE_4.17
+[2017.09.20-16.57.08:246][624]LogTemp: Env CWD: D:\ProgramFiles\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.20-16.57.08:246][624]LogTemp: BranchPath = DESKTOP-QLCPO53/D/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-QLCPO53/D/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.20-16.57.08:246][624]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jonathan Oates\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.20-16.57.14:570][999]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.20-16.58.04:580][478]BlueprintLog: New page: Compile MyGameInstance
+[2017.09.20-16.58.11:021][809]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PandaMealsproject
+[2017.09.20-16.58.11:022][809]LogTemp: CWD: D:\ProgramFiles\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.20-16.58.11:022][809]LogTemp: Initial Dir: D:\ProgramFiles\Epic Games\UE_4.17
+[2017.09.20-16.58.11:022][809]LogTemp: Env CWD: D:\ProgramFiles\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.20-16.58.11:022][809]LogTemp: BranchPath = DESKTOP-QLCPO53/D/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-QLCPO53/D/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.20-16.58.11:038][810]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jonathan Oates\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.20-16.58.14:053][989]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.20-16.58.44:898][281]BlueprintLog: New page: Compile LevelTimer
+[2017.09.20-16.58.54:329][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.58.57:511][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.58.59:289][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.59.00:470][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.59.02:122][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.59.03:907][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.59.06:350][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-16.59.42:442][449]BlueprintLog: New page: Compile Order_Manager
+[2017.09.20-17.00.41:621][617]BlueprintLog: New page: Compile MyGameInstance
+[2017.09.20-17.00.41:706][617]LogClass: Warning: Type mismatch in current_money of MyGameInstance_C - Previous (BoolProperty) Current(IntProperty) for package:  FObjectReader
+[2017.09.20-17.01.36:914][853]BlueprintLog: New page: Compile Order_Manager
+[2017.09.20-17.01.40:748][980]LogSavePackage: Save=412.98ms
+[2017.09.20-17.01.40:748][980]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map53F698EF4FD448886CC49C9114EAB9F6.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-17.01.40:756][980]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-17.01.40:795][980]LogFileHelpers: Saving map 'Shop_Map' took 0.843
+[2017.09.20-17.01.41:077][980]LogSavePackage: Save=205.88ms
+[2017.09.20-17.01.41:077][980]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager4C1E0BDE4659FCEB82B109A51EFC3E4A.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset'
+[2017.09.20-17.01.41:083][980]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset
+[2017.09.20-17.01.41:096][980]LogSavePackage: Save=5.40ms
+[2017.09.20-17.01.41:096][980]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/MyGameInstance1B61D55842FD5AAC8F8AC0873D907A1D.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MyGameInstance.uasset'
+[2017.09.20-17.01.41:102][980]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/MyGameInstance.uasset
+[2017.09.20-17.01.41:196][980]LogSavePackage: Save=17.28ms
+[2017.09.20-17.01.41:197][980]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/LevelTimer6F797CE942E080B67B1C769580CD9C5D.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/LevelTimer.uasset'
+[2017.09.20-17.01.41:203][980]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/LevelTimer.uasset
+[2017.09.20-17.04.11:843][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.20-17.04.42:169][832]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.05.57:572][269]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.09.43:854][692]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.11.56:251][551]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.12.27:633][365]LogSavePackage: Save=71.22ms
+[2017.09.20-17.12.27:633][365]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto2ACA145AE4880EF3248BE1791881EEAB4.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto2.umap'
+[2017.09.20-17.12.27:636][365]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto2.umap
+[2017.09.20-17.12.27:639][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.176
+[2017.09.20-17.12.27:639][365]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2017.09.20-17.12.27:644][365]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/MeatPrinter] ([1] browsable assets)...
+[2017.09.20-17.12.27:644][365]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/MeatPrinter]
+[2017.09.20-17.12.27:764][365]LogSavePackage: Save=48.63ms
+[2017.09.20-17.12.27:764][365]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter_Auto223212ED9450D7182D0E534B389CD748E.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/MeatPrinter_Auto2.uasset'
+[2017.09.20-17.12.27:768][365]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/MeatPrinter_Auto2.uasset
+[2017.09.20-17.12.27:768][365]LogFileHelpers: Auto-saving content packages took 0.126
+[2017.09.20-17.18.52:840][928]BlueprintLog: New page: Compile Order_Manager
+[2017.09.20-17.20.10:757][546]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-17.20.10:773][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.20.10:773][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-17.20.10:773][546]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 9:20:10 AM)
+[2017.09.20-17.20.10:773][546]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-17.20.10:779][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005069s)
+[2017.09.20-17.20.10:779][546]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-17.20.10:779][546]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2017.09.20-17.20.10:780][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.006190s)
+[2017.09.20-17.20.10:803][546]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-17.20.10:872][546]LogInit: FAudioDevice initialized.
+[2017.09.20-17.20.10:914][546]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-17.20.10:917][546]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.20.10
+[2017.09.20-17.20.10:917][546]LogWorld: Bringing up level for play took: 0.002276
+[2017.09.20-17.20.10:926][546]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.039
+[2017.09.20-17.20.10:926][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.20.12:764][653]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.12:765][653]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.12:765][653]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.12:765][653]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.17:006][907]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.17:006][907]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.20:850][137]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.20:850][137]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'K2Node_CustomEvent_meat_availability' of length 0 in '/Game/Blueprints/Objects/Order.Order_C:ExecuteUbergraph_Order'!
+[2017.09.20-17.20.21:799][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.20.21:883][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.21.42:105][995]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.21.58:383][914]LogBlueprint: Warning: [Splicer] 'IconImage' variable not found. Base class was probably changed.
+[2017.09.20-17.21.58:387][914]LogBlueprint: Warning: [Splicer] 'meat_images' variable not found. Base class was probably changed.
+[2017.09.20-17.22.05:266][325]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.22.05:376][325]LogBlueprint: Warning: [Compiler Splicer] Could not find a variable named "meat_images" in 'Splicer_C'.
+Make sure 'Splicer_C' has been compiled for  Get meat_images
+[2017.09.20-17.22.05:376][325]LogBlueprint: Warning: [Compiler Splicer] Could not find a variable named "IconImage" in 'Splicer_C'.
+Make sure 'Splicer_C' has been compiled for  Get IconImage
+[2017.09.20-17.22.05:383][325]LogBlueprint: Error: [Compiler Splicer] The property associated with  Meat Images  could not be found
+[2017.09.20-17.22.05:384][325]LogBlueprint: Error: [Compiler Splicer] The property associated with  Icon Image  could not be found
+[2017.09.20-17.22.06:003][325]LogBlueprint: Warning: [Compiler Splicer] [4302.41] Compile of Splicer failed. 2 Fatal Issue(s) 2 Warning(s) [in 736 ms] (/Game/Blueprints/Machines/Splicer.Splicer)
+[2017.09.20-17.22.11:796][667]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.22.11:907][667]LogBlueprint: Warning: [Compiler Splicer] Could not find a variable named "IconImage" in 'Splicer_C'.
+Make sure 'Splicer_C' has been compiled for  Get IconImage
+[2017.09.20-17.22.11:919][667]LogBlueprint: Error: [Compiler Splicer] Pin  Meat Images  is specified as a set, but does not have a valid set property.
+[2017.09.20-17.22.11:920][667]LogBlueprint: Error: [Compiler Splicer] The property associated with  Icon Image  could not be found
+[2017.09.20-17.22.12:543][667]LogBlueprint: Warning: [Compiler Splicer] [4308.95] Compile of Splicer failed. 2 Fatal Issue(s) 1 Warning(s) [in 746 ms] (/Game/Blueprints/Machines/Splicer.Splicer)
+[2017.09.20-17.22.21:450][197]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'meat_images' instances, change its type, and recompile?
+[2017.09.20-17.22.23:310][305]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'meat_images' instances, change its type, and recompile?
+[2017.09.20-17.22.29:712][680]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'meat_images' instances, change its type, and recompile?
+[2017.09.20-17.22.31:201][766]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.22.31:310][766]LogBlueprint: Error: [Compiler Splicer] In use pin  Meat Images  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.09.20-17.22.31:310][766]LogBlueprint: Warning: [Compiler Splicer] Could not find a variable named "IconImage" in 'Splicer_C'.
+Make sure 'Splicer_C' has been compiled for  Get IconImage
+[2017.09.20-17.22.31:318][766]LogBlueprint: Error: [Compiler Splicer] The property associated with  Icon Image  could not be found
+[2017.09.20-17.22.31:322][766]LogClass: Warning: Type mismatch in meat_images of Splicer_C - Previous (BoolProperty) Current(MapProperty) for package:  FObjectReader
+[2017.09.20-17.22.31:934][766]LogBlueprint: Warning: [Compiler Splicer] [4328.34] Compile of Splicer failed. 2 Fatal Issue(s) 1 Warning(s) [in 732 ms] (/Game/Blueprints/Machines/Splicer.Splicer)
+[2017.09.20-17.22.55:455][164]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'meat_images' instances, change its type, and recompile?
+[2017.09.20-17.23.46:454][208]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.23.46:455][208]LogJson: Error: Unable to convert key to string for property meat_images.
+[2017.09.20-17.23.46:535][208]LogJson: Error: Unable to convert key to string for property meat_images.
+[2017.09.20-17.23.46:562][208]LogBlueprint: Warning: [Compiler Splicer] Could not find a variable named "IconImage" in 'Splicer_C'.
+Make sure 'Splicer_C' has been compiled for  Get IconImage
+[2017.09.20-17.23.46:570][208]LogBlueprint: Error: [Compiler Splicer] The property associated with  Icon Image  could not be found
+[2017.09.20-17.23.47:175][208]LogBlueprint: Warning: [Compiler Splicer] [4403.58] Compile of Splicer failed. 1 Fatal Issue(s) 1 Warning(s) [in 720 ms] (/Game/Blueprints/Machines/Splicer.Splicer)
+[2017.09.20-17.24.47:756][823]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.24.47:756][823]LogJson: Error: Unable to convert key to string for property meat_images.
+[2017.09.20-17.24.47:840][823]LogJson: Error: Unable to convert key to string for property meat_images.
+[2017.09.20-17.24.56:632][299]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.24.56:632][299]LogJson: Error: Unable to convert key to string for property meat_images.
+[2017.09.20-17.24.56:713][299]LogJson: Error: Unable to convert key to string for property meat_images.
+[2017.09.20-17.25.56:416][793]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.26.18:891][ 78]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.26.44:080][529]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.27.14:435][277]BlueprintLog: New page: Compile Order_Manager
+[2017.09.20-17.27.14:575][277]LogBlueprint: Error: [Compiler Order_Manager] Default value '' for  Meat Availability  is invalid: 'Map inputs (like 'Meat Availability') must have an input wired into them (try connecting a MakeMap node).'
+[2017.09.20-17.27.15:201][277]LogBlueprint: Warning: [Compiler Order_Manager] [4611.61] Compile of Order_Manager failed. 1 Fatal Issue(s) 0 Warning(s) [in 765 ms] (/Game/Blueprints/Managers/Order_Manager.Order_Manager)
+[2017.09.20-17.27.15:688][305]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-17.27.15:706][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.27.15:706][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-17.27.21:546][577]LogEditorTransaction: Undo Break Pin Links
+[2017.09.20-17.27.27:664][934]BlueprintLog: New page: Compile Order_Manager
+[2017.09.20-17.27.29:383][981]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-17.27.29:402][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.27.29:402][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-17.27.29:402][981]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 9:27:29 AM)
+[2017.09.20-17.27.29:402][981]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-17.27.29:408][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005741s)
+[2017.09.20-17.27.29:409][981]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-17.27.29:409][981]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.09.20-17.27.29:409][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.006958s)
+[2017.09.20-17.27.29:430][981]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-17.27.29:498][981]LogInit: FAudioDevice initialized.
+[2017.09.20-17.27.29:548][981]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-17.27.29:551][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.27.29
+[2017.09.20-17.27.29:552][981]LogWorld: Bringing up level for play took: 0.003195
+[2017.09.20-17.27.29:552][981]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-17.27.29:565][981]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.678
+[2017.09.20-17.27.29:565][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.27.55:298][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.27.55:414][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-17.28.01:785][882]BlueprintLog: New page: Compile Splicer
+[2017.09.20-17.28.06:960][134]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.28.33:338][643]LogSavePackage: Save=71.72ms
+[2017.09.20-17.28.33:338][643]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map_Auto320DBD85F4A0F075D1E9866AE71D8CFB1.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto3.umap'
+[2017.09.20-17.28.33:342][643]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Maps/Shop_Map_Auto3.umap
+[2017.09.20-17.28.33:345][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Shop_Map' took 0.174
+[2017.09.20-17.28.33:345][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2017.09.20-17.28.33:350][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/MeatPrinter] ([1] browsable assets)...
+[2017.09.20-17.28.33:350][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/MeatPrinter]
+[2017.09.20-17.28.33:468][643]LogSavePackage: Save=48.07ms
+[2017.09.20-17.28.33:468][643]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter_Auto3E6AD578040786C9E17323DAADD653860.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/MeatPrinter_Auto3.uasset'
+[2017.09.20-17.28.33:473][643]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/MeatPrinter_Auto3.uasset
+[2017.09.20-17.28.33:475][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Managers/Order_Manager] ([1] browsable assets)...
+[2017.09.20-17.28.33:475][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Managers/Order_Manager]
+[2017.09.20-17.28.33:749][643]LogSavePackage: Save=205.32ms
+[2017.09.20-17.28.33:750][643]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager_Auto32D8A3CA14BBCECD14508089790A25C3C.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/Order_Manager_Auto3.uasset'
+[2017.09.20-17.28.33:754][643]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Managers/Order_Manager_Auto3.uasset
+[2017.09.20-17.28.33:756][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Machines/Splicer] ([1] browsable assets)...
+[2017.09.20-17.28.33:756][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Machines/Splicer]
+[2017.09.20-17.28.33:896][643]LogSavePackage: Save=53.63ms
+[2017.09.20-17.28.33:897][643]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Splicer_Auto307E7881645B15E3F13A972AA7B65423B.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/Splicer_Auto3.uasset'
+[2017.09.20-17.28.33:900][643]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Autosaves/Game/Blueprints/Machines/Splicer_Auto3.uasset
+[2017.09.20-17.28.33:901][643]LogFileHelpers: Auto-saving content packages took 0.553
+[2017.09.20-17.30.35:856][905]LogSavePackage: Save=77.46ms
+[2017.09.20-17.30.35:856][905]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map30827DCC4C4364BDF76B209310AAF0FC.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-17.30.35:877][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-17.30.35:904][905]LogFileHelpers: Saving map 'Shop_Map' took 0.829
+[2017.09.20-17.30.36:032][905]LogSavePackage: Save=48.65ms
+[2017.09.20-17.30.36:032][905]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter27234DA3440BABEBC7B85E88EE7228F5.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset'
+[2017.09.20-17.30.36:039][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset
+[2017.09.20-17.30.36:323][905]LogSavePackage: Save=206.07ms
+[2017.09.20-17.30.36:323][905]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Order_Manager2A9CF46D4D6D1684233F3BB4BC9B21DA.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset'
+[2017.09.20-17.30.36:329][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Managers/Order_Manager.uasset
+[2017.09.20-17.30.36:455][905]LogSavePackage: Save=48.16ms
+[2017.09.20-17.30.36:455][905]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Splicer3485A7594AE8684B4C87B4B49AF34B47.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/Splicer.uasset'
+[2017.09.20-17.30.36:464][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/Splicer.uasset
+[2017.09.20-17.30.52:316][843]LogTexture: Display: Building textures: Quit_Buttons__3_ (BGRA8, 283X88)
+[2017.09.20-17.30.52:316][843]LogTexture: Display: Building textures: Quit_Buttons__2_ (BGRA8, 283X89)
+[2017.09.20-17.30.52:572][843]LogTexture: Display: Building textures: Title_Screen (BGRA8, 1921X1201)
+[2017.09.20-17.30.52:592][843]LogAIModule: Creating AISystem for world Title
+[2017.09.20-17.30.52:625][843]Cmd: MAP LOAD FILE="../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Maps/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-17.30.52:625][843]LightingResults: New page: Lighting Build
+[2017.09.20-17.30.52:626][843]LoadErrors: New page: Loading map: Title.umap
+[2017.09.20-17.30.52:627][843]MapCheck: New page: Map Check
+[2017.09.20-17.30.52:627][843]LightingResults: New page: Lighting Build
+[2017.09.20-17.30.52:701][843]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-17.30.52:743][843]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-17.30.53:021][843]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 278.543ms to complete.
+[2017.09.20-17.30.53:022][843]LogFileHelpers: Loading map 'Title' took 0.404
+[2017.09.20-17.32.46:379][577]BlueprintLog: New page: Compile Title_Menu
+[2017.09.20-17.32.49:799][776]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-17.32.49:827][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-17.32.49:827][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-17.32.49:827][776]PIE: New page: PIE session: Title (Sep 20, 2017, 9:32:49 AM)
+[2017.09.20-17.32.49:827][776]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Title
+[2017.09.20-17.32.49:829][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2017.09.20-17.32.49:830][776]LogAIModule: Creating AISystem for world Title
+[2017.09.20-17.32.49:830][776]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2017.09.20-17.32.49:831][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003433s)
+[2017.09.20-17.32.49:878][776]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-17.32.49:948][776]LogInit: FAudioDevice initialized.
+[2017.09.20-17.32.50:020][776]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-17.32.50:025][776]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2017.09.20-13.32.50
+[2017.09.20-17.32.50:026][776]LogWorld: Bringing up level for play took: 0.003302
+[2017.09.20-17.32.50:040][776]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Title 1.153
+[2017.09.20-17.32.50:041][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-17.32.52:581][925]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-17.32.52:581][925]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-17.32.52:602][925]Cmd: MEM
+[2017.09.20-17.32.52:621][925]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-17.32.52:621][925]LogMemory: Process Physical Memory: 2925.20 MB used, 3028.33 MB peak
+[2017.09.20-17.32.52:621][925]LogMemory: Process Virtual Memory: 4150.61 MB used, 4454.07 MB peak
+[2017.09.20-17.32.52:621][925]LogMemory: Physical Memory: 7267.27 MB used,  8983.00 MB free, 16250.27 MB total
+[2017.09.20-17.32.52:621][925]LogMemory: Virtual Memory: 5204.38 MB used,  8983.00 MB free, 134217728.00 MB total
+[2017.09.20-17.32.52:621][925]LogMemory: 
+[2017.09.20-17.32.52:621][925]Allocator Stats for TBB: (not implemented)
+[2017.09.20-17.32.53:324][925]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-17.32.53:324][925]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-17.32.53:334][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.32.53
+[2017.09.20-17.32.53:335][925]LogWorld: Bringing up level for play took: 0.009521
+[2017.09.20-17.32.53:335][925]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-17.32.53:340][925]LogLoad: Took 0.758613 seconds to LoadMap(/Game/Maps/Shop_Map)
+[2017.09.20-17.33.14:591][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-17.33.14:653][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Title.Title:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Title.Title:PersistentLevel.Title' with GeneratedClass '/Game/Maps/Title.Title_C' with ClassGeneratedBy '/Game/Maps/Title.Title:PersistentLevel.Title'
+[2017.09.20-17.33.25:116][818]BlueprintLog: New page: Compile MeatPrinter
+[2017.09.20-17.33.27:104][885]LogSavePackage: Save=56.06ms
+[2017.09.20-17.33.27:104][885]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/MeatPrinter881B6D7B43D28285756C329F3CFBD7C1.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset'
+[2017.09.20-17.33.27:118][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Machines/MeatPrinter.uasset
+[2017.09.20-17.33.27:230][885]LogSavePackage: Save=32.61ms
+[2017.09.20-17.33.27:230][885]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/Title_Menu5102BFDE451F66754C8AC3B885C63CFD.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Title_Menu.uasset'
+[2017.09.20-17.33.27:237][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Title_Menu.uasset
