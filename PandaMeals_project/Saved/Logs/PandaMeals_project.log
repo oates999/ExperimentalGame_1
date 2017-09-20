@@ -1,12 +1,12 @@
-﻿Log file open, 09/20/17 13:40:31
+﻿Log file open, 09/20/17 13:58:18
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: PandaMeals_project
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1442572304) SRandInit(-1442572304).
+LogInit: Display: RandInit(1364211273) SRandInit(1364211273).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.120660
+LogStats: Stats thread started at 0.120416
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,417 +108,572 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.20-17.40.32:047][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.20-17.40.32:047][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.20-17.40.32:059][  0]LogInit: Computer: HUANGE2T440S
-[2017.09.20-17.40.32:059][  0]LogInit: User: huange2
-[2017.09.20-17.40.32:059][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.20-17.40.32:059][  0]LogInit: High frequency timer resolution =2.630627 MHz
-[2017.09.20-17.40.32:059][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2017.09.20-17.40.32:059][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-17.40.32:059][  0]LogMemory: Process Physical Memory: 277.00 MB used, 277.00 MB peak
-[2017.09.20-17.40.32:059][  0]LogMemory: Process Virtual Memory: 275.95 MB used, 275.95 MB peak
-[2017.09.20-17.40.32:059][  0]LogMemory: Physical Memory: 4728.86 MB used,  3150.02 MB free, 7878.88 MB total
-[2017.09.20-17.40.32:059][  0]LogMemory: Virtual Memory: 646.30 MB used,  3150.02 MB free, 134217728.00 MB total
-[2017.09.20-17.40.32:200][  0]LogInit: Using OS detected language (en-US).
-[2017.09.20-17.40.32:200][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.20-17.40.32:203][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.20-17.40.32:968][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.20-17.40.32:974][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2017.09.20-17.40.32:974][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.09.20-17.40.32:975][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.20-17.40.32:975][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.20-17.40.32:975][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.20-17.40.32:982][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.20-17.40.32:982][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.20-17.40.32:982][  0]LogWindows: EnumDisplayDevices:
-[2017.09.20-17.40.32:982][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2017.09.20-17.40.32:982][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.09.20-17.40.32:982][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.09.20-17.40.32:982][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.09.20-17.40.32:982][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
-[2017.09.20-17.40.32:982][  0]LogD3D11RHI:   Driver Version: 10.18.14.4170 (internal:10.18.14.4170, unified:10.18.14.4170)
-[2017.09.20-17.40.32:982][  0]LogD3D11RHI:      Driver Date: 3-16-2015
-[2017.09.20-17.40.32:982][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
-[2017.09.20-17.40.32:989][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.20-17.40.32:996][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.09.20-17.40.32:997][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Intermediate/Shaders/WorkingDirectory/4432/).
-[2017.09.20-17.40.32:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/huange2/AppData/Local/Temp/UnrealShaderWorkingDir/C59651474523A23006C36FBF65AD4762/'.
-[2017.09.20-17.40.32:997][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.20-17.40.33:968][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.20-17.40.34:013][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.20-17.40.34:058][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.20-17.40.34:106][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.20-17.40.34:152][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.20-17.40.34:198][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.20-17.40.34:246][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.20-17.40.34:293][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.20-17.40.34:331][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.20-17.40.34:377][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.20-17.40.34:422][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.20-17.40.34:467][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.20-17.40.34:513][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.20-17.40.34:557][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.20-17.40.34:601][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.20-17.40.34:690][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.20-17.40.34:690][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.20-17.40.34:723][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.20-17.40.34:808][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.20-17.40.34:836][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.20-17.40.34:880][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.20-17.40.34:925][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.20-17.40.34:972][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.20-17.40.35:017][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.20-17.40.35:017][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.20-17.40.35:431][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.20-17.40.35:535][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/huange2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.20-17.40.35:535][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/huange2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.20-17.40.35:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.20-17.40.35:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.20-17.40.35:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.20-17.40.35:535][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.20-17.40.35:555][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.20-17.40.35:567][  0]LogDerivedDataCache: Using Local data cache path C:/Users/huange2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.20-17.40.35:577][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.20-17.40.35:578][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.20-17.40.35:578][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.20-17.40.35:578][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.20-17.40.35:844][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
-[2017.09.20-17.40.35:969][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.20-17.40.36:158][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.20-17.40.36:499][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.20-17.40.36:545][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.20-17.40.36:545][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.20-17.40.36:545][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.20-17.40.36:545][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.20-17.40.36:545][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.20-17.40.36:961][  0]LogNetVersion: PandaMeals_project , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2743602601)
-[2017.09.20-17.40.37:210][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.058118 seconds
-[2017.09.20-17.40.37:220][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.20-17.40.37:220][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.20-17.40.37:220][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.20-17.40.37:296][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.20-17.40.40:115][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.20-17.40.40:150][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.20-17.40.40:693][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.20-17.40.41:052][  0]SourceControl: Source control is disabled
-[2017.09.20-17.40.41:052][  0]SourceControl: Source control is disabled
-[2017.09.20-17.40.41:090][  0]SourceControl: Source control is disabled
-[2017.09.20-17.40.41:129][  0]SourceControl: Source control is disabled
-[2017.09.20-17.40.41:613][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.20-17.40.41:812][  0]LogOcInput: OculusInput pre-init called
-[2017.09.20-17.40.42:034][  0]LogEngine: Initializing Engine...
-[2017.09.20-17.40.42:036][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.20-17.40.42:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.20-17.40.42:278][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.20-17.40.42:419][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.20-17.40.42:424][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.20-17.40.42:442][  0]LogInit: FAudioDevice initialized.
-[2017.09.20-17.40.42:536][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/huange2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.20-17.40.42:553][  0]LogInit: Texture streaming: Enabled
-[2017.09.20-17.40.42:650][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.20-17.40.42:829][  0]LogInit: Transaction tracking system initialized
-[2017.09.20-17.40.43:087][  0]BlueprintLog: New page: Editor Load
-[2017.09.20-17.40.43:830][  0]LocalizationService: Localization service is disabled
-[2017.09.20-17.40.44:749][  0]LogConsoleResponse: Display: 
-[2017.09.20-17.40.44:945][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.20-17.40.44:945][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.20-17.40.44:945][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.20-17.40.45:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/' took 0.01s
-[2017.09.20-17.40.45:819][  0]SourceControl: Source control is disabled
-[2017.09.20-17.40.45:819][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-17.40.45:819][  0]LightingResults: New page: Lighting Build
-[2017.09.20-17.40.45:853][  0]MapCheck: New page: Map Check
-[2017.09.20-17.40.45:853][  0]LightingResults: New page: Lighting Build
-[2017.09.20-17.40.46:007][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.09.20-17.40.46:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-17.40.46:036][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-17.40.46:079][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.444ms to complete.
-[2017.09.20-17.40.46:079][  0]LogFileHelpers: Loading map 'Template_Default' took 0.261
-[2017.09.20-17.40.46:210][  0]LogCollectionManager: Loaded 0 collections in 0.001371 seconds
-[2017.09.20-17.40.46:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' took 0.01s
-[2017.09.20-17.40.46:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Developers/huange2/Collections/' took 0.01s
-[2017.09.20-17.40.46:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Collections/' took 0.01s
-[2017.09.20-17.40.46:281][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.09.20-17.40.46:290][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2386 classes and 500 folders.
-[2017.09.20-17.40.46:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.09.20-17.40.46:384][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.09.20-17.40.46:421][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.09.20-17.40.46:488][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.20-17.40.46:491][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.20-17.40.46:497][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.20-17.40.46:606][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 9 NumSamples 1 (Frame:1).
-[2017.09.20-17.40.47:087][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.09.20-17.40.47:087][  0]LogLoad: (Engine Initialization) Total time: 16.64 seconds
-[2017.09.20-17.40.47:087][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.20-17.40.47:087][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.20-17.40.47:087][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.20-17.40.47:122][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.09.20-17.40.47:141][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.20-17.40.47:165][  1]LogAssetRegistry: Asset discovery search completed in 11.3425 seconds
-[2017.09.20-17.40.47:167][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.20-17.40.47:167][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2017.09.20-17.40.48:199][ 36]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.20-17.41.02:936][549]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.20-17.41.03:357][549]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
-[2017.09.20-17.41.04:109][549]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.20-17.42.27:535][535]LogAIModule: Creating AISystem for world Welp
-[2017.09.20-17.42.28:942][535]LogSavePackage: Save=44.45ms
-[2017.09.20-17.42.28:942][535]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Upgrade_MenuE021F628499AFB4B223176A57C41AAAE.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset'
-[2017.09.20-17.42.28:949][535]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset
-[2017.09.20-17.42.28:951][535]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-17.42.28:951][535]LightingResults: New page: Lighting Build
-[2017.09.20-17.42.28:952][535]LoadErrors: New page: Loading map: Welp.umap
-[2017.09.20-17.42.28:952][535]MapCheck: New page: Map Check
-[2017.09.20-17.42.28:952][535]LightingResults: New page: Lighting Build
-[2017.09.20-17.42.29:071][535]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-17.42.29:152][535]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-17.42.29:212][535]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.801ms to complete.
-[2017.09.20-17.42.29:212][535]LogFileHelpers: Loading map 'Welp' took 0.263
-[2017.09.20-17.42.29:213][535]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.20-17.42.33:642][699]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.20-17.48.58:293][594]LogSavePackage: Save=129.80ms
-[2017.09.20-17.48.58:294][594]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Upgrade_Menu06FB964442B7B9D19A90D4AEB0FA0FB5.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset'
-[2017.09.20-17.48.58:300][594]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset
-[2017.09.20-17.50.54:236][797]LogSavePackage: Save=118.98ms
-[2017.09.20-17.50.54:236][797]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Upgrade_Menu1EBF1B36482393B29C36F9B79350E1EB.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset'
-[2017.09.20-17.50.54:240][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset
-[2017.09.20-17.50.57:453][867]BlueprintLog: New page: Compile Upgrade_Menu
-[2017.09.20-17.50.58:365][880]LogSavePackage: Save=134.54ms
-[2017.09.20-17.50.58:365][880]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Upgrade_Menu8BB22C5544F988AE5E84FDAD2FF84A83.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset'
-[2017.09.20-17.50.58:366][880]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset
-[2017.09.20-17.51.28:354][ 58]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.51.31:179][109]LogSavePackage: Save=121.09ms
-[2017.09.20-17.51.31:180][109]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/upgrade3224045E4657A337BD34DC928D90174F.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap'
-[2017.09.20-17.51.31:183][109]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap
-[2017.09.20-17.51.31:185][109]LogFileHelpers: Saving map 'upgrade' took 0.211
-[2017.09.20-17.51.31:191][109]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-17.51.31:191][109]LightingResults: New page: Lighting Build
-[2017.09.20-17.51.31:192][109]LoadErrors: New page: Loading map: upgrade.umap
-[2017.09.20-17.51.31:253][109]MapCheck: New page: Map Check
-[2017.09.20-17.51.31:253][109]LightingResults: New page: Lighting Build
-[2017.09.20-17.51.31:358][109]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-17.51.31:420][109]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-17.51.31:470][109]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.783ms to complete.
-[2017.09.20-17.51.31:471][109]LogFileHelpers: Loading map 'upgrade' took 0.280
-[2017.09.20-17.51.35:661][201]LogSavePackage: Save=119.08ms
-[2017.09.20-17.51.35:661][201]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/upgradeA0624E7C45303B3AC34AA6A9DAAC05B9.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap'
-[2017.09.20-17.51.35:664][201]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap
-[2017.09.20-17.51.35:710][201]LogFileHelpers: Saving map 'upgrade' took 0.266
-[2017.09.20-17.51.35:715][201]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-17.51.35:716][201]LightingResults: New page: Lighting Build
-[2017.09.20-17.51.35:717][201]LoadErrors: New page: Loading map: upgrade.umap
-[2017.09.20-17.51.35:718][201]MapCheck: New page: Map Check
-[2017.09.20-17.51.35:718][201]LightingResults: New page: Lighting Build
-[2017.09.20-17.51.35:746][201]LogLinker: Warning: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.51.35:746][201]LogLinker: Warning: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap.
-[2017.09.20-17.51.35:747][201]LoadErrors: Error: /Game/Maps/upgrade : Can't find file for asset. /Game/Maps/upgrade_BuiltData
-[2017.09.20-17.51.35:749][201]LogLinker: Warning: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.51.35:749][201]LogLinker: Warning: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap.
-[2017.09.20-17.51.35:761][201]LogLinker: Warning: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.51.35:761][201]LogLinker: Warning: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading NULL.
-[2017.09.20-17.51.35:761][201]LogLinker: Warning: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.51.35:761][201]LogLinker: Warning: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading NULL.
-[2017.09.20-17.51.35:773][201]LogLinker: Warning: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.51.35:773][201]LoadErrors: Failed to load /Game/Maps/upgrade_BuiltData.upgrade_BuiltData Referenced by PersistentLevel
-[2017.09.20-17.51.35:773][201]LogLinker: Warning: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading NULL.
-[2017.09.20-17.51.35:785][201]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.51.35:848][201]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-17.51.35:925][201]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-17.51.35:978][201]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.066ms to complete.
-[2017.09.20-17.51.35:979][201]LogFileHelpers: Loading map 'upgrade' took 0.264
-[2017.09.20-17.52.03:443][ 36]LightingResults: New page: Lighting Build
-[2017.09.20-17.52.03:452][ 36]MapCheck: New page: Map Check
-[2017.09.20-17.52.03:452][ 36]LightingResults: New page: Lighting Build
-[2017.09.20-17.52.03:485][ 36]LogAIModule: Creating AISystem for world Untitled
-[2017.09.20-17.52.03:551][ 36]LoadErrors: New page: New Map
-[2017.09.20-17.52.03:558][ 36]LogLinker: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.52.03:558][ 36]LogLinker: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap.
-[2017.09.20-17.52.03:560][ 36]LogLinker: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.52.03:560][ 36]LogLinker: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap.
-[2017.09.20-17.52.03:572][ 36]LogLinker: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.52.03:572][ 36]LogLinker: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading NULL.
-[2017.09.20-17.52.03:572][ 36]LogLinker: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.52.03:572][ 36]LogLinker: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading NULL.
-[2017.09.20-17.52.03:583][ 36]LogLinker: Can't find file '/Game/Maps/upgrade_BuiltData'
-[2017.09.20-17.52.03:583][ 36]LogLinker: Can't find file for asset '/Game/Maps/upgrade_BuiltData' while loading NULL.
-[2017.09.20-17.52.03:596][ 36]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.52.06:848][143]LogAIModule: Creating AISystem for world Title
-[2017.09.20-17.52.26:924][294]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.52.29:836][353]LogSavePackage: Save=41.29ms
-[2017.09.20-17.52.29:836][353]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/upgrade694D0BCF4BE1C18D3A621DAA37862E98.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap'
-[2017.09.20-17.52.29:839][353]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap
-[2017.09.20-17.52.29:842][353]LogFileHelpers: Saving map 'upgrade' took 0.132
-[2017.09.20-17.52.29:844][353]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-17.52.29:844][353]LightingResults: New page: Lighting Build
-[2017.09.20-17.52.29:845][353]LoadErrors: New page: Loading map: upgrade.umap
-[2017.09.20-17.52.29:845][353]MapCheck: New page: Map Check
-[2017.09.20-17.52.29:845][353]LightingResults: New page: Lighting Build
-[2017.09.20-17.52.29:973][353]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-17.52.30:044][353]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-17.52.30:097][353]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.391ms to complete.
-[2017.09.20-17.52.30:098][353]LogFileHelpers: Loading map 'upgrade' took 0.256
-[2017.09.20-17.52.58:018][357]LogSavePackage: Save=52.62ms
-[2017.09.20-17.52.58:018][357]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/upgrade257BA9BF46387EF5243562989BD49171.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap'
-[2017.09.20-17.52.58:022][357]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/upgrade.umap
-[2017.09.20-17.52.58:071][357]LogFileHelpers: Saving map 'upgrade' took 0.266
-[2017.09.20-17.53.02:354][506]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.20-17.53.02:495][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.02:495][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-17.53.02:495][506]PIE: New page: PIE session: upgrade (Sep 20, 2017, 9:53:02 AM)
-[2017.09.20-17.53.02:496][506]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_upgrade
-[2017.09.20-17.53.02:501][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004353s)
-[2017.09.20-17.53.02:502][506]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.53.02:503][506]LogPlayLevel: PIE: World Init took: (0.001776s)
-[2017.09.20-17.53.02:503][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/upgrade.upgrade to /Game/Maps/UEDPIE_0_upgrade.upgrade (0.006618s)
-[2017.09.20-17.53.02:543][506]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.20-17.53.02:555][506]LogInit: FAudioDevice initialized.
-[2017.09.20-17.53.02:614][506]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.53.02:615][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-13.53.02
-[2017.09.20-17.53.02:616][506]LogWorld: Bringing up level for play took: 0.001109
-[2017.09.20-17.53.02:662][506]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
-[2017.09.20-17.53.02:671][506]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_upgrade 0.996
-[2017.09.20-17.53.02:671][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.05:625][611]LogNet: Browse: /Game/Maps/Shop_Map
-[2017.09.20-17.53.05:627][611]LogLoad: LoadMap: /Game/Maps/Shop_Map
-[2017.09.20-17.53.05:685][611]Cmd: MEM
-[2017.09.20-17.53.05:719][611]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-17.53.05:719][611]LogMemory: Process Physical Memory: 1582.19 MB used, 1601.46 MB peak
-[2017.09.20-17.53.05:719][611]LogMemory: Process Virtual Memory: 1504.33 MB used, 1512.51 MB peak
-[2017.09.20-17.53.05:719][611]LogMemory: Physical Memory: 6006.40 MB used,  1872.47 MB free, 7878.88 MB total
-[2017.09.20-17.53.05:719][611]LogMemory: Virtual Memory: 2261.93 MB used,  1872.47 MB free, 134217728.00 MB total
-[2017.09.20-17.53.05:719][611]LogMemory: 
-[2017.09.20-17.53.05:719][611]Allocator Stats for TBB: (not implemented)
-[2017.09.20-17.53.07:116][611]LogAIModule: Creating AISystem for world Shop_Map
-[2017.09.20-17.53.07:116][611]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.53.07:126][611]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.53.07
-[2017.09.20-17.53.07:126][611]LogWorld: Bringing up level for play took: 0.009549
-[2017.09.20-17.53.07:127][611]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.09.20-17.53.07:131][611]LogLoad: Took 1.504610 seconds to LoadMap(/Game/Maps/Shop_Map)
-[2017.09.20-17.53.10:649][754]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.10:688][754]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.15:686][945]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.20-17.53.15:741][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.15:741][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-17.53.15:742][945]PIE: New page: PIE session: upgrade (Sep 20, 2017, 9:53:15 AM)
-[2017.09.20-17.53.15:745][945]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_upgrade
-[2017.09.20-17.53.15:749][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003502s)
-[2017.09.20-17.53.15:751][945]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.53.15:751][945]LogPlayLevel: PIE: World Init took: (0.002085s)
-[2017.09.20-17.53.15:751][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/upgrade.upgrade to /Game/Maps/UEDPIE_0_upgrade.upgrade (0.006083s)
-[2017.09.20-17.53.15:802][945]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.20-17.53.15:813][945]LogInit: FAudioDevice initialized.
-[2017.09.20-17.53.15:858][945]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.53.15:859][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-13.53.15
-[2017.09.20-17.53.15:860][945]LogWorld: Bringing up level for play took: 0.001395
-[2017.09.20-17.53.15:871][945]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_upgrade 0.196
-[2017.09.20-17.53.15:871][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.17:566][  6]LogNet: Browse: /Game/Maps/Shop_Map
-[2017.09.20-17.53.17:568][  6]LogLoad: LoadMap: /Game/Maps/Shop_Map
-[2017.09.20-17.53.17:627][  6]Cmd: MEM
-[2017.09.20-17.53.17:667][  6]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-17.53.17:668][  6]LogMemory: Process Physical Memory: 1534.04 MB used, 1697.37 MB peak
-[2017.09.20-17.53.17:668][  6]LogMemory: Process Virtual Memory: 1581.70 MB used, 1618.13 MB peak
-[2017.09.20-17.53.17:668][  6]LogMemory: Physical Memory: 5959.88 MB used,  1919.00 MB free, 7878.88 MB total
-[2017.09.20-17.53.17:668][  6]LogMemory: Virtual Memory: 2337.31 MB used,  1919.00 MB free, 134217728.00 MB total
-[2017.09.20-17.53.17:668][  6]LogMemory: 
-[2017.09.20-17.53.17:668][  6]Allocator Stats for TBB: (not implemented)
-[2017.09.20-17.53.18:120][  6]LogAIModule: Creating AISystem for world Shop_Map
-[2017.09.20-17.53.18:121][  6]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.53.18:129][  6]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.53.18
-[2017.09.20-17.53.18:129][  6]LogWorld: Bringing up level for play took: 0.008126
-[2017.09.20-17.53.18:130][  6]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.09.20-17.53.18:134][  6]LogLoad: Took 0.565589 seconds to LoadMap(/Game/Maps/Shop_Map)
-[2017.09.20-17.53.34:328][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.34:429][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.35:554][687]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.20-17.53.35:606][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.35:606][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-17.53.35:606][687]PIE: New page: PIE session: upgrade (Sep 20, 2017, 9:53:35 AM)
-[2017.09.20-17.53.35:609][687]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_upgrade
-[2017.09.20-17.53.35:613][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003528s)
-[2017.09.20-17.53.35:615][687]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.53.35:615][687]LogPlayLevel: PIE: World Init took: (0.002579s)
-[2017.09.20-17.53.35:616][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/upgrade.upgrade to /Game/Maps/UEDPIE_0_upgrade.upgrade (0.006629s)
-[2017.09.20-17.53.35:668][687]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.20-17.53.35:679][687]LogInit: FAudioDevice initialized.
-[2017.09.20-17.53.35:726][687]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.53.35:727][687]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-13.53.35
-[2017.09.20-17.53.35:728][687]LogWorld: Bringing up level for play took: 0.001529
-[2017.09.20-17.53.35:736][687]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_upgrade 0.062
-[2017.09.20-17.53.35:737][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.53.39:748][848]LogNet: Browse: /Game/Maps/Shop_Map
-[2017.09.20-17.53.39:751][848]LogLoad: LoadMap: /Game/Maps/Shop_Map
-[2017.09.20-17.53.39:808][848]Cmd: MEM
-[2017.09.20-17.53.39:849][848]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-17.53.39:849][848]LogMemory: Process Physical Memory: 1561.56 MB used, 1697.37 MB peak
-[2017.09.20-17.53.39:849][848]LogMemory: Process Virtual Memory: 1610.25 MB used, 1621.49 MB peak
-[2017.09.20-17.53.39:849][848]LogMemory: Physical Memory: 5975.31 MB used,  1903.57 MB free, 7878.88 MB total
-[2017.09.20-17.53.39:849][848]LogMemory: Virtual Memory: 2360.74 MB used,  1903.57 MB free, 134217728.00 MB total
-[2017.09.20-17.53.39:849][848]LogMemory: 
-[2017.09.20-17.53.39:849][848]Allocator Stats for TBB: (not implemented)
-[2017.09.20-17.53.40:287][848]LogAIModule: Creating AISystem for world Shop_Map
-[2017.09.20-17.53.40:288][848]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.53.40:296][848]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.53.40
-[2017.09.20-17.53.40:297][848]LogWorld: Bringing up level for play took: 0.008369
-[2017.09.20-17.53.40:297][848]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.09.20-17.53.40:301][848]LogLoad: Took 0.550457 seconds to LoadMap(/Game/Maps/Shop_Map)
-[2017.09.20-17.53.59:969][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.54.00:012][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.54.56:376][407]LogSavePackage: Save=131.66ms
-[2017.09.20-17.54.56:376][407]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Upgrade_MenuA25F19174956FF6747B65A84A33FD2A9.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset'
-[2017.09.20-17.54.56:380][407]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset
-[2017.09.20-17.54.57:000][425]BlueprintLog: New page: Compile Upgrade_Menu
-[2017.09.20-17.54.57:947][443]LogSavePackage: Save=143.62ms
-[2017.09.20-17.54.57:947][443]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Upgrade_MenuBAC27E1B4AFCF65B5AE8D492B57F86C8.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset'
-[2017.09.20-17.54.57:948][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Upgrade_Menu.uasset
-[2017.09.20-17.55.00:039][515]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.09.20-17.55.00:096][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.55.00:096][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-17.55.00:096][515]PIE: New page: PIE session: upgrade (Sep 20, 2017, 9:55:00 AM)
-[2017.09.20-17.55.00:100][515]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_upgrade
-[2017.09.20-17.55.00:105][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004922s)
-[2017.09.20-17.55.00:106][515]LogAIModule: Creating AISystem for world upgrade
-[2017.09.20-17.55.00:107][515]LogPlayLevel: PIE: World Init took: (0.001499s)
-[2017.09.20-17.55.00:107][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/upgrade.upgrade to /Game/Maps/UEDPIE_0_upgrade.upgrade (0.007043s)
-[2017.09.20-17.55.00:152][515]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.20-17.55.00:163][515]LogInit: FAudioDevice initialized.
-[2017.09.20-17.55.00:214][515]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.55.00:215][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-13.55.00
-[2017.09.20-17.55.00:215][515]LogWorld: Bringing up level for play took: 0.000988
-[2017.09.20-17.55.00:224][515]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_upgrade 0.549
-[2017.09.20-17.55.00:225][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.55.02:034][582]LogNet: Browse: /Game/Maps/newspaper
-[2017.09.20-17.55.02:035][582]LogLoad: LoadMap: /Game/Maps/newspaper
-[2017.09.20-17.55.02:088][582]Cmd: MEM
-[2017.09.20-17.55.02:121][582]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-17.55.02:121][582]LogMemory: Process Physical Memory: 1545.84 MB used, 1697.37 MB peak
-[2017.09.20-17.55.02:121][582]LogMemory: Process Virtual Memory: 1605.56 MB used, 1638.48 MB peak
-[2017.09.20-17.55.02:121][582]LogMemory: Physical Memory: 5961.32 MB used,  1917.56 MB free, 7878.88 MB total
-[2017.09.20-17.55.02:121][582]LogMemory: Virtual Memory: 2355.43 MB used,  1917.56 MB free, 134217728.00 MB total
-[2017.09.20-17.55.02:121][582]LogMemory: 
-[2017.09.20-17.55.02:121][582]Allocator Stats for TBB: (not implemented)
-[2017.09.20-17.55.02:281][582]LogAIModule: Creating AISystem for world newspaper
-[2017.09.20-17.55.02:281][582]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.55.02:285][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newspaper.newspaper up for play (max tick rate 60) at 2017.09.20-13.55.02
-[2017.09.20-17.55.02:285][582]LogWorld: Bringing up level for play took: 0.002829
-[2017.09.20-17.55.02:285][582]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.09.20-17.55.02:286][582]LogLoad: Took 0.250347 seconds to LoadMap(/Game/Maps/newspaper)
-[2017.09.20-17.55.04:962][688]LogNet: Browse: /Game/Maps/Shop_Map
-[2017.09.20-17.55.04:963][688]LogLoad: LoadMap: /Game/Maps/Shop_Map
-[2017.09.20-17.55.05:016][688]Cmd: MEM
-[2017.09.20-17.55.05:054][688]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-17.55.05:054][688]LogMemory: Process Physical Memory: 1560.84 MB used, 1697.37 MB peak
-[2017.09.20-17.55.05:054][688]LogMemory: Process Virtual Memory: 1609.57 MB used, 1638.48 MB peak
-[2017.09.20-17.55.05:054][688]LogMemory: Physical Memory: 5980.69 MB used,  1898.19 MB free, 7878.88 MB total
-[2017.09.20-17.55.05:054][688]LogMemory: Virtual Memory: 2359.93 MB used,  1898.19 MB free, 134217728.00 MB total
-[2017.09.20-17.55.05:054][688]LogMemory: 
-[2017.09.20-17.55.05:054][688]Allocator Stats for TBB: (not implemented)
-[2017.09.20-17.55.05:508][688]LogAIModule: Creating AISystem for world Shop_Map
-[2017.09.20-17.55.05:509][688]LogLoad: Game class is 'Shop_GameMode_C'
-[2017.09.20-17.55.05:518][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-13.55.05
-[2017.09.20-17.55.05:518][688]LogWorld: Bringing up level for play took: 0.009131
-[2017.09.20-17.55.05:519][688]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.09.20-17.55.05:523][688]LogLoad: Took 0.559965 seconds to LoadMap(/Game/Maps/Shop_Map)
-[2017.09.20-17.55.13:637][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
-[2017.09.20-17.55.13:679][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/upgrade.upgrade:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade' with GeneratedClass '/Game/Maps/upgrade.upgrade_C' with ClassGeneratedBy '/Game/Maps/upgrade.upgrade:PersistentLevel.upgrade'
+[2017.09.20-17.58.18:926][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-17.58.18:926][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.20-17.58.18:938][  0]LogInit: Computer: HUANGE2T440S
+[2017.09.20-17.58.18:938][  0]LogInit: User: huange2
+[2017.09.20-17.58.18:938][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.20-17.58.18:938][  0]LogInit: High frequency timer resolution =2.630627 MHz
+[2017.09.20-17.58.18:938][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2017.09.20-17.58.18:938][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-17.58.18:938][  0]LogMemory: Process Physical Memory: 276.93 MB used, 276.93 MB peak
+[2017.09.20-17.58.18:938][  0]LogMemory: Process Virtual Memory: 275.95 MB used, 275.95 MB peak
+[2017.09.20-17.58.18:938][  0]LogMemory: Physical Memory: 4958.96 MB used,  2919.91 MB free, 7878.88 MB total
+[2017.09.20-17.58.18:938][  0]LogMemory: Virtual Memory: 646.30 MB used,  2919.91 MB free, 134217728.00 MB total
+[2017.09.20-17.58.19:070][  0]LogInit: Using OS detected language (en-US).
+[2017.09.20-17.58.19:070][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.20-17.58.19:073][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.20-17.58.19:858][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.20-17.58.19:865][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.09.20-17.58.19:865][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.09.20-17.58.19:867][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.20-17.58.19:867][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.20-17.58.19:867][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.20-17.58.19:874][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.20-17.58.19:874][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.20-17.58.19:874][  0]LogWindows: EnumDisplayDevices:
+[2017.09.20-17.58.19:874][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.09.20-17.58.19:874][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.09.20-17.58.19:874][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.09.20-17.58.19:874][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.09.20-17.58.19:874][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.09.20-17.58.19:874][  0]LogD3D11RHI:   Driver Version: 10.18.14.4170 (internal:10.18.14.4170, unified:10.18.14.4170)
+[2017.09.20-17.58.19:874][  0]LogD3D11RHI:      Driver Date: 3-16-2015
+[2017.09.20-17.58.19:874][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2017.09.20-17.58.19:881][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.20-17.58.19:889][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.09.20-17.58.19:890][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Intermediate/Shaders/WorkingDirectory/3744/).
+[2017.09.20-17.58.19:890][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/huange2/AppData/Local/Temp/UnrealShaderWorkingDir/0E896A7B4F192F156BFAA9BB07084515/'.
+[2017.09.20-17.58.19:890][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.20-17.58.20:851][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.20-17.58.20:895][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.20-17.58.20:940][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.20-17.58.20:983][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.20-17.58.21:028][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.20-17.58.21:072][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.20-17.58.21:118][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.20-17.58.21:164][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.20-17.58.21:200][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.20-17.58.21:243][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.20-17.58.21:287][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.20-17.58.21:330][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.20-17.58.21:374][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.20-17.58.21:417][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.20-17.58.21:460][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.20-17.58.21:546][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.20-17.58.21:546][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.20-17.58.21:577][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.20-17.58.21:658][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.20-17.58.21:686][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.20-17.58.21:728][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.20-17.58.21:770][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.20-17.58.21:813][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.20-17.58.21:856][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.20-17.58.21:856][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.20-17.58.22:260][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.20-17.58.22:365][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/huange2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.20-17.58.22:366][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/huange2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.20-17.58.22:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.20-17.58.22:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.20-17.58.22:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.20-17.58.22:366][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.20-17.58.22:385][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.20-17.58.22:397][  0]LogDerivedDataCache: Using Local data cache path C:/Users/huange2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.20-17.58.22:410][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.20-17.58.22:410][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.20-17.58.22:411][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-17.58.22:411][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-17.58.22:689][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.09.20-17.58.22:819][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-17.58.23:013][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.20-17.58.23:274][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.20-17.58.23:305][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.20-17.58.23:305][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.20-17.58.23:305][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.20-17.58.23:305][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.20-17.58.23:305][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.20-17.58.23:709][  0]LogNetVersion: PandaMeals_project , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2743602601)
+[2017.09.20-17.58.23:939][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.050254 seconds
+[2017.09.20-17.58.23:946][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.20-17.58.23:946][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.20-17.58.23:946][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.20-17.58.23:997][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.20-17.58.26:350][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.20-17.58.26:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.20-17.58.26:912][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.20-17.58.27:259][  0]SourceControl: Source control is disabled
+[2017.09.20-17.58.27:259][  0]SourceControl: Source control is disabled
+[2017.09.20-17.58.27:297][  0]SourceControl: Source control is disabled
+[2017.09.20-17.58.27:335][  0]SourceControl: Source control is disabled
+[2017.09.20-17.58.27:799][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.20-17.58.27:991][  0]LogOcInput: OculusInput pre-init called
+[2017.09.20-17.58.28:208][  0]LogEngine: Initializing Engine...
+[2017.09.20-17.58.28:210][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.20-17.58.28:452][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.20-17.58.28:452][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.20-17.58.28:573][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.20-17.58.28:578][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-17.58.28:598][  0]LogInit: FAudioDevice initialized.
+[2017.09.20-17.58.28:689][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/huange2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.20-17.58.28:708][  0]LogInit: Texture streaming: Enabled
+[2017.09.20-17.58.28:805][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.20-17.58.28:982][  0]LogInit: Transaction tracking system initialized
+[2017.09.20-17.58.29:229][  0]BlueprintLog: New page: Editor Load
+[2017.09.20-17.58.29:946][  0]LocalizationService: Localization service is disabled
+[2017.09.20-17.58.30:857][  0]LogConsoleResponse: Display: 
+[2017.09.20-17.58.31:050][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.20-17.58.31:050][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.20-17.58.31:050][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.20-17.58.31:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/' took 0.01s
+[2017.09.20-17.58.31:901][  0]SourceControl: Source control is disabled
+[2017.09.20-17.58.31:901][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-17.58.31:902][  0]LightingResults: New page: Lighting Build
+[2017.09.20-17.58.31:934][  0]MapCheck: New page: Map Check
+[2017.09.20-17.58.31:935][  0]LightingResults: New page: Lighting Build
+[2017.09.20-17.58.32:090][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.20-17.58.32:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-17.58.32:117][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-17.58.32:160][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.554ms to complete.
+[2017.09.20-17.58.32:160][  0]LogFileHelpers: Loading map 'Template_Default' took 0.259
+[2017.09.20-17.58.32:302][  0]LogCollectionManager: Loaded 0 collections in 0.001344 seconds
+[2017.09.20-17.58.32:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' took 0.01s
+[2017.09.20-17.58.32:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Developers/huange2/Collections/' took 0.01s
+[2017.09.20-17.58.32:411][  0]LogFileCache: Scanning file cache for directory 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Collections/' took 0.01s
+[2017.09.20-17.58.32:411][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.20-17.58.32:421][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2386 classes and 500 folders.
+[2017.09.20-17.58.32:473][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.20-17.58.32:507][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.20-17.58.32:543][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.20-17.58.32:610][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.20-17.58.32:612][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.20-17.58.32:618][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.20-17.58.32:721][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 9 NumSamples 1 (Frame:1).
+[2017.09.20-17.58.33:159][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.20-17.58.33:159][  0]LogLoad: (Engine Initialization) Total time: 15.74 seconds
+[2017.09.20-17.58.33:159][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.20-17.58.33:160][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.20-17.58.33:160][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.20-17.58.33:195][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.09.20-17.58.33:216][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-17.58.33:239][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.20-17.58.33:259][  1]LogAssetRegistry: Asset discovery search completed in 10.5917 seconds
+[2017.09.20-17.58.33:261][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2017.09.20-17.58.34:223][ 33]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-17.58.52:786][716]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-17.58.53:047][716]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-17.58.53:082][716]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-17.58.53:082][716]LightingResults: New page: Lighting Build
+[2017.09.20-17.58.53:083][716]LoadErrors: New page: Loading map: Welp.umap
+[2017.09.20-17.58.53:083][716]MapCheck: New page: Map Check
+[2017.09.20-17.58.53:083][716]LightingResults: New page: Lighting Build
+[2017.09.20-17.58.53:159][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-17.58.53:222][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-17.58.53:274][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.453ms to complete.
+[2017.09.20-17.58.53:275][716]LogFileHelpers: Loading map 'Welp' took 0.194
+[2017.09.20-17.58.57:588][888]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.09.20-17.58.58:296][888]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.20-17.58.58:482][889]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.20-17.59.31:230][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Whelp" FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp.uasset" SILENT=true
+[2017.09.20-17.59.31:332][969]LogSavePackage: Save=47.14ms
+[2017.09.20-17.59.31:332][969]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Whelp58608F2D4845D149E8861999B8DEAF83.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp.uasset'
+[2017.09.20-17.59.31:341][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp.uasset
+[2017.09.20-17.59.48:862][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Whelp2" FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp2.uasset" SILENT=true
+[2017.09.20-17.59.48:953][489]LogSavePackage: Save=44.89ms
+[2017.09.20-17.59.48:953][489]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Whelp248CB4E094C8AE2ACFCB04B8CD8F7F751.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp2.uasset'
+[2017.09.20-17.59.48:958][489]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp2.uasset
+[2017.09.20-18.00.02:381][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Whelp3" FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp3.uasset" SILENT=true
+[2017.09.20-18.00.02:503][875]LogSavePackage: Save=64.63ms
+[2017.09.20-18.00.02:503][875]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Whelp3DC7E42044CD8070D04B57E9B52142124.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp3.uasset'
+[2017.09.20-18.00.02:508][875]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp3.uasset
+[2017.09.20-18.00.13:715][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Whelp4" FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp4.uasset" SILENT=true
+[2017.09.20-18.00.13:806][182]LogSavePackage: Save=43.74ms
+[2017.09.20-18.00.13:806][182]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Whelp4A3F3BC644B36B0700C11A198BCA912B8.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp4.uasset'
+[2017.09.20-18.00.13:811][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp4.uasset
+[2017.09.20-18.00.22:993][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Whelp5" FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp5.uasset" SILENT=true
+[2017.09.20-18.00.23:082][439]LogSavePackage: Save=41.45ms
+[2017.09.20-18.00.23:082][439]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Whelp5FE2A829548BC8BBFED414CB9ED78BD7F.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp5.uasset'
+[2017.09.20-18.00.23:086][439]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Whelp5.uasset
+[2017.09.20-18.00.28:372][577]Cmd: MAP LOAD FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-18.00.28:373][577]LightingResults: New page: Lighting Build
+[2017.09.20-18.00.28:374][577]LoadErrors: New page: Loading map: Welp.umap
+[2017.09.20-18.00.28:448][577]MapCheck: New page: Map Check
+[2017.09.20-18.00.28:448][577]LightingResults: New page: Lighting Build
+[2017.09.20-18.00.28:566][577]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-18.00.28:637][577]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-18.00.28:709][577]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-18.00.28:764][577]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.354ms to complete.
+[2017.09.20-18.00.28:765][577]LogFileHelpers: Loading map 'Welp' took 0.394
+[2017.09.20-18.00.30:879][642]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-18.00.31:015][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Welp.Welp:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Welp.Welp:PersistentLevel.Welp' with GeneratedClass '/Game/Maps/Welp.Welp_C' with ClassGeneratedBy '/Game/Maps/Welp.Welp:PersistentLevel.Welp'
+[2017.09.20-18.00.31:015][642]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.20-18.00.31:020][642]LogPlayLevel: [PlayLevel] Compiling Welp before play...
+[2017.09.20-18.00.31:039][642]LogPlayLevel: [PlayLevel]   Compiling Whelp as a dependent...
+[2017.09.20-18.00.31:155][642]LogPlayLevel: [PlayLevel] Compiling Welp before play...
+[2017.09.20-18.00.31:167][642]LogPlayLevel: [PlayLevel]   Compiling Whelp2 as a dependent...
+[2017.09.20-18.00.31:265][642]LogPlayLevel: [PlayLevel] Compiling Welp before play...
+[2017.09.20-18.00.31:277][642]LogPlayLevel: [PlayLevel]   Compiling Whelp3 as a dependent...
+[2017.09.20-18.00.31:375][642]LogPlayLevel: [PlayLevel] Compiling Welp before play...
+[2017.09.20-18.00.31:387][642]LogPlayLevel: [PlayLevel]   Compiling Whelp4 as a dependent...
+[2017.09.20-18.00.31:483][642]LogPlayLevel: [PlayLevel] Compiling Welp before play...
+[2017.09.20-18.00.31:494][642]LogPlayLevel: [PlayLevel]   Compiling Whelp5 as a dependent...
+[2017.09.20-18.00.31:615][642]LogPlayLevel: PlayLevel: Blueprint regeneration took 600 ms (10 blueprints)
+[2017.09.20-18.00.31:616][642]PIE: New page: PIE session: Welp (Sep 20, 2017, 10:00:31 AM)
+[2017.09.20-18.00.31:617][642]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Welp
+[2017.09.20-18.00.31:620][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003136s)
+[2017.09.20-18.00.31:623][642]LogAIModule: Creating AISystem for world Welp
+[2017.09.20-18.00.31:623][642]LogPlayLevel: PIE: World Init took: (0.002895s)
+[2017.09.20-18.00.31:623][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Welp.Welp to /Game/Maps/UEDPIE_0_Welp.Welp (0.006314s)
+[2017.09.20-18.00.31:647][642]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-18.00.31:657][642]LogInit: FAudioDevice initialized.
+[2017.09.20-18.00.31:715][642]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.00.31:717][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Welp.Welp up for play (max tick rate 60) at 2017.09.20-14.00.31
+[2017.09.20-18.00.31:717][642]LogWorld: Bringing up level for play took: 0.001228
+[2017.09.20-18.00.31:755][642]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.20-18.00.31:762][642]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Welp 0.088
+[2017.09.20-18.00.31:763][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Welp.Welp:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Welp.Welp:PersistentLevel.Welp' with GeneratedClass '/Game/Maps/Welp.Welp_C' with ClassGeneratedBy '/Game/Maps/Welp.Welp:PersistentLevel.Welp'
+[2017.09.20-18.00.34:324][734]LogNet: Browse: /Game/Maps/upgrade
+[2017.09.20-18.00.34:325][734]LogLoad: LoadMap: /Game/Maps/upgrade
+[2017.09.20-18.00.34:378][734]Cmd: MEM
+[2017.09.20-18.00.34:416][734]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.00.34:416][734]LogMemory: Process Physical Memory: 1363.41 MB used, 1376.86 MB peak
+[2017.09.20-18.00.34:416][734]LogMemory: Process Virtual Memory: 1283.23 MB used, 1290.04 MB peak
+[2017.09.20-18.00.34:416][734]LogMemory: Physical Memory: 5529.85 MB used,  2349.02 MB free, 7878.88 MB total
+[2017.09.20-18.00.34:416][734]LogMemory: Virtual Memory: 2042.32 MB used,  2349.02 MB free, 134217728.00 MB total
+[2017.09.20-18.00.34:416][734]LogMemory: 
+[2017.09.20-18.00.34:416][734]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.00.34:996][734]LogAIModule: Creating AISystem for world upgrade
+[2017.09.20-18.00.34:997][734]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.00.35:000][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_upgrade.upgrade up for play (max tick rate 60) at 2017.09.20-14.00.35
+[2017.09.20-18.00.35:000][734]LogWorld: Bringing up level for play took: 0.002701
+[2017.09.20-18.00.35:000][734]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.00.35:009][734]LogLoad: Took 0.684197 seconds to LoadMap(/Game/Maps/upgrade)
+[2017.09.20-18.00.36:984][811]LogNet: Browse: /Game/Maps/newspaper
+[2017.09.20-18.00.36:985][811]LogLoad: LoadMap: /Game/Maps/newspaper
+[2017.09.20-18.00.37:040][811]Cmd: MEM
+[2017.09.20-18.00.37:073][811]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.00.37:073][811]LogMemory: Process Physical Memory: 1476.13 MB used, 1496.22 MB peak
+[2017.09.20-18.00.37:073][811]LogMemory: Process Virtual Memory: 1396.38 MB used, 1419.70 MB peak
+[2017.09.20-18.00.37:073][811]LogMemory: Physical Memory: 5598.86 MB used,  2280.01 MB free, 7878.88 MB total
+[2017.09.20-18.00.37:073][811]LogMemory: Virtual Memory: 2151.31 MB used,  2280.01 MB free, 134217728.00 MB total
+[2017.09.20-18.00.37:073][811]LogMemory: 
+[2017.09.20-18.00.37:073][811]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.00.37:208][811]LogAIModule: Creating AISystem for world newspaper
+[2017.09.20-18.00.37:208][811]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.00.37:211][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newspaper.newspaper up for play (max tick rate 60) at 2017.09.20-14.00.37
+[2017.09.20-18.00.37:211][811]LogWorld: Bringing up level for play took: 0.002410
+[2017.09.20-18.00.37:211][811]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.00.37:212][811]LogLoad: Took 0.227613 seconds to LoadMap(/Game/Maps/newspaper)
+[2017.09.20-18.00.41:775][986]LogNet: Browse: /Game/Maps/Shop_Map
+[2017.09.20-18.00.41:776][986]LogLoad: LoadMap: /Game/Maps/Shop_Map
+[2017.09.20-18.00.41:828][986]Cmd: MEM
+[2017.09.20-18.00.41:866][986]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-18.00.41:866][986]LogMemory: Process Physical Memory: 1484.93 MB used, 1512.27 MB peak
+[2017.09.20-18.00.41:866][986]LogMemory: Process Virtual Memory: 1406.78 MB used, 1420.58 MB peak
+[2017.09.20-18.00.41:866][986]LogMemory: Physical Memory: 5616.43 MB used,  2262.45 MB free, 7878.88 MB total
+[2017.09.20-18.00.41:866][986]LogMemory: Virtual Memory: 2161.68 MB used,  2262.45 MB free, 134217728.00 MB total
+[2017.09.20-18.00.41:866][986]LogMemory: 
+[2017.09.20-18.00.41:866][986]Allocator Stats for TBB: (not implemented)
+[2017.09.20-18.00.43:192][986]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-18.00.43:192][986]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-18.00.43:202][986]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-14.00.43
+[2017.09.20-18.00.43:202][986]LogWorld: Bringing up level for play took: 0.009373
+[2017.09.20-18.00.43:203][986]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-18.00.43:207][986]LogLoad: Took 1.431572 seconds to LoadMap(/Game/Maps/Shop_Map)
+[2017.09.20-18.00.47:527][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Welp.Welp:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Welp.Welp:PersistentLevel.Welp' with GeneratedClass '/Game/Maps/Welp.Welp_C' with ClassGeneratedBy '/Game/Maps/Welp.Welp:PersistentLevel.Welp'
+[2017.09.20-18.00.47:568][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Welp.Welp:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Welp.Welp:PersistentLevel.Welp' with GeneratedClass '/Game/Maps/Welp.Welp_C' with ClassGeneratedBy '/Game/Maps/Welp.Welp:PersistentLevel.Welp'
+[2017.09.20-18.00.53:671][347]LogSavePackage: Save=148.45ms
+[2017.09.20-18.00.53:671][347]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Welp953899FD427CD592E34ED6A8FBB81343.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap'
+[2017.09.20-18.00.53:673][347]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp.umap
+[2017.09.20-18.00.53:721][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Welp_BuiltData" FILE="../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp_BuiltData.uasset" SILENT=true
+[2017.09.20-18.00.53:751][347]LogSavePackage: Save=10.79ms
+[2017.09.20-18.00.53:751][347]LogSavePackage: Moving '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Welp_BuiltDataCDBD028848D707E3EC48A988115612A4.tmp' to '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp_BuiltData.uasset'
+[2017.09.20-18.00.53:752][347]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Maps/Welp_BuiltData.uasset
+[2017.09.20-18.00.57:213][450]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.20-18.00.57:419][451]Cmd: QUIT_EDITOR
+[2017.09.20-18.00.57:673][451]LogExit: Preparing to exit.
+[2017.09.20-18.00.58:556][451]LogDirectoryWatcher: A directory notification for 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/' was aborted.
+[2017.09.20-18.00.58:607][451]LogExit: Editor shut down
+[2017.09.20-18.00.58:614][451]LogExit: Transaction tracking system shut down
+[2017.09.20-18.00.58:869][451]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.20-18.00.58:869][451]LogDirectoryWatcher: A directory notification for '../../../../../../Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/' was aborted.
+[2017.09.20-18.00.58:870][451]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.20-18.00.58:870][451]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.20-18.00.58:870][451]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.20-18.00.58:975][451]LogExit: Object subsystem successfully closed.
+[2017.09.20-18.00.58:996][451]LogD3D11RHI: Shutdown
+[2017.09.20-18.00.58:996][451]LogD3D11RHI: CleanupD3DDevice
+[2017.09.20-18.00.59:063][451]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.20-18.00.59:078][451]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.20-18.00.59:078][451]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.20-18.00.59:085][451]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.20-18.00.59:085][451]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.20-18.00.59:085][451]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.20-18.00.59:085][451]LogDirectoryWatcher: A directory notification for 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Collections/' was aborted.
+[2017.09.20-18.00.59:085][451]LogDirectoryWatcher: A directory notification for 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Content/Developers/huange2/Collections/' was aborted.
+[2017.09.20-18.00.59:086][451]LogDirectoryWatcher: A directory notification for 'C:/Users/huange2/Documents/GitHub/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' was aborted.
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.20-18.00.59:086][451]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.20-18.00.59:087][451]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.20-18.00.59:087][451]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.20-18.00.59:087][451]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.20-18.00.59:087][451]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.20-18.00.59:087][451]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.20-18.00.59:087][451]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.20-18.00.59:346][451]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.20-18.00.59:347][451]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.20-18.00.59:392][451]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.20-18.00.59:400][451]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.20-18.00.59:400][451]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.20-18.00.59:401][451]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.20-18.00.59:549][451]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.20-18.00.59:550][451]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.20-18.00.59:551][451]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.20-18.00.59:551][451]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.20-18.00.59:551][451]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.20-18.00.59:552][451]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.20-18.00.59:653][451]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.20-18.00.59:754][451]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.20-18.00.59:754][451]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.20-18.00.59:754][451]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.20-18.00.59:754][451]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.20-18.00.59:754][451]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.20-18.00.59:754][451]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.20-18.00.59:755][451]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.20-18.00.59:756][451]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.20-18.00.59:756][451]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.20-18.00.59:756][451]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.20-18.00.59:756][451]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.20-18.00.59:758][451]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.20-18.00.59:759][451]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.20-18.00.59:835][451]LogDerivedDataCache: Shutdown
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.20-18.00.59:835][451]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.20-18.00.59:836][451]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.20-18.00.59:836][451]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.20-18.00.59:836][451]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.20-18.00.59:836][451]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5507388C-42B6-1617-F8D5-E89F6545123F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=be1a7af1464861f6ddba04bee415b276%7C463913afb23b41a5a14be09da1d89350%7C0a229e6a-4a7f-4b2c-81af-6b756c59cc22&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.20-18.00.59:850][451]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.20-18.00.59:852][451]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.20-18.00.59:853][451]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.20-18.00.59:854][451]LogExit: Exiting.
+[2017.09.20-18.00.59:884][451]Log file closed, 09/20/17 14:00:59
