@@ -1,0 +1,901 @@
+﻿Log file open, 09/19/17 23:13:03
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PandaMeals_project
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2135941639) SRandInit(2135941639).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.209305
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.20-03.13.04:820][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-03.13.04:820][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.20-03.13.04:840][  0]LogInit: Computer: DESKTOP-G1FM37K
+[2017.09.20-03.13.04:840][  0]LogInit: User: JonathanOates
+[2017.09.20-03.13.04:840][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.20-03.13.04:840][  0]LogInit: High frequency timer resolution =4.311344 MHz
+[2017.09.20-03.13.04:840][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.09.20-03.13.04:840][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-03.13.04:840][  0]LogMemory: Process Physical Memory: 280.92 MB used, 280.92 MB peak
+[2017.09.20-03.13.04:841][  0]LogMemory: Process Virtual Memory: 282.65 MB used, 282.65 MB peak
+[2017.09.20-03.13.04:841][  0]LogMemory: Physical Memory: 6178.82 MB used,  26485.78 MB free, 32664.60 MB total
+[2017.09.20-03.13.04:841][  0]LogMemory: Virtual Memory: 663.02 MB used,  26485.78 MB free, 134217728.00 MB total
+[2017.09.20-03.13.05:221][  0]LogInit: Using OS detected language (en-US).
+[2017.09.20-03.13.05:221][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.20-03.13.05:227][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.20-03.13.06:189][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.20-03.13.06:224][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.09.20-03.13.06:224][  0]LogD3D11RHI:       8144/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.20-03.13.06:226][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.20-03.13.06:226][  0]LogD3D11RHI:       0/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.20-03.13.06:226][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.20-03.13.06:249][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.20-03.13.06:249][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.20-03.13.06:249][  0]LogWindows: EnumDisplayDevices:
+[2017.09.20-03.13.06:249][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.09.20-03.13.06:249][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.09.20-03.13.06:250][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.20-03.13.06:250][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.20-03.13.06:250][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.20-03.13.06:250][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.09.20-03.13.06:250][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.09.20-03.13.06:250][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.09.20-03.13.06:250][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.20-03.13.06:273][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.20-03.13.06:285][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.20-03.13.06:386][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Intermediate/Shaders/WorkingDirectory/53532/).
+[2017.09.20-03.13.06:387][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/E62AD831446DC6A5B46D83A6C38C2996/'.
+[2017.09.20-03.13.06:387][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.20-03.13.07:935][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.20-03.13.08:063][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.20-03.13.08:181][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.20-03.13.08:300][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.20-03.13.08:420][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.20-03.13.08:534][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.20-03.13.08:645][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.20-03.13.08:761][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.20-03.13.08:872][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.20-03.13.08:986][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.20-03.13.09:111][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.20-03.13.09:234][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.20-03.13.09:349][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.20-03.13.09:461][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.20-03.13.09:573][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.20-03.13.09:827][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.20-03.13.09:827][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.20-03.13.09:950][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.20-03.13.10:166][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.20-03.13.10:228][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.20-03.13.10:359][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.20-03.13.10:471][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.20-03.13.10:599][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.20-03.13.10:714][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.20-03.13.10:714][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.20-03.13.11:839][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.20-03.13.11:984][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.20-03.13.11:984][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.20-03.13.11:984][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.20-03.13.11:984][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.20-03.13.11:984][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.20-03.13.11:984][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.20-03.13.12:008][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.20-03.13.12:021][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.20-03.13.12:035][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.20-03.13.12:036][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.20-03.13.12:037][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-03.13.12:037][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-03.13.12:467][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2017.09.20-03.13.12:729][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-03.13.13:592][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.20-03.13.13:729][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.20-03.13.13:729][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.20-03.13.13:729][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.20-03.13.13:729][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.20-03.13.13:729][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.20-03.13.13:731][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.20-03.13.14:428][  0]LogNetVersion: PandaMeals_project , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2743602601)
+[2017.09.20-03.13.14:881][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.130580 seconds
+[2017.09.20-03.13.14:892][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.20-03.13.14:892][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.20-03.13.14:892][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.20-03.13.15:071][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.20-03.13.20:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.20-03.13.20:622][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.20-03.13.22:045][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.20-03.13.22:939][  0]SourceControl: Source control is disabled
+[2017.09.20-03.13.22:939][  0]SourceControl: Source control is disabled
+[2017.09.20-03.13.23:077][  0]SourceControl: Source control is disabled
+[2017.09.20-03.13.23:199][  0]SourceControl: Source control is disabled
+[2017.09.20-03.13.24:566][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.20-03.13.25:196][  0]LogOcInput: OculusInput pre-init called
+[2017.09.20-03.13.25:768][  0]LogEngine: Initializing Engine...
+[2017.09.20-03.13.25:818][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.09.20-03.13.26:145][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.20-03.13.26:145][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.20-03.13.26:516][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.20-03.13.26:587][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.13.26:616][  0]LogInit: FAudioDevice initialized.
+[2017.09.20-03.13.26:780][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.20-03.13.26:806][  0]LogInit: Texture streaming: Enabled
+[2017.09.20-03.13.27:082][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.20-03.13.27:082][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={0FD45B17-47D2-1677-6E3B-B59DF55B3CF8}
+[2017.09.20-03.13.27:628][  0]LogInit: Transaction tracking system initialized
+[2017.09.20-03.13.28:381][  0]BlueprintLog: New page: Editor Load
+[2017.09.20-03.13.30:552][  0]LocalizationService: Localization service is disabled
+[2017.09.20-03.13.32:184][  0]LogConsoleResponse: Display: 
+[2017.09.20-03.13.32:491][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.20-03.13.32:491][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.20-03.13.32:491][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.20-03.13.33:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/' took 0.02s
+[2017.09.20-03.13.35:106][  0]SourceControl: Source control is disabled
+[2017.09.20-03.13.35:106][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-03.13.35:107][  0]LightingResults: New page: Lighting Build
+[2017.09.20-03.13.35:224][  0]MapCheck: New page: Map Check
+[2017.09.20-03.13.35:224][  0]LightingResults: New page: Lighting Build
+[2017.09.20-03.13.35:519][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.20-03.13.35:527][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-03.13.35:570][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-03.13.35:732][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 160.958ms to complete.
+[2017.09.20-03.13.35:732][  0]LogFileHelpers: Loading map 'Template_Default' took 0.625
+[2017.09.20-03.13.35:839][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.20-03.13.35:839][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.20-03.13.35:983][  0]LogCollectionManager: Loaded 0 collections in 0.003088 seconds
+[2017.09.20-03.13.36:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Collections/' took 0.01s
+[2017.09.20-03.13.36:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Developers/JonathanOates/Collections/' took 0.01s
+[2017.09.20-03.13.36:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Collections/' took 0.01s
+[2017.09.20-03.13.36:151][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.20-03.13.36:165][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2386 classes and 500 folders.
+[2017.09.20-03.13.36:329][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.20-03.13.36:418][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.20-03.13.36:532][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.20-03.13.36:624][  0]LogSlate: Took 0.001622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.20-03.13.36:629][  0]LogSlate: Took 0.000771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.20-03.13.36:641][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.20-03.13.36:780][  0]LogRenderer: Reallocating scene render targets to support 1152x652 Format 10 NumSamples 1 (Frame:1).
+[2017.09.20-03.13.37:042][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.20-03.13.37:042][  0]LogLoad: (Engine Initialization) Total time: 35.45 seconds
+[2017.09.20-03.13.37:042][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.20-03.13.37:042][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.20-03.13.37:043][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.20-03.13.37:075][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.20-03.13.37:148][  1]LogAssetRegistry: Asset discovery search completed in 24.7033 seconds
+[2017.09.20-03.13.37:150][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.20-03.13.37:150][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.09.20-03.13.38:121][106]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-03.13.39:922][272]LogSlate: Took 0.000500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-03.13.41:544][419]LogSlate: Took 0.000417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-03.13.42:484][419]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.13.42:558][419]Cmd: MAP LOAD FILE="../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-03.13.42:558][419]LightingResults: New page: Lighting Build
+[2017.09.20-03.13.42:559][419]LoadErrors: New page: Loading map: Shop_Map.umap
+[2017.09.20-03.13.42:560][419]MapCheck: New page: Map Check
+[2017.09.20-03.13.42:560][419]LightingResults: New page: Lighting Build
+[2017.09.20-03.13.42:678][419]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-03.13.42:748][419]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-03.13.42:997][419]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 249.681ms to complete.
+[2017.09.20-03.13.42:998][419]LogFileHelpers: Loading map 'Shop_Map' took 0.442
+[2017.09.20-03.13.45:399][667]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-03.13.45:450][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.13.45:450][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-03.13.45:451][667]PIE: New page: PIE session: Shop_Map (Sep 19, 2017, 7:13:45 PM)
+[2017.09.20-03.13.45:451][667]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-03.13.45:455][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004379s)
+[2017.09.20-03.13.45:456][667]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.13.45:457][667]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2017.09.20-03.13.45:457][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005883s)
+[2017.09.20-03.13.45:546][667]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.13.45:562][667]LogInit: FAudioDevice initialized.
+[2017.09.20-03.13.45:671][667]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-03.13.45:674][667]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.19-23.13.45
+[2017.09.20-03.13.45:675][667]LogWorld: Bringing up level for play took: 0.001791
+[2017.09.20-03.13.45:775][667]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.09.20-03.13.45:779][667]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_0
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0022
+[2017.09.20-03.13.45:779][667]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.13.45:779][667]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_1
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0022
+[2017.09.20-03.13.45:779][667]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.13.45:780][667]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_2
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0022
+[2017.09.20-03.13.45:780][667]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.13.45:780][667]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_3
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0022
+[2017.09.20-03.13.45:780][667]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.13.45:781][667]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_4
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0022
+[2017.09.20-03.13.45:781][667]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.13.45:789][667]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map -0.111
+[2017.09.20-03.13.45:790][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.13.45:833][667]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.09.20-03.13.47:441][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.13.47:500][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.13.53:873][385]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.09.20-03.13.54:878][385]LogSlate: Took 0.000594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.20-03.13.55:158][386]LogSlate: Took 0.001024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.20-03.15.21:985][999]BlueprintLog: New page: Compile PetriDish
+[2017.09.20-03.15.25:941][314]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-03.15.25:969][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.15.25:969][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-03.15.25:970][314]PIE: New page: PIE session: Shop_Map (Sep 19, 2017, 7:15:25 PM)
+[2017.09.20-03.15.25:970][314]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-03.15.25:974][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004053s)
+[2017.09.20-03.15.25:975][314]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.15.25:975][314]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2017.09.20-03.15.25:976][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005741s)
+[2017.09.20-03.15.26:098][314]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.15.26:118][314]LogInit: FAudioDevice initialized.
+[2017.09.20-03.15.26:231][314]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-03.15.26:237][314]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.19-23.15.26
+[2017.09.20-03.15.26:237][314]LogWorld: Bringing up level for play took: 0.005037
+[2017.09.20-03.15.26:238][314]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-03.15.26:256][314]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.356
+[2017.09.20-03.15.26:257][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.15.28:265][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.15.28:325][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.15.29:670][577]LogSavePackage: Save=85.32ms
+[2017.09.20-03.15.29:671][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_MapCCCB83BC438D9738DDC122A502ED2BC7.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-03.15.29:682][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-03.15.29:733][577]LogFileHelpers: Saving map 'Shop_Map' took 0.470
+[2017.09.20-03.15.30:008][577]LogSavePackage: Save=171.61ms
+[2017.09.20-03.15.30:008][577]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish5C66A49C46D8A393C697B3B1F92BF52C.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset'
+[2017.09.20-03.15.30:020][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset
+[2017.09.20-03.15.30:892][668]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-03.15.30:918][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.15.30:918][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-03.15.30:918][668]PIE: New page: PIE session: Shop_Map (Sep 19, 2017, 7:15:30 PM)
+[2017.09.20-03.15.30:918][668]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-03.15.30:923][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004824s)
+[2017.09.20-03.15.30:925][668]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.15.30:925][668]LogPlayLevel: PIE: World Init took: (0.002009s)
+[2017.09.20-03.15.30:926][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.007233s)
+[2017.09.20-03.15.31:026][668]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.15.31:042][668]LogInit: FAudioDevice initialized.
+[2017.09.20-03.15.31:131][668]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-03.15.31:134][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.19-23.15.31
+[2017.09.20-03.15.31:134][668]LogWorld: Bringing up level for play took: 0.001732
+[2017.09.20-03.15.31:134][668]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-03.15.31:146][668]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map -0.754
+[2017.09.20-03.15.31:147][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.15.36:591][163]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_5
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.36:591][163]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.44:874][929]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_7
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.44:874][929]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.45:968][ 29]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_8
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.45:968][ 29]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.46:828][110]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_9
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.46:828][110]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.47:845][207]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_10
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.47:845][207]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.47:855][208]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_11
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.47:855][208]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.47:865][209]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_12
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.47:865][209]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.47:875][210]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_13
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.47:875][210]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.47:886][211]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_14
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.47:886][211]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:696][290]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_15
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:697][290]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:706][291]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_16
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:706][291]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:716][292]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_17
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:717][292]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:727][293]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_18
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:727][293]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:844][305]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_19
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:845][305]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:855][306]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_20
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:856][306]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:866][307]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_21
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:866][307]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.48:984][319]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_22
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.48:985][319]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.49:342][354]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.15.51:376][539]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_6
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.51:376][539]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.53:634][755]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.15.53:704][762]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_24
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.53:704][762]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.53:714][763]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_25
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.53:714][763]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.53:724][764]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_26
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.53:725][764]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.53:735][765]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_27
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.53:735][765]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.53:746][766]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_28
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.53:746][766]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.54:745][856]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_29
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.54:746][856]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.54:845][865]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_30
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.54:846][865]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.54:857][866]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_31
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.54:857][866]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:165][893]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_32
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:165][893]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:178][894]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_33
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:178][894]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:189][895]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_34
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:190][895]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:202][896]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_35
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:202][896]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:214][897]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_36
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:215][897]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:225][898]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_37
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:226][898]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:249][900]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_38
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:249][900]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:282][903]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_38
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:282][903]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:329][907]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_40
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:329][907]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:378][911]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_41
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:378][911]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:412][914]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_41
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:413][914]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:462][918]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_43
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:462][918]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:571][928]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_44
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:572][928]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:681][939]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_45
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:681][939]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:793][950]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_46
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:794][950]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.55:966][966]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_47
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.55:966][966]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:787][ 42]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_42
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:788][ 42]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:798][ 43]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_50
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:798][ 43]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:809][ 44]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_51
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:809][ 44]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:820][ 45]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_52
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:820][ 45]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:933][ 56]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_53
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:933][ 56]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:944][ 57]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_54
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:944][ 57]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.56:955][ 58]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_55
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.56:955][ 58]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:478][108]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.15.57:559][116]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_56
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:560][116]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:571][117]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_57
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:572][117]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:584][118]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_58
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:584][118]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:710][129]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_59
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:710][129]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:819][137]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_60
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:819][137]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:834][138]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_61
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:834][138]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:851][139]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_62
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:852][139]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:975][148]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_63
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:975][148]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.57:988][149]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_64
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.57:989][149]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:002][150]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_65
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:003][150]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:017][151]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_66
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:017][151]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:028][152]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_67
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:028][152]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:039][153]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_68
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:040][153]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:051][154]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_69
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:052][154]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:067][155]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_70
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:068][155]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:081][156]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_70
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:081][156]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:189][165]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_71
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:189][165]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:252][170]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_39
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:252][170]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:288][173]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_72
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:288][173]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:421][185]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.15.58:866][228]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_73
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:866][228]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:925][232]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_49
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:925][232]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:936][233]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_48
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:936][233]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.58:961][235]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_77
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.58:961][235]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.59:333][269]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_74
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.59:333][269]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.59:511][286]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_23
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.59:511][286]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.15.59:522][287]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_79
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.15.59:522][287]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.01:334][439]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.02:063][509]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.02:091][511]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_81
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.02:091][511]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.02:101][512]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_82
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.02:102][512]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.02:114][513]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_83
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.02:114][513]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.02:231][523]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.03:408][634]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_84
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.03:408][634]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.03:418][635]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_85
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.03:419][635]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.03:429][636]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_86
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.03:429][636]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.03:441][637]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_87
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.03:441][637]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.05:085][782]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_76
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.05:085][782]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.05:630][834]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.05:705][841]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.06:624][926]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_75
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.06:625][926]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.06:826][946]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_89
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.06:826][946]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.06:837][947]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_90
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.06:837][947]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.07:891][ 47]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.08:126][ 70]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_88
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.08:126][ 70]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.08:218][ 79]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_91
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.08:218][ 79]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.09:327][184]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_92
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.09:327][184]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.09:337][185]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_93
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.09:337][185]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.09:451][196]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_94
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.09:451][196]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.11:142][346]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_80
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.11:142][346]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.11:152][347]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_95
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.11:153][347]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.12:288][455]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.12:470][474]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_78
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.12:470][474]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.12:590][486]LogScript: Warning: Accessed None trying to read property splicer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_96
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:03A1
+[2017.09.20-03.16.12:590][486]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property splicer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Remove Petri Dish in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property splicer_manager
+[2017.09.20-03.16.12:748][501]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.17:349][936]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.17:705][971]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.16.18:388][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.16.18:446][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.17.04:326][ 20]BlueprintLog: New page: Compile PetriDish
+[2017.09.20-03.17.05:701][ 68]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-03.17.05:726][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.17.05:726][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-03.17.05:726][ 68]PIE: New page: PIE session: Shop_Map (Sep 19, 2017, 7:17:05 PM)
+[2017.09.20-03.17.05:726][ 68]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-03.17.05:730][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004142s)
+[2017.09.20-03.17.05:731][ 68]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.17.05:732][ 68]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2017.09.20-03.17.05:732][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005802s)
+[2017.09.20-03.17.05:840][ 68]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.17.05:856][ 68]LogInit: FAudioDevice initialized.
+[2017.09.20-03.17.05:943][ 68]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-03.17.05:946][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.19-23.17.05
+[2017.09.20-03.17.05:946][ 68]LogWorld: Bringing up level for play took: 0.001830
+[2017.09.20-03.17.05:947][ 68]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-03.17.05:959][ 68]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.058
+[2017.09.20-03.17.05:959][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.17.18:901][263]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.17.21:396][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.17.21:456][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.18.03:459][ 65]BlueprintLog: New page: Compile PetriDish
+[2017.09.20-03.18.06:865][330]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-03.18.06:890][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.18.06:890][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-03.18.06:890][330]PIE: New page: PIE session: Shop_Map (Sep 19, 2017, 7:18:06 PM)
+[2017.09.20-03.18.06:890][330]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-03.18.06:895][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004199s)
+[2017.09.20-03.18.06:896][330]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.18.06:896][330]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2017.09.20-03.18.06:896][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005809s)
+[2017.09.20-03.18.06:983][330]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.18.06:999][330]LogInit: FAudioDevice initialized.
+[2017.09.20-03.18.07:090][330]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-03.18.07:093][330]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.19-23.18.07
+[2017.09.20-03.18.07:094][330]LogWorld: Bringing up level for play took: 0.002590
+[2017.09.20-03.18.07:094][330]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-03.18.07:106][330]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 1.206
+[2017.09.20-03.18.07:107][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.18.27:577][523]LogBlueprintUserMessages: [OrderManager] No empty hooks!
+[2017.09.20-03.18.29:188][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.18.29:246][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.18.52:974][804]LogSavePackage: Save=65.98ms
+[2017.09.20-03.18.52:974][804]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/Shop_Map799C7CF1472B999452370D8C07512A44.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap'
+[2017.09.20-03.18.52:985][804]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Maps/Shop_Map.umap
+[2017.09.20-03.18.53:020][804]LogFileHelpers: Saving map 'Shop_Map' took 0.438
+[2017.09.20-03.18.53:214][804]LogSavePackage: Save=136.59ms
+[2017.09.20-03.18.53:214][804]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Saved/PetriDish8B30CE864353CC01CFDE6DBF6D62E9C8.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset'
+[2017.09.20-03.18.53:226][804]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/Objects/PetriDish.uasset
+[2017.09.20-03.19.13:373][586]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.20-03.20.13:762][920]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.20-03.20.16:560][108]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-03.20.16:584][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.20.16:584][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-03.20.16:584][108]PIE: New page: PIE session: Shop_Map (Sep 19, 2017, 7:20:16 PM)
+[2017.09.20-03.20.16:584][108]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-03.20.16:588][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004247s)
+[2017.09.20-03.20.16:589][108]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-03.20.16:590][108]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2017.09.20-03.20.16:590][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005890s)
+[2017.09.20-03.20.16:691][108]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.20-03.20.16:710][108]LogInit: FAudioDevice initialized.
+[2017.09.20-03.20.16:806][108]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-03.20.16:808][108]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 0) at 2017.09.19-23.20.16
+[2017.09.20-03.20.16:809][108]LogWorld: Bringing up level for play took: 0.002128
+[2017.09.20-03.20.16:809][108]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-03.20.16:823][108]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.923
+[2017.09.20-03.20.16:824][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.20.19:201][332]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_4
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0895
+[2017.09.20-03.20.19:201][332]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.20.21:573][566]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_3
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0895
+[2017.09.20-03.20.21:573][566]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.20.26:132][  5]LogScript: Warning: Accessed None trying to read property printer_manager
+	PetriDish_C /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map:PersistentLevel.PetriDish_C_1
+	Function /Game/Blueprints/Objects/PetriDish.PetriDish_C:ExecuteUbergraph_PetriDish:0895
+[2017.09.20-03.20.26:132][  5]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property printer_manager from function: 'ExecuteUbergraph_PetriDish' from node: Add Petri Dish To Queue in graph: EventGraph in object: PetriDish with description: Accessed None trying to read property printer_manager
+[2017.09.20-03.20.27:279][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.20.27:355][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-03.21.19:728][509]BlueprintLog: New page: Compile PetriDish_Manager_Printer
+[2017.09.20-03.21.29:206][ 78]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.20-03.21.52:730][238]LogEditorTransaction: Undo Add Node
+[2017.09.20-03.21.53:192][262]LogEditorTransaction: Undo Delete current selection
+[2017.09.20-03.21.57:342][596]Cmd: TRANSACTION UNDO
+[2017.09.20-03.21.57:342][596]LogEditorTransaction: Undo Rename Variable
+[2017.09.20-03.21.58:931][653]Cmd: TRANSACTION UNDO
+[2017.09.20-03.21.58:931][653]LogEditorTransaction: Undo Rename Variable
+[2017.09.20-03.22.00:257][707]BlueprintLog: New page: Compile PetriDish_Manager_Printer
+[2017.09.20-03.22.00:465][707]LogBlueprint: Error: [Compiler PlayScreen_Shop] The property associated with  Splicer  could not be found
+[2017.09.20-03.22.00:483][707]LogBlueprint: Warning: [Compiler PlayScreen_Shop] [0538.89] Compile of PlayScreen_Shop failed. 1 Fatal Issue(s) 0 Warning(s) [in 177 ms] (/Game/Blueprints/PlayScreen_Shop.PlayScreen_Shop)
+[2017.09.20-03.22.06:822][166]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.20-03.22.38:675][915]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.20-03.22.38:702][915]LogBlueprint: Error: [Compiler PlayScreen_Shop] The property associated with  Splicer  could not be found
+[2017.09.20-03.22.38:870][915]LogBlueprint: Warning: [Compiler PlayScreen_Shop] [0577.28] Compile of PlayScreen_Shop failed. 1 Fatal Issue(s) 0 Warning(s) [in 194 ms] (/Game/Blueprints/PlayScreen_Shop.PlayScreen_Shop)
+[2017.09.20-03.22.57:150][482]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.20-03.22.59:725][568]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.20-03.23.35:719][449]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'printer_manager' instances, change its type, and recompile?
+[2017.09.20-03.23.37:152][502]BlueprintLog: New page: Compile PetriDish_Manager_Splicer
+[2017.09.20-03.24.00:462][156]BlueprintLog: New page: Compile PetriDish_Manager_Printer
+[2017.09.20-03.25.41:637][276]BlueprintLog: New page: Compile PlayScreen_Shop
+[2017.09.20-03.26.36:270][480]BlueprintLog: New page: Compile PetriDish_Manager_Printer
+[2017.09.20-03.26.41:660][853]LogUObjectBase: Warning: Object is not registered
+[2017.09.20-03.26.42:127][853]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.467 s
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: === Handled ensure: ===
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: 
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: Stack: 
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000069343606
+[2017.09.20-03.26.42:127][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000690CC2D2
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000690E4746
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000062E1D2D6
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x000000005F89FC0B
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000005E9B259A
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000005E84737C
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000005E84A8E9
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x000000005E976C25
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000067E94A47
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000067E9AC21
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000680D03A3
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000067EF1E65
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000067ECA28C
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000067EBB444
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000006931B21C
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000069303B51
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000006931D22B
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000692FECB2
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: USER32.dll!0x00000000996E1C24
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: USER32.dll!0x00000000996E156C
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000006931D936
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor.exe!0x00000000781A4BE2
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor.exe!0x00000000781B3970
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor.exe!0x00000000781B39EA
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor.exe!0x00000000781C02D9
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: UE4Editor.exe!0x00000000781C1C47
+[2017.09.20-03.26.42:128][853]LogOutputDevice: Error: KERNEL32.DLL!0x0000000099318364
+[2017.09.20-03.26.42:129][853]LogOutputDevice: Error: ntdll.dll!0x0000000099BB7091
+[2017.09.20-03.26.42:129][853]LogOutputDevice: Error: 
+[2017.09.20-03.26.42:132][853]LogStats:                SubmitErrorReport -  0.000 s
