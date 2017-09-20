@@ -1174,3 +1174,41 @@ LogInit: Object subsystem initialized
 [2017.09.20-16.38.59:778][ 12]LogSavePackage: Save=60.27ms
 [2017.09.20-16.38.59:778][ 12]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Saved/PlayScreen_Shop7B9E1C6D4C63DB533A9C65B7E8FA68F5.tmp' to '../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset'
 [2017.09.20-16.38.59:786][ 12]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/repositories/ExperimentalGame_1/PandaMeals_project/Content/Blueprints/PlayScreen_Shop.uasset
+[2017.09.20-16.39.31:402][214]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-16.39.31:423][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.39.31:423][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-16.39.31:423][214]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 8:39:31 AM)
+[2017.09.20-16.39.31:423][214]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-16.39.31:427][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004180s)
+[2017.09.20-16.39.31:428][214]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-16.39.31:429][214]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2017.09.20-16.39.31:429][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005868s)
+[2017.09.20-16.39.31:455][214]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-16.39.31:523][214]LogInit: FAudioDevice initialized.
+[2017.09.20-16.39.31:566][214]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-16.39.31:570][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-12.39.31
+[2017.09.20-16.39.31:570][214]LogWorld: Bringing up level for play took: 0.002872
+[2017.09.20-16.39.31:571][214]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.09.20-16.39.31:576][214]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 0.69
+[2017.09.20-16.39.31:577][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.39.59:200][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.39.59:264][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.40.02:300][ 43]LogEditorViewport: Clicking on Actor (LMB): MeatPrinter_C (MeatPrinter)
+[2017.09.20-16.40.07:867][372]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.20-16.40.07:888][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.40.07:888][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.20-16.40.07:888][372]PIE: New page: PIE session: Shop_Map (Sep 20, 2017, 8:40:07 AM)
+[2017.09.20-16.40.07:888][372]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Shop_Map
+[2017.09.20-16.40.07:893][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004279s)
+[2017.09.20-16.40.07:894][372]LogAIModule: Creating AISystem for world Shop_Map
+[2017.09.20-16.40.07:894][372]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2017.09.20-16.40.07:894][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Shop_Map.Shop_Map to /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map (0.005876s)
+[2017.09.20-16.40.07:922][372]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.20-16.40.08:001][372]LogInit: FAudioDevice initialized.
+[2017.09.20-16.40.08:057][372]LogLoad: Game class is 'Shop_GameMode_C'
+[2017.09.20-16.40.08:062][372]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Shop_Map.Shop_Map up for play (max tick rate 60) at 2017.09.20-12.40.08
+[2017.09.20-16.40.08:063][372]LogWorld: Bringing up level for play took: 0.004142
+[2017.09.20-16.40.08:078][372]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Shop_Map 1.191
+[2017.09.20-16.40.08:079][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.40.10:722][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
+[2017.09.20-16.40.10:788][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map' with GeneratedClass '/Game/Maps/Shop_Map.Shop_Map_C' with ClassGeneratedBy '/Game/Maps/Shop_Map.Shop_Map:PersistentLevel.Shop_Map'
